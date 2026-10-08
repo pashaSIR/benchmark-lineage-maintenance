@@ -1,0 +1,9 @@
+{
+  "title": "Lineage-linked benchmark maintenance: Run G materials and lineage_requeue tool",
+  "upload_type": "software",
+  "description": "Materials for a provisional, LLM-reviewed audit of MMLU-derived MMLU-Pro items: reconstructed item-level lineage (IDs, hashes, parent-child diffs), the 100-item three-arm experiment, the 50-item pilot, the lineage_requeue tool, the maintainer case ledger, archived re-review queues and per-correction regression checks. No defect label has been checked by a human expert. Complete third-party datasets are not included; rebuild instructions are provided.",
+  "creators": [{"name": "Pasha"}],
+  "license": "MIT",
+  "keywords": ["benchmark maintenance", "data provenance", "MMLU", "MMLU-Pro", "MMLU-Redux"],
+  "version": "1.0.0"
+}

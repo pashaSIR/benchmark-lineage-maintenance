@@ -1,0 +1,368 @@
+### Item PRO-5841  (subject area: other)
+Question:
+In performing substantive tests regarding the granting of stock options to senior management of an issuer an auditor most likely would
+Options:
+  A. Interview senior management to determine their knowledge of stock options.
+  B. Confirm with the issuer's legal counsel whether the options were legally granted.
+  C. Review the public records of the SEC to determine whether the options were properly reported.
+  D. Trace the authorization for the options granted to the board of directors' approval.
+  E. Confirm with those members of management as to whether they are actually option holders.
+  F. Review the issuer's tax records to determine the tax implications of the stock options.
+  G. Verify the existence of option holders in the issuer's payroll and human resources records.
+  H. Review the minutes of the board of directors' meetings to determine if the options were discussed.
+  I. Analyze the financial reports to determine the impact of the stock options on the company's profitability.
+  J. Inspect the company's employee handbook to verify the policy on stock options.
+Answer key: D
+
+### Item PRO-8150  (subject area: math)
+Question:
+A number, rounded to the nearest thousand,is 47,000. Which number could be the number that was rounded?
+Options:
+  A. 46,504
+  B. 46,295
+  C. 47,924
+  D. 47,999
+  E. 47,520
+  F. 47,500
+Answer key: A
+
+### Item PRO-2210  (subject area: psychology)
+Question:
+The most likely use of an “in-basket” technique in personnel selection would be with which type of employee
+Options:
+  A. Financial
+  B. Customer Service
+  C. Technical
+  D. Sales
+  E. Marketing
+  F. Manufacturing
+  G. Managerial
+  H. Secretarial
+  I. Clerical
+  J. Human Resources
+Answer key: G
+
+### Item PRO-1718  (subject area: law)
+Question:
+A builder sold a new house to a buyer for use as the buyer's residence. The buyer paid 10% of the purchase price and financed the rest by executing a promissory note and purchase money mortgage to the builder. A year later, the buyer missed several mortgage payments to the builder and became unable to make payments to the builder and became unable to make payments. During that year, property values in the neighborhood declined substantially. The builder suggested that the buyer deed the house back to the builder to settle all claims and avoid the costs and other disadvantages of foreclosure. The buyer deeded the house back to the builder. Does the builder now own fee simple title to the house?
+Options:
+  A. No, because the builder cannot accept the deed while also holding the mortgage.
+  B. No, because the owner of a personal residence cannot waive the right to foreclosure.
+  C. Yes, because the transaction was reasonable and fair under the circumstances.
+  D. No, because the builder coerced the buyer into deeding the house back.
+  E. Yes, because the buyer defaulted on the mortgage payments.
+  F. Yes, because the builder originally held the mortgage.
+  G. Yes, because of the doctrine of equitable redemption.
+  H. No, because the buyer still technically owns the house until foreclosure.
+  I. No, because the deed back to the builder constitutes a disguised mortgage.
+Answer key: C
+
+### Item PRO-364  (subject area: business)
+Question:
+What is a normative perspective?
+Options:
+  A. The way things were.
+  B. The way things might have been.
+  C. The way things are going to be.
+  D. The way things are perceived to be.
+  E. The way things are.
+  F. The way things could have been.
+  G. The way things should be.
+  H. The way things were thought to be.
+  I. The way things appear to be.
+  J. The way things could be.
+Answer key: G
+
+### Item PRO-5930  (subject area: other)
+Question:
+Which one of the following North American associations is NOT correct?
+Options:
+  A. Southeast—African Americans
+  B. Southern prairie provinces—African Americans
+  C. New England—Latin Americans
+  D. Oklahoma and the Southwest—Native Americans
+  E. Quebec and northern Maine—French Americans and French Canadians
+  F. Florida—Native Americans
+Answer key: B
+
+### Item PRO-6379  (subject area: health)
+Question:
+A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?
+Options:
+  A. Increases cAMP concentration
+  B. Increases nitric oxide concentration
+  C. Inhibits potassium flux
+  D. Inhibits sodium flux
+Answer key: B
+
+### Item PRO-1271  (subject area: law)
+Question:
+Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+Options:
+  A. denied, because the delay did not infringe upon the defendant's rights.
+  B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+  C. granted, because the defendant was not given the opportunity to confront his accuser.
+  D. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+  E. denied, because the delay was not excessive and was for a permissible purpose.
+  F. granted, because the only eyewitness to the crime died before the trial.
+  G. denied, because the defendant was eventually charged within the statute of limitations.
+  H. denied, because the prosecutor had a valid reason to delay the indictment.
+  I. granted, because the prosecutor failed to find the defendant's accomplice.
+  J. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+Answer key: E
+
+### Item PRO-262  (subject area: business)
+Question:
+ Which of the following is the rate at which a market adopts an innovation?
+Options:
+  A. Market penetration rate.
+  B. Adoption process.
+  C. Market adoption scale.
+  D. Process of market saturation.
+  E. Process of differentiation.
+  F. Product lifecycle.
+  G. Process of diffusion.
+  H. Innovation rate.
+  I. Process of diversification.
+  J. Adoption lifecycle.
+Answer key: G
+
+### Item PRO-3112  (subject area: biology)
+Question:
+In plants, the tendency of climbing vines to twine their tendrils around a trellis is called
+Options:
+  A. thermotropism
+  B. geotropism
+  C. heliotropism
+  D. phototropism
+  E. rheotropism
+  F. gravitropism
+  G. hydrotropism
+  H. skototropism
+  I. chemotropism
+  J. thigmotropism
+Answer key: J
+
+### Item PRO-8809  (subject area: math)
+Question:
+It takes Kate k days to write a GRE math practice test. It takes John j days to write a GRE math practice test. If Kate and John work on a practice test in alternating 2-day shifts, it takes them 10 days when Kate starts and 10.5 days when John starts. How long would it take the two to complete a practice test if Kate and John worked simultaneously?
+Options:
+  A. 41/8 days
+  B. 13/2 days
+  C. 12/3 days
+  D. 36/7 days
+  E. 11/2 days
+  F. 9/2 days
+  G. 7 days
+  H. 5 days
+  I. 8 days
+  J. 10 days
+Answer key: D
+
+### Item PRO-11740  (subject area: engineering)
+Question:
+Four identical alternators each are rated for 20 MVA, 11 KV having a subtransient reactance of 16% are working in parallel. The short circuit level at the busbar is
+Options:
+  A. 600 MVA
+  B. 800 MVA
+  C. 125 MVA
+  D. 500 MVA
+  E. 700 MVA
+  F. 300 MVA
+  G. 200 MVA
+  H. 400 MVA
+  I. 900 MVA
+  J. 100 MVA
+Answer key: D
+
+### Item PRO-9586  (subject area: physics)
+Question:
+Which planet(s) in the solar system has/have active plate tectonics?
+Options:
+  A. None of the above
+  B. Venus
+  C. Saturn
+  D. Venus and Mars
+  E. Neptune
+  F. Uranus
+  G. Earth
+  H. Mars and Earth
+  I. Mars
+  J. Jupiter
+Answer key: G
+
+### Item PRO-5155  (subject area: other)
+Question:
+Which of the following is not recognised as a level of society?
+Options:
+  A. the continent
+  B. the community
+  C. the city
+  D. the nation state
+  E. the church
+  F. the school
+  G. the household
+  H. the global village
+  I. the region
+  J. the office
+Answer key: J
+
+### Item PRO-5502  (subject area: other)
+Question:
+Weak states face a number of security threats, which of the following threats is the odd one out?
+Options:
+  A. Warlordism and the assertion of the interests and influences of criminal gangs.
+  B. A sudden influx of refugees fleeing conflict from neighbouring states.
+  C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+  D. Competition for authoritative power or coercion from strongmen.
+Answer key: B
+
+### Item PRO-1610  (subject area: law)
+Question:
+A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, "Well, of course, we always pay for a writer's work." She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?
+Options:
+  A. The court will rule that there can be no contract as the writer didn't explicitly state his expectation for compensation for the idea itself.
+  B. The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.
+  C. The court will rule that there was no consideration specifically mentioned and under those circumstances, the law viewed the synopsis as a gift to the producer.
+  D. The court will rule that there is an express contract because there was a meeting of the mind and mutual assent to the basic terms.
+  E. The court will rule that there was a unilateral contract, with the producer obligated to pay only if he used the idea.
+  F. The court will rule that the writer's case is invalid as there was no written agreement.
+  G. The court will rule that the producer's assistant lacked the authority to form a contract, and thus, no contract exists.
+  H. There were too many terms left out for this to be a contract, and it was too indefinite for the court to imply what the terms might have been.
+  I. The court will rule that the phone call between the writer and the producer's assistant formed a verbal contract.
+Answer key: B
+
+### Item PRO-7746  (subject area: math)
+Question:
+If g (x) = f (–x) for all real numbers x, and if (3, 2) is a point on the graph of g, which of the following points MUST be on the graph of f ?
+Options:
+  A. (–2, 3)
+  B. (2, –3)
+  C. (3, 2)
+  D. (–3, –2)
+  E. (–2, 2)
+  F. (2, –2)
+  G. (2, 3)
+  H. (–3, 2)
+  I. (3, –2)
+  J. (–2, –3)
+Answer key: H
+
+### Item PRO-5423  (subject area: other)
+Question:
+In which country does language pose a centrifugal force?
+Options:
+  A. Australia
+  B. Russia
+  C. Canada
+  D. Japan
+  E. Norway
+  F. Brazil
+  G. United States
+  H. Germany
+Answer key: C
+
+### Item PRO-4779  (subject area: history)
+Question:
+Machu Picchu was built in the mountains as a:
+Options:
+  A. monument for an Inca king.
+  B. hunting ground for Inca rulers.
+  C. relaxing getaway for elites.
+  D. military training base.
+  E. defensive stronghold.
+  F. prison for political enemies.
+  G. site for agricultural experiments.
+  H. trade center for the Inca Empire.
+  I. shrine to the Inca rain god.
+  J. astronomical observatory.
+Answer key: C
+
+### Item PRO-4842  (subject area: history)
+Question:
+Why is the timing of monumental construction at Ceibal significant?
+Options:
+  A. It contradicts the hypothesis that the monumental construction of the Maya was largely inspired by the Olmec.
+  B. It confirms that the residents of Ceibal were inspired by the Olmec to build large platforms.
+  C. It contradicts the hypothesis that the development of monumental construction among the Maya was an internal process.
+  D. It confirms that the Olmec, who built most of the Maya monuments, were inspired by the Egyptians.
+Answer key: A
+
+### Item PRO-7631  (subject area: economics)
+Question:
+How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR     VALUE OF THE DOLLAR
+Options:
+  A. Increased supply     Depreciating
+  B. Decreased supply     Appreciating
+  C. No change in supply     Appreciating
+  D. Increased demand     Depreciating
+  E. Decreased demand     Appreciating
+  F. Increased demand     Appreciating
+  G. Decreased supply     Depreciating
+  H. Increased supply     Appreciating
+  I. No change in demand     Depreciating
+Answer key: F
+
+### Item PRO-6599  (subject area: health)
+Question:
+Male to male transmission is a key feature of which pattern of inheritance?
+Options:
+  A. Autosomal incomplete dominance
+  B. X-linked dominant
+  C. Multifactorial inheritance
+  D. Mitochondrial inheritance
+  E. X-linked underdominance
+  F. X-linked recessive
+  G. Y-linked inheritance
+  H. Autosomal recessive
+  I. Autosomal dominant
+  J. X-linked overdominance
+Answer key: I
+
+### Item PRO-1735  (subject area: law)
+Question:
+A home security protection company provided protection services to property owners in the immediate area. The owner of a summer cottage in the area hired the company to provide 24- hour protection during the winter months when his home was unoccupied. According to the security arrangement, the company's uniformed guards would periodically patrol the property and, if necessary, provide an "armed response" to any unauthorized individuals who were found trespassing on the property. The company provided security protection to the owner's property for two years. The owner then notified the company that he was planning to sell the cottage. As a result, he requested that the company discontinue its home-protection service, effective immediately. Two weeks later, a burglar broke into the cottage and was ransacking it. As the burglar was exiting from the owner's house carrying a portable television set, he was seen by a security guard working for the company. The security guard, who was driving past the home on security patrol, had not been informed that the owner had discontinued protection services. The security guard suddenly stopped his patrol vehicle and ran toward the burglar shouting, "Stop! Don't move or I'll shoot!" Startled, the burglar dropped the television set and began to flee. Believing that the suspected burglar was about to escape, the security guard pulled out his service revolver and fired a bullet at the burglar. The shot struck the burglar in the leg, seriously wounding him. If the burglar asserts a claim against the owner for negligently failing to supervise those providing security services for the owner's property, the burglar will probably
+Options:
+  A. not prevail, because the security guard was acting in the course of his duties.
+  B. prevail, because the burglar was unarmed when he was shot.
+  C. prevail, because the security guard acted without proper authorization.
+  D. prevail, because the security guard used excessive force.
+  E. not prevail, because the owner was not present when the shooting occurred.
+  F. not prevail, because the owner had discontinued protection services from the company when the shooting occurred.
+  G. prevail, because the owner knew or had reason to know that the company provided an "armed response" to suspected trespassers.
+  H. not prevail, because the owner had no control over the actions of the security guard.
+  I. prevail, because the owner did not properly inform the company of the discontinued services.
+  J. not prevail, because the burglar was trespassing on private property.
+Answer key: F
+
+### Item PRO-2529  (subject area: psychology)
+Question:
+Every time you buy ice cream from the Yellow Brick Road ice cream parlor, you get your over-the-rainbow card stamped. Once you purchase ten items, you get your next item free. The Yellow Brick Road ice cream parlor has you on which of the following reinforcement schedules?
+Options:
+  A. Variable-interval
+  B. Fixed-interval
+  C. Continuous reinforcement
+  D. Variable-ratio with extinction
+  E. Fixed-ratio
+  F. Variable-ratio
+  G. Interval-ratio
+  H. Partial reinforcement
+  I. Ratio reinforcement
+  J. Fixed-variable
+Answer key: E
+
+### Item PRO-8907  (subject area: math)
+Question:
+Find the GCD of 25 and 55.
+Options:
+  A. 275
+  B. 15
+  C. 20
+  D. 50
+  E. 11
+  F. 30
+  G. 5
+  H. 10
+  I. 25
+  J. 35
+Answer key: G

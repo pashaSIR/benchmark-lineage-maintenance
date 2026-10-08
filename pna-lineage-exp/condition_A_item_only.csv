@@ -1,0 +1,101 @@
+item_id,verdict,defect_type,severity,confidence,origin,suggested_key,reason,evidence,n_lookups,batch
+PRO-4944,no_defect,T8,none,0.9,,G,Petition documents machines displacing hand laborers; Luddites were 19th century.,Text: each machine does work of ten/twenty men.,0,A1
+PRO-1087,no_defect,T8,none,0.8,,C,Owner liable on constructive notice since hazard existed long enough to be discovered; E omits notice requirement.,"Premises liability to invitees, constructive notice.",0,A3
+PRO-6169,defect,T2,probable,0.6,OU,I,"In unfavourable mandibular body fractures the posterior fragment is pulled upward (masseter, temporalis) and medially (medial pterygoid) while the anterior fragment is pulled down by digastric; F, I and J are all correct descriptions.",Oral & maxillofacial surgery texts: vertically/horizontally unfavourable fracture displacement.,0,A1
+PRO-3542,defect,T2,probable,0.75,OU,,"Boltzmann ratio exp(-h nu/kT) at L-band (~1-2 GHz) is ~0.9998, and at W-band (94 GHz) ~0.985. No option matches; the key's 0.9850 is the W-band value assigned to L-band, and 0.9809 matches neither band.",exp(-h*1.5e9/(k*300))=0.99976; exp(-h*94e9/(k*300))=0.98508,0,A4
+PRO-1996,no_defect,T8,none,0.85,,B,"Deviation-minimizing, stability-maintaining feedback in family systems theory is negative feedback.",Family systems theory.,0,A2
+PRO-4842,no_defect,T8,none,0.85,,A,"Ceibal's early monumental construction predates La Venta's peak, undermining direct Olmec-inspiration hypothesis.","Inomata et al. 2013, Science.",0,A3
+PRO-1438,no_defect,T8,none,0.8,,F,"Assault needs contemporaneous apprehension; friend believed gun unloaded, so no apprehension and no battery.",Restatement (Second) Torts 21-22.,0,A3
+PRO-10110,no_defect,T8,none,0.95,,J,Equal final velocities = threshold; invariant mass 3m gives E=4mc^2.,s=m^2+2Em=9m^2 -> E=4m.,0,A2
+PRO-2863,no_defect,T8,none,0.92,,H,"Calvin cycle consumes ATP and NADPH, producing ADP, NADP+ and sugar (G3P).",Standard photosynthesis biochemistry.,0,A1
+PRO-5096,no_defect,T8,none,0.7,,B,~235 years (7.4e9 s) of presidency over several hundred million citizens ever gives order ~10 s.,7.4e9 s / ~6e8 citizens ≈ 12 s,0,A4
+PRO-10989,no_defect,T8,none,0.95,,A,"~(K>J) forces K true, J false; then H false, so I false; I≡J is true. Argument valid.",Indirect truth table forced assignment,0,A4
+PRO-9052,no_defect,T8,none,0.92,,C,"Electric force +x, magnetic qv x B = z x y = -x; higher speed increases magnetic force, net -x.",Velocity selector,0,A4
+PRO-9996,no_defect,T8,none,0.9,,E,Classical 3D oscillator: 6 quadratic terms -> 3kT.,Equipartition.,0,A2
+PRO-2936,no_defect,T8,none,0.92,,D,Random mating with recombination erodes LD; others maintain it.,Population genetics basics.,0,A3
+PRO-5930,defect,T3,ambiguous,0.45,O2,B,"B is clearly wrong (prairies associated with Ukrainians/Germans etc.), but F (Florida-Native Americans) is also a doubtful association; Florida is conventionally associated with Latin Americans/Cubans.",Human geography ethnic regions of North America,0,A4
+PRO-1735,no_defect,T8,none,0.8,,F,"Owner had terminated the service, so no duty to supervise the company at time of shooting; F best.",Negligent supervision requires control/relationship at time of harm,0,A4
+PRO-7631,no_defect,T8,none,0.8,,F,"Debt raises interest rates, attracting foreign capital: demand for dollars rises, dollar appreciates (standard AP macro).",Loanable funds / foreign exchange model.,0,A3
+PRO-10651,no_defect,T8,none,0.97,,H,"3e6*400*50*10*5 = 3e12 bytes, terabytes.",Arithmetic,0,A4
+PRO-6407,no_defect,T8,none,0.75,,J,"In McAdams' levels framework, traits are stable while personal concerns (level II) change most with age.","McAdams three levels of personality: traits, personal concerns, life narratives.",0,A1
+PRO-940,no_defect,T8,none,0.6,,D,"Partial performance does not terminate a contract at all; other options do terminate (some by performance/lapse rather than operation of law, minor ambiguity).",Discharge by operation of law/impossibility/death/insolvency.,0,A2
+PRO-5841,no_defect,T8,none,0.72,,D,Substantive test for stock option grants: trace to board authorization; H (minutes discussed) is weaker.,AICPA auditing review standard answer for equity transactions.,0,A1
+PRO-5549,no_defect,T8,none,0.95,,J,Indianapolis 500 is run on Memorial Day weekend.,General knowledge.,0,A3
+PRO-3112,no_defect,T8,none,0.97,,J,Growth response to touch is thigmotropism.,Plant biology,0,A4
+PRO-3489,no_defect,T8,none,0.95,,I,Independent events; ~1/2.,Basic probability.,0,A2
+PRO-4898,no_defect,T8,none,0.85,,F,Athenian participation limited to adult male citizens (citizenship by descent).,Periclean citizenship law 451 BCE.,0,A3
+PRO-6268,defect,T7,probable,0.7,O2,A,Options A (>95%) and B (95-100%) are effectively the same range; both correct.,Fats/oils are ~95-99% triacylglycerols.,0,A3
+PRO-1210,no_defect,T8,none,0.75,,C,Known/anticipated trespassers: owner must warn of known artificial dangerous conditions.,Restatement (2d) Torts 335-337.,0,A2
+PRO-2529,no_defect,T8,none,0.88,,E,Reward after a fixed number of purchases is fixed-ratio; broader labels less specific.,Operant conditioning schedules,0,A4
+PRO-1496,no_defect,T8,none,0.6,,C,Preliminary consultations with prospective client are privileged; parent present as necessary agent of minor doesn't waive. D is near-correct but less precise.,FRE 501; prospective client privilege.,0,A2
+PRO-7369,no_defect,T8,none,0.85,,D,"Kinked demand curve consists of two segments with a kink, not one continuous function.",Sweezy oligopoly model,0,A4
+PRO-11740,no_defect,T8,none,0.92,,D,Each 0.16 pu on 20 MVA; four in parallel 0.04 pu; SC MVA = 20/0.04 = 500.,20/(0.16/4)=500 MVA.,0,A1
+PRO-4928,no_defect,T8,none,0.85,,B,"Lavish grave goods with Sungir children, who could not have earned status, are standardly interpreted as evidence of inherited/ascribed status.",Standard archaeology textbook interpretation of Sungir burials.,0,A1
+PRO-8809,no_defect,T8,none,0.95,,D,"6/k+4/j=1, 4.5/k+6/j=1 gives k=9, j=12; together 1/(1/9+1/12)=36/7.",Solved linear system.,0,A3
+PRO-5897,no_defect,T8,none,0.98,,H,John Paul I preceded John Paul II (1978).,Papal succession,0,A4
+PRO-6628,no_defect,T8,none,0.8,,D,"Endurance training increases fat oxidation, including intramuscular triglyceride use; spares glycogen.",Exercise physiology texts.,0,A2
+PRO-6379,no_defect,T8,none,0.9,,B,"Recurrent anginal pain; immediate nitroglycerin, an NO donor.",Nitrates release NO -> cGMP -> venodilation.,0,A2
+PRO-6370,no_defect,T8,none,0.93,,D,Anal canal below dentate line drains to superficial inguinal nodes.,Gross anatomy lymphatic drainage of anal canal.,0,A1
+PRO-1196,no_defect,T8,none,0.8,,F,"TRO extended beyond the FRCP 65(b) limit without consent is treated as a preliminary injunction, appealable under 28 USC 1292(a)(1).",FRCP 65(b)(2); Sampson v. Murray (1974).,0,A1
+PRO-364,no_defect,T8,none,0.95,,G,Normative = how things should be.,Standard definition.,0,A2
+PRO-11130,defect,T1,probable,0.6,OU,I,"Confucian ethics is relational; 'autonomy of individuals apart from others' contradicts it. The Confucian rejection of coercion rests on the view that real social change needs transformation of attitudes (minds) not just behavior, i.e., option I.","Hourdequin, Confucian vs Hardin on collective action: moral cultivation over coercion.",0,A1
+PRO-5449,no_defect,T8,none,0.9,,H,Dun & Bradstreet is the classic source of business credit ratings; Equifax/Moody's focus on consumers/securities.,General business knowledge.,0,A3
+PRO-1361,no_defect,T8,none,0.65,,C,"Imputing loathsome disease in print is libel per se; special damages not required. Gertz nuances aside, intended answer clear.",Defamation per se categories.,0,A2
+PRO-10762,no_defect,T8,none,0.85,,I,"With server auth and DH, TLS gives integrity and confidentiality against attackers.",TLS record protection.,0,A2
+PRO-6599,defect,T3,probable,0.7,O2,I,"Y-linked inheritance (G) is transmitted exclusively male to male, so it is also correct alongside autosomal dominant; likely an added distractor creating a second answer.",Medical genetics: Y-linked traits pass father to all sons,0,A4
+PRO-1241,defect,T3,ambiguous,0.45,O2,I,"Paying rent (2000-2002) broke hostility; clock restarted 2002, so only 9 years by 2011. Option A ('statutory period had not been met') is also true and an expert might accept it, though I gives the operative reason.",Adverse possession: acknowledgment of owner's title interrupts hostility,0,A4
+PRO-5250,no_defect,T8,none,0.9,,G,Speaker finds Mrs. Fairfax's account lacking in detail: deficient. Encoding glitch is harmless.,"Passage: 'nothing more', 'my queries puzzled, but did not draw her out'.",0,A1
+PRO-11161,no_defect,T8,none,0.88,,H,"H correctly quantifies some firefighter, some victim, some danger with Rxyz in correct argument order; J swaps arguments.",Rxyz: x rescues y from z; H matches.,0,A1
+PRO-7746,no_defect,T8,none,0.97,,H,"g(3)=f(-3)=2, so (-3,2) on f.",Substitution,0,A4
+PRO-6986,no_defect,T8,none,0.92,,A,Labor demand is a derived demand from demand for the output labor produces.,"Derived demand concept, intro microeconomics.",0,A1
+PRO-8150,no_defect,T8,none,0.97,,A,"Range 46,500-47,499 rounds to 47,000; only 46,504 qualifies.",Direct rounding check.,0,A3
+PRO-1271,no_defect,T8,none,0.7,,E,Lovasco: investigative pre-indictment delay does not violate due process even with some prejudice; E states the rule best.,"United States v. Lovasco, 431 U.S. 783 (1977).",0,A2
+PRO-5155,defect,T3,ambiguous,0.4,O2,J,"Church and school are institutions/settings, not obviously recognized levels of society any more than the office; with no stated framework, E/F also plausible.",No source framework given; levels typically household-community-city-region-nation-continent-global,0,A4
+PRO-1797,no_defect,T8,none,0.85,,J,Aunt's remainder is vested but can be cut off entirely if she moves (to sister).,Future interests: vested remainder subject to complete divestment.,0,A2
+PRO-5423,no_defect,T8,none,0.9,,C,Canada's English/French (Quebec) divide is the textbook centrifugal language example.,Human geography texts,0,A4
+PRO-1145,no_defect,T8,none,0.8,,J,Shooting a gun at a person with intent to wound shows intent to cause serious bodily harm/depraved heart; transferred intent yields murder.,Common-law murder mens rea; transferred intent.,0,A3
+PRO-1396,no_defect,T8,none,0.75,,H,"Coat belonged to man who consented, so no larceny; man lacked intent, so no bilateral conspiracy. H best among options.",Common law larceny/conspiracy (bilateral),0,A4
+PRO-10513,no_defect,T8,none,0.9,,E,random.seed() sets the initial generator state; setseed does not exist.,Python 3 random module docs.,0,A1
+PRO-1718,no_defect,T8,none,0.8,,C,Deed in lieu of foreclosure is valid if fair and not unconscionable/clogging redemption.,Restatement (Third) Property: Mortgages 3.1 cmt.,0,A3
+PRO-8907,no_defect,T8,none,0.99,,G,"GCD(25,55)=5.","25=5^2, 55=5*11.",0,A1
+PRO-4956,no_defect,T8,none,0.88,,C,Bentinck's hesitation to ban sati shows colonizers were not uniformly eager to impose cultural norms.,Passage reading,0,A4
+PRO-2639,no_defect,T8,none,0.85,,H,"Vestibule training uses simulated equipment off the job, ideal for airline pilots.",I/O psychology texts.,0,A3
+PRO-4250,no_defect,T8,none,0.97,,E,6.2 g / 44.1 g/mol = 0.141 mol.,M(C3H8)=44.1,0,A4
+PRO-11065,no_defect,T8,none,0.7,,G,Gauthier ties practical rationality to deliberative justification.,"Gauthier, 'Assure and Threaten' / deliberative rationality",0,A4
+PRO-9586,no_defect,T8,none,0.95,,G,Only Earth has confirmed active plate tectonics.,Planetary geology consensus,0,A4
+PRO-2210,no_defect,T8,none,0.88,,G,"In-basket exercises simulate managerial decision tasks, used in management assessment centers.",I/O psychology: assessment center in-basket exercise.,0,A1
+PRO-1420,no_defect,T8,none,0.55,,H,"Key reflects 'character in issue' doctrine; debatable whether defendant's honesty is truly an element of malicious prosecution, but no other option is clearly better.",FRE 404/405(b): character evidence admissible when an essential element of claim.,0,A1
+PRO-4779,no_defect,T8,none,0.75,,C,Machu Picchu is generally interpreted as a royal estate/retreat for Inca elites (Pachacuti); C fits best.,Standard archaeological interpretation (royal estate).,0,A3
+PRO-11187,no_defect,T8,none,0.85,,F,"Aesthetic value concerns goodness/badness of art and beautiful objects; other options name moral, economic, etc. values.",Standard intro philosophy definition.,0,A3
+PRO-262,no_defect,T8,none,0.75,,G,Diffusion process describes how/rate an innovation spreads through a market.,"Rogers, Diffusion of Innovations; Kotler.",0,A2
+PRO-2530,defect,T3,probable,0.6,O2,C,Following a dress code (B) and food preferences (E) are at least as culturally based as punctuality; multiple options correct.,Cultural vs biological/psychological attributes.,0,A2
+PRO-10954,no_defect,T8,none,0.88,,A,'P unless Q' is standardly symbolized P ∨ Q.,Standard PL translation convention for 'unless'.,0,A1
+PRO-1610,no_defect,T8,none,0.8,,B,Idea-submission cases: implied-in-fact contract from solicitation plus expectation of payment (Desny v. Wilder).,Desny v. Wilder (Cal. 1956).,0,A2
+PRO-766,no_defect,T8,none,0.85,,A,Forward vertical integration moves toward the consumer/distribution; H is generic to all vertical integration and less specific.,Standard business textbook definition.,0,A3
+PRO-7027,no_defect,T8,none,0.88,,B,X denotes net exports (exports minus imports).,Expenditure approach GDP.,0,A3
+PRO-6083,no_defect,T8,none,0.75,,B,"First-aid texts list exhaustion, confusion, unresponsiveness as signs of respiratory failure.",First aid/CPR curriculum,0,A4
+PRO-11115,no_defect,T8,none,0.7,,E,Socratic view: virtuous action requires knowing what one does and why; other options either do not give the reason or are false.,"Plato, Apology/Meno; virtue as knowledge.",0,A1
+PRO-936,defect,T1,probable,0.7,OU,A,Cooper v. Oklahoma: clear-and-convincing burden on defendant violates due process; Medina v. California permits placing preponderance burden on defendant. So appeal granted per A; D wrongly says prosecution must bear burden.,"Cooper v. Oklahoma, 517 U.S. 348 (1996); Medina v. California, 505 U.S. 437 (1992).",0,A3
+PRO-1298,no_defect,T8,none,0.85,,J,"Passenger not negligent; driver's negligence not imputed; joint and several liability lets friend recover full $100,000 from the driver.",Imputed negligence rules; joint and several liability.,0,A3
+PRO-6891,no_defect,T8,none,0.88,,D,Time value of money/inflation: today's dollars have more purchasing power; other options are false.,Standard macroeconomics.,0,A1
+PRO-10855,no_defect,T8,none,0.9,,A,Craig's kalam argument holds an actual infinite cannot exist.,"W.L. Craig, kalam cosmological argument.",0,A3
+PRO-9817,no_defect,T8,none,0.95,,B,x(1)=24; next 10 s: 24*10-3*100=-60; x=-36 m.,Kinematics.,0,A2
+PRO-1406,no_defect,T8,none,0.75,,B,Conspicuous bold notice plus accessible link with affirmative account creation forms enforceable clickwrap; B best.,Clickwrap enforceability case law,0,A4
+PRO-6104,no_defect,T8,none,0.8,,I,Parkinson patient with right lower lobe pneumonia suggests aspiration; swallowing evaluation before discharge is most appropriate.,Dysphagia/aspiration pneumonia risk in Parkinson disease.,0,A1
+PRO-11215,no_defect,T8,none,0.55,,G,"In meaning-of-life literature, externalist (supernaturalist) views of meaning are mostly religious; key plausible.",Meaning of life: supernaturalism vs naturalism.,0,A2
+PRO-1541,no_defect,T8,none,0.85,,E,Supreme Court exclusive original jurisdiction only for controversies between states.,28 U.S.C. 1251(a).,0,A2
+PRO-1063,defect,T3,ambiguous,0.45,OU,A,"Lease ran to 1992; tenant possession during term is permissive, so from 1992 to 2009 only 17 years ran. G (period not reached) is also defensible, competing with A.",Tenant cannot adversely possess during lease term absent clear repudiation.,0,A2
+PRO-6115,no_defect,T8,none,0.75,,B,Seizures/evolving neurologic disorder are a precaution for pertussis vaccine; other options irrelevant.,CDC/ACIP DTaP contraindications and precautions.,0,A1
+PRO-1902,no_defect,T8,none,0.7,,H,Shopkeeper's privilege requires reasonable grounds (she matched description) and reasonable time/manner; 30 minutes with intensive questioning exceeds it.,Restatement (Second) Torts §120A shopkeeper's privilege.,0,A1
+PRO-10669,no_defect,T8,none,0.9,,B,"ReLU gradient zero for x<0, sigmoid derivative max 1/4; sigmoid gradient continuous, ReLU gradient jumps at 0. True, True.",Calculus of activation functions,0,A4
+PRO-2385,defect,T3,ambiguous,0.5,OU,I,Option J (colleague provides emergency sessions while regular appointments paused) is essentially the same coverage arrangement as key I; G is also good practice. Reasonable experts could accept J.,APA Ethics Code 10.09/3.12 on interruption of services: arrange emergency coverage.,0,A1
+PRO-9588,no_defect,T8,none,0.95,,B,Carnot COP=300/20=15; W=15000/15=1000 J.,COP_hp=T_h/(T_h-T_c).,0,A2
+PRO-5185,no_defect,T8,none,0.95,,J,Component depreciation: 80/20=4 + 10/4=2.5 + 10/5=2 = 8.5M.,IAS 16 componentization.,0,A3
+PRO-6154,defect,T2,ambiguous,0.5,OU,D,"Senescence is standardly defined as biological aging (D); key I (increased vulnerability) reflects one textbook framing. Experts would accept D, also arguably E.","Dictionary/gerontology definitions: senescence = biological aging, deterioration raising mortality risk.",0,A3
+PRO-8975,no_defect,T8,none,0.95,,C,"aH subgroup iff a in H (true); aH=bH iff a^-1 b in H, not ab (false).",Coset properties.,0,A3
+PRO-10847,no_defect,T8,none,0.95,,G,Mill distinguishes higher and lower pleasures by quality.,"Mill, Utilitarianism ch. 2.",0,A1
+PRO-1324,defect,T3,ambiguous,0.45,O2,B,"False pretenses is correct, but 'theft by deception' (H) is the MPC/modern name for the same offense, giving a second defensible answer.",MPC 223.3 theft by deception consolidates false pretenses.,0,A3
+PRO-4999,no_defect,T8,none,0.9,,E,Cooking improves digestibility and kills pathogens; other options absurd or less central.,Cooking hypothesis (Wrangham).,0,A2
+PRO-4933,defect,T6,probable,0.6,OU,B,"Current consensus places human arrival in Australia at least ~50,000 years ago (some 65 ka); 'soon after 40,000' reflects older views.",O'Connell & Allen 2015 (~47-50 ka); Clarkson et al. 2017 Madjedbebe ~65 ka.,0,A2
+PRO-5502,no_defect,T8,none,0.75,,B,"A, C, D are internal threats from domestic actors; refugee influx is external.","Security studies, weak states.",0,A2
+PRO-1684,no_defect,T8,none,0.9,,D,Sublessee has neither privity of estate nor contract with landlord; landlord cannot recover rent directly. 'pnvity' typo harmless.,Standard property law: sublease vs assignment,0,A4

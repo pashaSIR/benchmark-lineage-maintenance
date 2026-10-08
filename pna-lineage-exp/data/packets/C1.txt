@@ -1,0 +1,372 @@
+### Item PRO-10762  (subject area: computer science)
+Question:
+Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?
+1. An attacker replacing bytes sent by a client with bytes of the attacker’s own choosing.
+2. An attacker reading the plaintext bytes sent by a client.
+Options:
+  A. False, True
+  B. False, False
+  C. False, Partly True
+  D. Partly True, False
+  E. True, False
+  F. True, Partly False
+  G. True, Partly True
+  H. Partly False, True
+  I. True, True
+  J. Partly True, True
+Answer key: I
+
+### Item PRO-1996  (subject area: psychology)
+Question:
+The information that family members continuously exchange and that helps minimize deviation and maintain the family's stability is referred to as ________ feedback.
+Options:
+  A. positive
+  B. negative
+  C. feedback loop
+  D. neutral
+  E. reciprocal
+  F. regulatory
+  G. internal
+  H. counteractive
+  I. external
+  J. circular
+Answer key: B
+
+### Item PRO-1361  (subject area: law)
+Question:
+A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+Options:
+  A. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+  B. Yes, the newspaper's actions are protected by freedom of the press, and the doctor cannot prove malice.
+  C. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  D. No, the newspaper's actions caused harm to the doctor's reputation, which is enough to sustain a claim, regardless of proven special damages.
+  E. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+  F. No, the newspaper acted negligently in its reporting, which is enough to sustain a libel claim.
+  G. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+  H. Yes, the doctor is a public figure, and the newspaper had no intention of harming his reputation.
+  I. Yes, the newspaper's defense of public interest is valid, and the doctor cannot prove any special damages.
+  J. No, the doctor has a valid claim for defamation per se, and the newspaper's defense is invalid.
+Answer key: C
+
+### Item PRO-5549  (subject area: other)
+Question:
+What sporting event is held annually on Memorial Day weekend?
+Options:
+  A. FIFA World Cup
+  B. Stanley Cup Finals
+  C. Wimbledon
+  D. World Series
+  E. Iditarod
+  F. Daytona 500
+  G. Super Bowl
+  H. The Masters
+  I. Kentucky Derby
+  J. Indianapolis 500
+Answer key: J
+
+### Item PRO-4999  (subject area: history)
+Question:
+Which of the following was the greatest advantage of using fire in human evolution?
+Options:
+  A. Fire can be used in warfare and to clear fields.
+  B. Fire was used to create the first forms of currency.
+  C. Fire allowed early humans to fly kites at night.
+  D. Fire was used to create intricate cave paintings.
+  E. Fire makes meat more digestible and kills bacteria.
+  F. Fire was used to scare away insects and pests.
+Answer key: E
+
+### Item PRO-9817  (subject area: physics)
+Question:
+A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is
+Options:
+  A. 84m
+  B. -36m
+  C. -84m
+  D. -72m
+  E. 72m
+  F. 60m
+  G. -60m
+  H. -99m
+  I. 99m
+  J. 36m
+Answer key: B
+
+### Item PRO-1145  (subject area: law)
+Question:
+A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of? 
+Options:
+  A. Justifiable homicide.
+  B. Reckless endangerment.
+  C. Battery.
+  D. Attempted murder.
+  E. Felonious assault.
+  F. Assault with a deadly weapon.
+  G. Voluntary manslaughter.
+  H. Negligent homicide.
+  I. Involuntary manslaughter.
+  J. Murder.
+Answer key: J
+
+### Item PRO-10651  (subject area: computer science)
+Question:
+Consider the following assumptions about electronic storage for the text in all the books of a university's libraries. - The libraries at the university collectively contain 3 million books. - A book contains an average of 400 pages. - A page contains an average of 50 lines. - A line on a page contains an average of 10 words. - A word contains an average of 5 letters/characters. - A letter/character is represented by 1 byte. Based on the given assumptions, which of the following is the unit in which the electronic storage required for the text in all the books of the university's libraries would best be measured?
+Options:
+  A. Kilobyte (2^10 or approximately 10^3 bytes)
+  B. Petabyte ( 2^50 or approximately 10^15 bytes)
+  C. Yottabyte (2^80 or approximately 10^24 bytes)
+  D. Exabyte (2^60 or approximately 10^18 bytes)
+  E. Byte (1 byte)
+  F. Bit (1/8 of a byte)
+  G. Zettabyte (2^70 or approximately 10^21 bytes)
+  H. Terabyte ( 2^40 or approximately 10^12 bytes)
+  I. Gigabyte ( 2^30 or approximately 10^9 bytes)
+  J. Megabyte ( 2^20 or approximately 10^6 bytes)
+Answer key: H
+
+### Item PRO-7027  (subject area: economics)
+Question:
+In the equation GDP = C + I + G + X X stands for
+Options:
+  A. exports.
+  B. exports minus imports.
+  C. imports.
+  D. gross domestic product.
+  E. consumption.
+  F. government spending.
+  G. investment.
+  H. total domestic production.
+  I. expenditures.
+  J. imports minus exports.
+Answer key: B
+
+### Item PRO-6891  (subject area: economics)
+Question:
+Which of the following statements is true?
+Options:
+  A. The demand for loanable funds consists of savers.
+  B. Real GDP is the sum of the money supply and the velocity of money.
+  C. The supply of loanable funds is solely determined by the central bank's policies.
+  D. Dollars earned today have more purchasing power than dollars earned a year from today.
+  E. The velocity of money is the speed at which the stock market indices change.
+  F. The demand for loanable funds is entirely driven by government borrowing.
+  G. Purchasing power parity ensures that dollars have the same value across all time periods.
+  H. The supply of loanable funds consists of investors.
+  I. Inflation rates are inversely proportional to the velocity of money at all times.
+Answer key: D
+
+### Item PRO-1438  (subject area: law)
+Question:
+Two friends were members of a fraternity at their college. During homecoming weekend, the fraternity held a big party, which was widely attended by students and alumni. At the party, the two friends were horsing around when the first friend pulled out a revolver. He gave the revolver's cylinder a spin, put the barrel of the gun to the second friend's head and, intending to scare the second friend, said, "Hey, man, let's play Russian roulette. " The second friend, who had consumed a fifth of bourbon, was very intoxicated. Thinking that the gun was unloaded, the second friend responded, "Sure, dude. " The first friend then pulled the trigger. The gun just made a clicking sound as the hammer fell on an empty chamber of the cylinder. The two friends both laughed and continued partying. Unbeknownst to the second friend, the first friend had placed bullets in two of the revolver's six firing chambers before making his challenge. The next day, the second friend found out that the gun was, in fact, loaded when the first friend pulled the trigger. If the second friend asserts a tort action against the first friend, he will most likely
+Options:
+  A. prevail, because the first friend intended to place the second friend in apprehension.
+  B. prevail, because the first friend showed gross negligence.
+  C. not prevail, because there was no physical harm inflicted on the second friend.
+  D. prevail, because the first friend's actions were reckless and dangerous.
+  E. prevail, because there was a substantial certainty that the second friend would be placed in apprehension.
+  F. not prevail, because the second friend was unaware that the gun was loaded.
+  G. not prevail, because the first friend did not actually intend to harm the second friend.
+  H. not prevail, because the second friend consented to participate in the Russian roulette game.
+  I. not prevail, because the second friend was under the influence of alcohol.
+Answer key: F
+
+### Item PRO-2863  (subject area: biology)
+Question:
+This process has as its products NADP+, ADP, and sugar.
+Options:
+  A. Oxidative phosphorylation
+  B. Glycolysis
+  C. Beta oxidation
+  D. Chemiosmosis
+  E. Light-dependent reactions
+  F. Pyruvate oxidation
+  G. Fermentation
+  H. Calvin cycle
+  I. Krebs cycle
+  J. Anaerobic respiration
+Answer key: H
+
+### Item PRO-1902  (subject area: law)
+Question:
+A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, "Very well," and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, "Listen, unless you let me look inside that bag, I'm going to call the police. " The woman replied, "Very well," and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely
+Options:
+  A. not prevail, because no physical force was used to detain her.
+  B. prevail, because she was falsely accused of theft.
+  C. not prevail, because she agreed to the manager's request to inspect her bag.
+  D. prevail, because the manager threatened to call the police.
+  E. prevail, because the manager did not have reasonable grounds to suspect that the woman had committed a theft.
+  F. not prevail, because she matched the description of the suspected thief.
+  G. prevail, because the manager had no direct evidence of theft.
+  H. prevail, because she was detained for an unreasonably long period of time.
+  I. not prevail, because the manager gave the woman permission to leave after conducting her investigation.
+Answer key: H
+
+### Item PRO-1396  (subject area: law)
+Question:
+A man was at a bar drinking beer when he started conversing with a woman who was seated at the next barstool. During the course of their conversation, the woman told the man that she was just laid off her job and desperately needed money to pay her rent. The man, a practical joker, pointed to a nearby coat rack and said, "Hey, see that fur coat there. Why don't you take it?" The man then told the woman that he would cause a disturbance to distract attention while she ran out of the bar with the coat. Believing that it was a good idea, the woman agreed to take part in the scheme. Thereupon, the man lit a matchbook and threw it on top of the bar. He then yelled, "The bar's on fire, help!" When everyone turned to look at the man, the woman ran to the back of the bar, took the fur coat and scurried outside unnoticed. Just as the woman left the bar and was running down the sidewalk, she was apprehended and arrested by a police officer. Later, the man confessed that the fur coat that the woman took really belonged to him. With respect to the man's and the woman's criminal liability, which of the following is most correct?
+Options:
+  A. The man and the woman are guilty of conspiracy.
+  B. The woman is guilty of conspiracy and larceny.
+  C. The man and the woman are guilty of larceny.
+  D. Neither the man nor the woman are guilty of larceny, but they are guilty of conspiracy.
+  E. The man is guilty of conspiracy and the woman is guilty of larceny.
+  F. The man is guilty of conspiracy.
+  G. The man and the woman are guilty of conspiracy and larceny.
+  H. The man and the woman are not guilty of either conspiracy or larceny.
+  I. The man is guilty of larceny.
+  J. The woman is guilty of larceny.
+Answer key: H
+
+### Item PRO-8975  (subject area: math)
+Question:
+Statement 1 | If H is a subgroup of G and a belongs to G then aH is a subgroup of G if and only if a is in H. Statement 2 | If H is a subgroup of G and a and b belong to G then aH = bH if and only if ab is in H.
+Options:
+  A. True, True
+  B. False, False
+  C. True, False
+  D. False, True
+Answer key: C
+
+### Item PRO-5250  (subject area: other)
+Question:
+A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. The passage suggests that the speaker would describe the "account" mentioned in the first sentence as
+Options:
+  A. comprehensive
+  B. exaggerated
+  C. insightful
+  D. precise
+  E. adequate
+  F. mystifying
+  G. deficient
+  H. erroneous
+  I. misleading
+  J. enlightening
+Answer key: G
+
+### Item PRO-1324  (subject area: law)
+Question:
+One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+Options:
+  A. Solicitation, attempted sale of narcotics, and false pretenses.
+  B. False pretenses.
+  C. Solicitation and false pretenses.
+  D. Attempted sale of narcotics and false pretenses.
+  E. Attempted sale of narcotics.
+  F. Attempted fraud.
+  G. No crimes, as no actual narcotics were involved.
+  H. Theft by deception.
+  I. Solicitation and attempted sale of narcotics.
+  J. Solicitation, theft by deception, and false pretenses.
+Answer key: B
+
+### Item PRO-4928  (subject area: history)
+Question:
+What do the amount of grave goods buried with the children at Sungir' indicate?
+Options:
+  A. The children were sometimes leaders of the tribe.
+  B. The tribe had a complex system of inherited social statuses.
+  C. The tribe was involved in an intricate trade network.
+  D. The tribe practiced a form of ancestor worship and the goods were offerings to the spirits.
+  E. The tribe spent most of their time carving beads.
+Answer key: B
+
+### Item PRO-3489  (subject area: biology)
+Question:
+If a couple has had three sons and the woman is pregnant with their fourth child, what is the probability that child 4 will also be male?
+Options:
+  A. 3/4
+  B. 2/3
+  C. 1/16
+  D. 1/4
+  E. 1/5
+  F. 4/5
+  G. 1/8
+  H. 1/3
+  I. 1/2
+  J. 1/10
+Answer key: I
+
+### Item PRO-2936  (subject area: biology)
+Question:
+Which of the following factors does NOT promote linkage disequilibrium?
+Options:
+  A. Asexual reproduction
+  B. Coadapted gene complexes
+  C. Epistasis
+  D. Random mating
+Answer key: D
+
+### Item PRO-6083  (subject area: health)
+Question:
+Exhaustion, confusion, and unresponsiveness can be indicators of:
+Options:
+  A. food poisoning.
+  B. respiratory failure.
+  C. mental health disorders.
+  D. being generally unwell.
+  E. a viral infection.
+Answer key: B
+
+### Item PRO-11065  (subject area: philosophy)
+Question:
+Gauthier claims that there is nothing for practical rationality to be besides:
+Options:
+  A. logical justification.
+  B. epistemic justification.
+  C. existential justification.
+  D. theoretical justification.
+  E. moral justification.
+  F. emotional justification.
+  G. deliberative justification.
+  H. an illusion.
+  I. spiritual justification.
+  J. aesthetic justification.
+Answer key: G
+
+### Item PRO-6986  (subject area: economics)
+Question:
+The demand curve for labor is derived from
+Options:
+  A. the demand curve for the output produced by labor
+  B. the demand curve for the input used by labor
+  C. the aggregate demand in the economy
+  D. the market labor demand curve
+  E. the equilibrium employment level in the labor market
+  F. the labor supply curve for the firm
+  G. the price elasticity of demand for labor
+  H. the product supply curve for the firm
+  I. the labor demand curve for the industry
+  J. the equilibrium wage in the labor market
+Answer key: A
+
+### Item PRO-5096  (subject area: other)
+Question:
+How long has the average United States citizen spent as president?
+Options:
+  A. 1 minute
+  B. 10 seconds
+  C. 1 seconds
+  D. 1 day
+  E. 10 minutes
+  F. 1 year
+  G. 30 seconds
+  H. 1 week
+  I. 10 years
+  J. 1 hour
+Answer key: B
+
+### Item PRO-2385  (subject area: psychology)
+Question:
+Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+Options:
+  A. Leave without informing his clients of his absence.
+  B. give his clients a phone number where he can be reached.
+  C. Provide his clients with online resources to manage their issues in his absence.
+  D. Continue his sessions via phone calls or video conferencing while on vacation.
+  E. Inform his clients only a day before his departure about his unavailability.
+  F. Cancel all appointments for the duration of his vacation without informing his clients.
+  G. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+  H. hire a colleague to take over his appointments while he is on vacation.
+  I. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+  J. Arrange for a colleague to provide only emergency sessions, while regular appointments are paused.
+Answer key: I

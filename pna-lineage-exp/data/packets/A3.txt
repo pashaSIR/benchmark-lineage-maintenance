@@ -1,0 +1,376 @@
+### Item PRO-5449  (subject area: other)
+Question:
+An important source of information on the credit rating of retail businesses is
+Options:
+  A. Equifax, Inc.
+  B. the National Retail Federation
+  C. the Small Business Administration
+  D. the local chamber of commerce
+  E. Moody's Corporation
+  F. the United States Department of Commerce
+  G. the Retail Merchants Association
+  H. Dun & Bradstreet, Inc.
+  I. the Better Business Bureau
+  J. the United States Retail Credit Association
+Answer key: H
+
+### Item PRO-11187  (subject area: philosophy)
+Question:
+Aesthetic values have to do with _______
+Options:
+  A. the physical durability of works of art and other objects that could be judged beautiful
+  B. the moral value of works of art and other objects that could be judged beautiful
+  C. the moral values of artists and critics
+  D. the political implications of works of art and other objects that could be judged beautiful
+  E. the economic value of works of art and other objects that could be judged beautiful
+  F. good and bad works of art and other objects that could be judged beautiful
+  G. the historical significance of works of art and other objects that could be judged beautiful
+  H. the cultural context of works of art and other objects that could be judged beautiful
+  I. the religious symbolism in works of art and other objects that could be judged beautiful
+  J. pragmatic decisions regarding the display of art
+Answer key: F
+
+### Item PRO-4779  (subject area: history)
+Question:
+Machu Picchu was built in the mountains as a:
+Options:
+  A. monument for an Inca king.
+  B. hunting ground for Inca rulers.
+  C. relaxing getaway for elites.
+  D. military training base.
+  E. defensive stronghold.
+  F. prison for political enemies.
+  G. site for agricultural experiments.
+  H. trade center for the Inca Empire.
+  I. shrine to the Inca rain god.
+  J. astronomical observatory.
+Answer key: C
+
+### Item PRO-936  (subject area: law)
+Question:
+A defendant, an indigent, was arrested and charged with attempted murder. The defendant, who had a history of psychiatric problems, had been diagnosed as being paranoid schizophrenic. The defendant was represented by a court-appointed attorney. In trying to prepare for trial, the attorney met with the defendant on numerous occasions. The attorney, however, found it difficult to communicate with the defendant, who, due to his paranoia, distrusted the attorney and believed he was working with the prosecution to convict him. The defendant was subsequently convicted. After the defendant was sentenced, the attorney filed an appeal seeking to overturn the conviction and have a new trial ordered. The appeal, in part, challenged the constitutionality of a state statute that placed the burden of proof on the defendant by requiring him to prove mental incompetency by clear and convincing evidence. In addition, the appeal claimed that the attorney was unable to provide adequate representation because there was a failure of communication between the defendant and his attorney. The appeal will most likely be
+Options:
+  A. granted, because the defendant has the burden to prove mental incompetency by a preponderance of the evidence, not by clear and convincing evidence.
+  B. denied, because the defendant cannot base an appeal on ineffective assistance of counsel due to his own failure to communicate with his lawyer.
+  C. denied, because it is constitutionally permissible to place the burden on the defendant to prove mental incompetency by clear and convincing evidence.
+  D. granted, because the prosecution has the burden to prove the defendant's competency by a preponderance of evidence.
+  E. denied, because the burden of proof lies with the defendant in cases of mental incompetency.
+  F. granted, because the state statute is unconstitutional as it places an undue burden on the defendant.
+  G. denied, because the defendant's own paranoia and distrust led to the breakdown in communication with his attorney.
+  H. granted, because the defendant's mental condition prevented him from effectively communicating with his attorney.
+  I. granted, because the attorney was unable to provide adequate representation due to the defendant's mental condition.
+  J. denied, because the defendant's mental incompetency does not absolve him of the crime he has been accused of.
+Answer key: D
+
+### Item PRO-766  (subject area: business)
+Question:
+Vertical integration forwards is when a firm mergers or acquires another
+Options:
+  A. Towards the consumer
+  B. With a competitor
+  C. At the same stage of the supply chain
+  D. In a different country
+  E. Towards the manufacturer
+  F. Towards the source of supply
+  G. In another industry
+  H. At a different stage of the supply chain
+  I. Towards the supplier of raw materials
+Answer key: A
+
+### Item PRO-10855  (subject area: philosophy)
+Question:
+Craig says an actually infinite number of things _____.
+Options:
+  A. cannot exist
+  B. can be physically observed
+  C. can be counted one by one
+  D. is a concept beyond human comprehension
+  E. only exists in mathematics
+  F. can only exist in theory
+  G. is meaningless
+  H. exists somewhere
+  I. is possible
+  J. is a paradox
+Answer key: A
+
+### Item PRO-8150  (subject area: math)
+Question:
+A number, rounded to the nearest thousand,is 47,000. Which number could be the number that was rounded?
+Options:
+  A. 46,504
+  B. 46,295
+  C. 47,924
+  D. 47,999
+  E. 47,520
+  F. 47,500
+Answer key: A
+
+### Item PRO-4842  (subject area: history)
+Question:
+Why is the timing of monumental construction at Ceibal significant?
+Options:
+  A. It contradicts the hypothesis that the monumental construction of the Maya was largely inspired by the Olmec.
+  B. It confirms that the residents of Ceibal were inspired by the Olmec to build large platforms.
+  C. It contradicts the hypothesis that the development of monumental construction among the Maya was an internal process.
+  D. It confirms that the Olmec, who built most of the Maya monuments, were inspired by the Egyptians.
+Answer key: A
+
+### Item PRO-7631  (subject area: economics)
+Question:
+How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR     VALUE OF THE DOLLAR
+Options:
+  A. Increased supply     Depreciating
+  B. Decreased supply     Appreciating
+  C. No change in supply     Appreciating
+  D. Increased demand     Depreciating
+  E. Decreased demand     Appreciating
+  F. Increased demand     Appreciating
+  G. Decreased supply     Depreciating
+  H. Increased supply     Appreciating
+  I. No change in demand     Depreciating
+Answer key: F
+
+### Item PRO-1087  (subject area: law)
+Question:
+A wife and her husband were having dinner at a restaurant when the wife excused herself to go to the bathroom. The restaurant was owned and operated by a chef. As the wife was walking past a table where another customer was seated, she slipped and fell on an egg roll that had been lying on the floor for quite some time, although the chef was unaware that it had fallen onto the floor. When she fell, her head struck a serving tray that was located in the aisle. The fall caused the wife to suffer a severe concussion. The customer knew that the egg roll was on the floor, and although he could have done so, he did not warn the wife. If the wife asserts a claim against the chef for the injuries she suffered from the fall, she will most likely
+Options:
+  A. recover, because the customer was negligent in not warning her about the egg roll.
+  B. not recover, because the customer could have prevented the injury by warning the wife of the presences of the egg roll.
+  C. recover, because the egg roll was on the floor for a substantial period of time before the accident.
+  D. not recover, because she should have been more careful while walking.
+  E. recover, because the egg roll on the floor constituted an unsafe condition of the premises.
+  F. not recover, because the chef was not directly responsible for the egg roll being on the floor.
+  G. not recover, because the chef did not know that the egg roll was on the floor.
+  H. not recover, because it is not the chef's responsibility to monitor the floor at all times.
+  I. recover, because the serving tray was placed in a dangerous location.
+Answer key: C
+
+### Item PRO-2936  (subject area: biology)
+Question:
+Which of the following factors does NOT promote linkage disequilibrium?
+Options:
+  A. Asexual reproduction
+  B. Coadapted gene complexes
+  C. Epistasis
+  D. Random mating
+Answer key: D
+
+### Item PRO-1718  (subject area: law)
+Question:
+A builder sold a new house to a buyer for use as the buyer's residence. The buyer paid 10% of the purchase price and financed the rest by executing a promissory note and purchase money mortgage to the builder. A year later, the buyer missed several mortgage payments to the builder and became unable to make payments to the builder and became unable to make payments. During that year, property values in the neighborhood declined substantially. The builder suggested that the buyer deed the house back to the builder to settle all claims and avoid the costs and other disadvantages of foreclosure. The buyer deeded the house back to the builder. Does the builder now own fee simple title to the house?
+Options:
+  A. No, because the builder cannot accept the deed while also holding the mortgage.
+  B. No, because the owner of a personal residence cannot waive the right to foreclosure.
+  C. Yes, because the transaction was reasonable and fair under the circumstances.
+  D. No, because the builder coerced the buyer into deeding the house back.
+  E. Yes, because the buyer defaulted on the mortgage payments.
+  F. Yes, because the builder originally held the mortgage.
+  G. Yes, because of the doctrine of equitable redemption.
+  H. No, because the buyer still technically owns the house until foreclosure.
+  I. No, because the deed back to the builder constitutes a disguised mortgage.
+Answer key: C
+
+### Item PRO-6154  (subject area: health)
+Question:
+The term "senescence" refers to
+Options:
+  A. The loss of physical abilities
+  B. The process of cellular division
+  C. The development of disease
+  D. Biological aging
+  E. The process of becoming older
+  F. The acquisition of knowledge and wisdom
+  G. The loss of mental abilities
+  H. The process of physical growth
+  I. An increased vulnerability
+  J. The increase in physical strength
+Answer key: I
+
+### Item PRO-6268  (subject area: health)
+Question:
+Fats normally contain triacylglycerols at concentrations of:
+
+Options:
+  A. > 95%
+  B. 95-100%
+  C. < 50%
+  D. 75-95%
+  E. 50-60%
+  F. 60-75%
+  G. 50- 75%
+  H. 25-50%
+  I. 10-25%
+  J. < 10%
+Answer key: A
+
+### Item PRO-5549  (subject area: other)
+Question:
+What sporting event is held annually on Memorial Day weekend?
+Options:
+  A. FIFA World Cup
+  B. Stanley Cup Finals
+  C. Wimbledon
+  D. World Series
+  E. Iditarod
+  F. Daytona 500
+  G. Super Bowl
+  H. The Masters
+  I. Kentucky Derby
+  J. Indianapolis 500
+Answer key: J
+
+### Item PRO-7027  (subject area: economics)
+Question:
+In the equation GDP = C + I + G + X X stands for
+Options:
+  A. exports.
+  B. exports minus imports.
+  C. imports.
+  D. gross domestic product.
+  E. consumption.
+  F. government spending.
+  G. investment.
+  H. total domestic production.
+  I. expenditures.
+  J. imports minus exports.
+Answer key: B
+
+### Item PRO-1324  (subject area: law)
+Question:
+One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+Options:
+  A. Solicitation, attempted sale of narcotics, and false pretenses.
+  B. False pretenses.
+  C. Solicitation and false pretenses.
+  D. Attempted sale of narcotics and false pretenses.
+  E. Attempted sale of narcotics.
+  F. Attempted fraud.
+  G. No crimes, as no actual narcotics were involved.
+  H. Theft by deception.
+  I. Solicitation and attempted sale of narcotics.
+  J. Solicitation, theft by deception, and false pretenses.
+Answer key: B
+
+### Item PRO-1145  (subject area: law)
+Question:
+A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of? 
+Options:
+  A. Justifiable homicide.
+  B. Reckless endangerment.
+  C. Battery.
+  D. Attempted murder.
+  E. Felonious assault.
+  F. Assault with a deadly weapon.
+  G. Voluntary manslaughter.
+  H. Negligent homicide.
+  I. Involuntary manslaughter.
+  J. Murder.
+Answer key: J
+
+### Item PRO-2639  (subject area: psychology)
+Question:
+An organizational psychologist would most likely recommend the use of vestibule training for which of the following jobs?
+Options:
+  A. receptionist
+  B. word processor
+  C. high school teacher
+  D. clinical psychologist.
+  E. software developer
+  F. salesperson.
+  G. newspaper journalist
+  H. airline pilot
+  I. bus driver
+  J. restaurant waiter
+Answer key: H
+
+### Item PRO-8975  (subject area: math)
+Question:
+Statement 1 | If H is a subgroup of G and a belongs to G then aH is a subgroup of G if and only if a is in H. Statement 2 | If H is a subgroup of G and a and b belong to G then aH = bH if and only if ab is in H.
+Options:
+  A. True, True
+  B. False, False
+  C. True, False
+  D. False, True
+Answer key: C
+
+### Item PRO-8809  (subject area: math)
+Question:
+It takes Kate k days to write a GRE math practice test. It takes John j days to write a GRE math practice test. If Kate and John work on a practice test in alternating 2-day shifts, it takes them 10 days when Kate starts and 10.5 days when John starts. How long would it take the two to complete a practice test if Kate and John worked simultaneously?
+Options:
+  A. 41/8 days
+  B. 13/2 days
+  C. 12/3 days
+  D. 36/7 days
+  E. 11/2 days
+  F. 9/2 days
+  G. 7 days
+  H. 5 days
+  I. 8 days
+  J. 10 days
+Answer key: D
+
+### Item PRO-5185  (subject area: other)
+Question:
+On January 1, year 1, a company purchased equipment for $100 million. The equipment consists of four major components, of which two components comprise 80% of the total cost and each has a 20-year useful life. The remaining two components have costs of $10 million each; one of them has a useful life of four years, and the other has a useful life of five years. The company applies the cost model to the equipment and uses the straight-line method of depreciation. Under IFRS, what is the depreciation expense for the year ended December 31, year 1?
+Options:
+  A. $7,500,000
+  B. $5,000,000
+  C. $6,000,000
+  D. $8,000,000
+  E. $10,000,000
+  F. $9,500,000
+  G. $7,000,000
+  H. $4,000,000
+  I. $9,000,000
+  J. $8,500,000
+Answer key: J
+
+### Item PRO-1298  (subject area: law)
+Question:
+A baseball fan purchased two tickets for a World Series baseball game. The fan contacted his best friend and invited him to go to the game. The friend, who was a fanatic baseball fan, eagerly agreed. The fan told the friend that the game started at 7:00 p. m. and that he would pick him up at about 5:00 p. m. so they could get there early to watch batting practice. They were driving to the game together when the fan sped up to cross an intersection while the traffic signal was changing from amber to red. As he reached the intersection, the fan was traveling at 50 m. p. h. although the posted speed limit was 25 m. p. h. Simultaneously, a car entered the intersection on red and collided with the fan's vehicle. The friend suffered a broken pelvis in the collision. This jurisdiction has adopted the following "modified" comparative negligence statute:"A negligent plaintiff is entitled to obtain a recovery provided plaintiff's negligence is not equal to or greater than that of the defendant's; otherwise no recovery is permitted. "Suppose the friend brings suit against the driver of the car that entered the intersection on the red light to recover damages for his injury. Ajury returned a special verdict with the following findings: (1) The fan was 55 percent negligent in speeding; (2) The driver was 45 percent negligent in driving through the red light; and (3) The friend suffered $100,000 in damages. As a result, the court should enter a judgment for the friend in the amount of
+Options:
+  A. $45,000. 00
+  B. $50,000.00
+  C. nothing, because the fan was more negligentthan the driver.
+  D. A split judgment where the fan pays $55,000.00 and the driver pays $45,000.00
+  E. $100,000.00 but paid by both the fan and the driver
+  F. $45,000.00 but only from the driver's insurance
+  G. $55,000. 00
+  H. $55,000.00 but only from the fan's insurance
+  I. $55,000.00 from the driver as the fan was more negligent
+  J. $100,000. 00
+Answer key: J
+
+### Item PRO-1438  (subject area: law)
+Question:
+Two friends were members of a fraternity at their college. During homecoming weekend, the fraternity held a big party, which was widely attended by students and alumni. At the party, the two friends were horsing around when the first friend pulled out a revolver. He gave the revolver's cylinder a spin, put the barrel of the gun to the second friend's head and, intending to scare the second friend, said, "Hey, man, let's play Russian roulette. " The second friend, who had consumed a fifth of bourbon, was very intoxicated. Thinking that the gun was unloaded, the second friend responded, "Sure, dude. " The first friend then pulled the trigger. The gun just made a clicking sound as the hammer fell on an empty chamber of the cylinder. The two friends both laughed and continued partying. Unbeknownst to the second friend, the first friend had placed bullets in two of the revolver's six firing chambers before making his challenge. The next day, the second friend found out that the gun was, in fact, loaded when the first friend pulled the trigger. If the second friend asserts a tort action against the first friend, he will most likely
+Options:
+  A. prevail, because the first friend intended to place the second friend in apprehension.
+  B. prevail, because the first friend showed gross negligence.
+  C. not prevail, because there was no physical harm inflicted on the second friend.
+  D. prevail, because the first friend's actions were reckless and dangerous.
+  E. prevail, because there was a substantial certainty that the second friend would be placed in apprehension.
+  F. not prevail, because the second friend was unaware that the gun was loaded.
+  G. not prevail, because the first friend did not actually intend to harm the second friend.
+  H. not prevail, because the second friend consented to participate in the Russian roulette game.
+  I. not prevail, because the second friend was under the influence of alcohol.
+Answer key: F
+
+### Item PRO-4898  (subject area: history)
+Question:
+This question refers to the following information.
+"Our constitution does not copy the laws of neighboring states; we are rather a pattern to others than imitators ourselves. Its administration favors the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbor for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty. But all this ease in our private relations does not make us lawless as citizens. Against this fear is our chief safeguard, teaching us to obey the magistrates and the laws, particularly such as regard the protection of the injured, whether they are actually on the statute book, or belong to that code which, although unwritten, yet cannot be broken without acknowledged disgrace."
+Thucydides, History of the Peloponnesian War, ca. 415 B.C.E.
+During the time period in which this text was written, who was allowed to participate in the Greek democratic process?
+Options:
+  A. All children born within the geographic boundaries of the state
+  B. All adult men who have served in the military
+  C. All adult men born within the geographic boundaries of the state
+  D. Only the wealthy and influential men of the state
+  E. All adult men and women who were citizens of the state by birth
+  F. All adult men who were citizens of the state by birth
+  G. All adult men, regardless of their birthplace
+  H. All adult men and women born within the geographic boundaries of the state
+  I. All adult men and women, regardless of their birthplace
+  J. Only those who were educated and could read and write
+Answer key: F

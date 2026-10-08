@@ -1,0 +1,755 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-4999  (subject area: history)
+Question:
+Which of the following was the greatest advantage of using fire in human evolution?
+Options:
+  A. Fire can be used in warfare and to clear fields.
+  B. Fire was used to create the first forms of currency.
+  C. Fire allowed early humans to fly kites at night.
+  D. Fire was used to create intricate cave paintings.
+  E. Fire makes meat more digestible and kills bacteria.
+  F. Fire was used to scare away insects and pests.
+Answer key: E
+LINEAGE:
+- MMLU parent: prehistory#42 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following was the greatest advantage of using fire in human evolution?
+    A. Fire offers protection from predators and enemies.
+    B. Fire makes meat more digestible and kills bacteria.
+    C. Fire produces light and heat.
+    D. Fire can be used in warfare and to clear fields.
+  Parent key: B (Fire makes meat more digestible and kills bacteria.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=NEW, D=NEW, E=parent B, F=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): A (Fire offers protection from predators and enemies.), C (Fire produces light and heat.)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4928  (subject area: history)
+Question:
+What do the amount of grave goods buried with the children at Sungir' indicate?
+Options:
+  A. The children were sometimes leaders of the tribe.
+  B. The tribe had a complex system of inherited social statuses.
+  C. The tribe was involved in an intricate trade network.
+  D. The tribe practiced a form of ancestor worship and the goods were offerings to the spirits.
+  E. The tribe spent most of their time carving beads.
+Answer key: B
+LINEAGE:
+- MMLU parent: prehistory#65 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: What do the amount of grave goods buried with the children at Sungir' indicate?
+    A. The tribe spent most of their time carving beads.
+    B. The tribe was involved in an intricate trade network.
+    C. The tribe had a complex system of inherited social statuses.
+    D. The children were sometimes leaders of the tribe.
+  Parent key: C (The tribe had a complex system of inherited social statuses.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=parent C, C=parent B, D=NEW, E=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6599  (subject area: health)
+Question:
+Male to male transmission is a key feature of which pattern of inheritance?
+Options:
+  A. Autosomal incomplete dominance
+  B. X-linked dominant
+  C. Multifactorial inheritance
+  D. Mitochondrial inheritance
+  E. X-linked underdominance
+  F. X-linked recessive
+  G. Y-linked inheritance
+  H. Autosomal recessive
+  I. Autosomal dominant
+  J. X-linked overdominance
+Answer key: I
+LINEAGE:
+- MMLU parent: medical_genetics#64 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Male to male transmission is a key feature of which pattern of inheritance?
+    A. Autosomal dominant
+    B. Autosomal recessive
+    C. X-linked dominant
+    D. X-linked recessive
+  Parent key: A (Autosomal dominant)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent C, C=NEW, D=NEW, E=NEW, F=parent D, G=NEW, H=parent B, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://medizzy.com/learning/mcq/set/33896667'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5449  (subject area: other)
+Question:
+An important source of information on the credit rating of retail businesses is
+Options:
+  A. Equifax, Inc.
+  B. the National Retail Federation
+  C. the Small Business Administration
+  D. the local chamber of commerce
+  E. Moody's Corporation
+  F. the United States Department of Commerce
+  G. the Retail Merchants Association
+  H. Dun & Bradstreet, Inc.
+  I. the Better Business Bureau
+  J. the United States Retail Credit Association
+Answer key: H
+LINEAGE:
+- MMLU parent: miscellaneous#0 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: An important source of information on the credit rating of retail businesses is
+    A. the Retail Merchants Association
+    B. the local chamber of commerce
+    C. Dun & Bradstreet, Inc.
+    D. the United States Retail Credit Association
+  Parent key: C (Dun & Bradstreet, Inc.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=NEW, F=NEW, G=parent A, H=parent C, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1210  (subject area: law)
+Question:
+Some homeless people started residing on a strip of land located under a bridge. The land was owned by a nearby chemical manufacturer. The squatters did not ask permission, and the company did not feel it was an urgent problem. The squatters used a small lake on the property for bathing and drinking water. Within a few days, two squatters died from what was later revealed to be highly polluted water coming from the company's waste discharges. The company knew that it had a waste discharge problem. The estates of the two decedents sued the company. Will they likely prevail on their tort claim despite the company's defense that the decedents were trespassers?
+Options:
+  A. No, because owner owes no duty to trespassers except if it acts with willful or wanton disregard.
+  B. No, because the squatters voluntarily chose to use the polluted water, thereby assuming the risk.
+  C. Yes, because even though they trespassed, the owner had a duty to warn because it knew that they were in danger.
+  D. Yes, because the owner had a duty to ensure that its property was not causing harm to others, irrespective of their legal status.
+  E. No, because the company was unaware that the squatters were using the polluted water for bathing and drinking.
+  F. No, because the squatters should have tested the water before using it.
+  G. Yes, because the company knowingly created a hazardous condition and failed to rectify it.
+  H. No, because an owner of land never has to worry about protecting the safety of trespassers.
+  I. Yes, because the owner negligently allowed the pollution of the water.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#115 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Some homeless people started residing on a strip of land located under a bridge. The land was owned by a nearby chemical manufacturer. The squatters did not ask permission, and the company did not feel it was an urgent problem. The squatters used a small lake on the property for bathing and drinking water. Within a few days, two squatters died from what was later revealed to be highly polluted water coming from the company's waste discharges. The company knew that it had a waste discharge problem. The estates of the two decedents sued the company. Will they likely prevail on their tort claim despite the company's defense that the decedents were trespassers?
+    A. Yes, because even though they trespassed, the owner had a duty to warn because it knew that they were in danger.
+    B. Yes, because the owner was strictly liable for any injuries caused by the hazardous condition of the water in the lake.
+    C. No, because owner owes no duty to trespassers except if it acts with willful or wanton disregard.
+    D. No, because an owner of land never has to worry about protecting the safety of trespassers.
+  Parent key: A (Yes, because even though they trespassed, the owner had a duty to warn because it knew that they were in danger.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent A, D=NEW, E=NEW, F=NEW, G=NEW, H=parent D, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): B (Yes, because the owner was strictly liable for any injuries caused by the hazardous condition of the water in the lake.)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-940  (subject area: law)
+Question:
+Which of the following will not terminate a contract by operation of law?
+Options:
+  A. Change in law that makes contract impossible
+  B. Bankruptcy of one party
+  C. Expiration of the contract term
+  D. Partial performance
+  E. Supervening illegality
+  F. Death or insanity of a party.
+  G. Fulfillment of contract
+  H. Destruction of the subject matter of contract.
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_law#886 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following will not terminate a contract by operation of law?
+    A. Death or insanity of a party.
+    B. Partial performance
+    C. Destruction of the subject matter of contract.
+    D. Supervening illegality
+  Parent key: B (Partial performance)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=parent D, F=parent A, G=NEW, H=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1610  (subject area: law)
+Question:
+A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, "Well, of course, we always pay for a writer's work." She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?
+Options:
+  A. The court will rule that there can be no contract as the writer didn't explicitly state his expectation for compensation for the idea itself.
+  B. The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.
+  C. The court will rule that there was no consideration specifically mentioned and under those circumstances, the law viewed the synopsis as a gift to the producer.
+  D. The court will rule that there is an express contract because there was a meeting of the mind and mutual assent to the basic terms.
+  E. The court will rule that there was a unilateral contract, with the producer obligated to pay only if he used the idea.
+  F. The court will rule that the writer's case is invalid as there was no written agreement.
+  G. The court will rule that the producer's assistant lacked the authority to form a contract, and thus, no contract exists.
+  H. There were too many terms left out for this to be a contract, and it was too indefinite for the court to imply what the terms might have been.
+  I. The court will rule that the phone call between the writer and the producer's assistant formed a verbal contract.
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_law#493 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, "Well, of course, we always pay for a writer's work." She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?
+    A. The court will rule that there is an express contract because there was a meeting of the mind and mutual assent to the basic terms.
+    B. The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.
+    C. The court will rule that there was no consideration specifically mentioned and under those circumstances, the law viewed the synopsis as a gift to the producer.
+    D. There were too many terms left out for this to be a contract, and it was too indefinite for the court to imply what the terms might have been.
+  Parent key: B (The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=parent C, D=parent A, E=NEW, F=NEW, G=NEW, H=parent D, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5897  (subject area: other)
+Question:
+Which Pope immediately preceded John Paul II?
+Options:
+  A. Alexander VI
+  B. Hank II
+  C. John Paul III
+  D. Benedict XVI
+  E. Leo XIII
+  F. Pius XII
+  G. John XXIII
+  H. John Paul I
+  I. Paul VI
+  J. Innocent X
+Answer key: H
+LINEAGE:
+- MMLU parent: miscellaneous#337 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which Pope immediately preceded John Paul II?
+    A. John XXIII
+    B. Paul VI
+    C. John Paul I
+    D. Hank II
+  Parent key: C (John Paul I)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=NEW, D=NEW, E=NEW, F=NEW, G=parent A, H=parent C, I=parent B, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5841  (subject area: other)
+Question:
+In performing substantive tests regarding the granting of stock options to senior management of an issuer an auditor most likely would
+Options:
+  A. Interview senior management to determine their knowledge of stock options.
+  B. Confirm with the issuer's legal counsel whether the options were legally granted.
+  C. Review the public records of the SEC to determine whether the options were properly reported.
+  D. Trace the authorization for the options granted to the board of directors' approval.
+  E. Confirm with those members of management as to whether they are actually option holders.
+  F. Review the issuer's tax records to determine the tax implications of the stock options.
+  G. Verify the existence of option holders in the issuer's payroll and human resources records.
+  H. Review the minutes of the board of directors' meetings to determine if the options were discussed.
+  I. Analyze the financial reports to determine the impact of the stock options on the company's profitability.
+  J. Inspect the company's employee handbook to verify the policy on stock options.
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_accounting#92 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In performing substantive tests regarding the granting of stock options to senior management of an issuer an auditor most likely would
+    A. Confirm with those members of management as to whether they are actually option holders.
+    B. Verify the existence of option holders in the issuer's payroll and human resources records.
+    C. Trace the authorization for the options granted to the board of directors' approval.
+    D. Review the public records of the SEC to determine whether the options were properly reported.
+  Parent key: C (Trace the authorization for the options granted to the board of directors' approval.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent D, D=parent C, E=parent A, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11161  (subject area: philosophy)
+Question:
+ Select the best translation into predicate logic. Some firefighters rescue victims from danger. (Dx: x is danger; Fx: x is a firefighter; Vx: x is a victim; Rxyz: x rescues y from z)
+Options:
+  A. (∀x){Fx ⊃ (∃y)[Vy . (∃z)(Dz • Rxyz)]}
+  B. (∃x){Fx • (∀y)[Dy ⊃ (∃z)(Vz • Rxyz)]}
+  C. (∀x){Fx ⊃ (∃y)[Dy . (∃z)(Vz • Rxyz)]}
+  D. (∃x){Fx • (∀y)[Vy ⊃ (∀z)(Dz • Rxyz)]}
+  E. (∃x){Fx • (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  F. (∀x){Fx ⊃ (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  G. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rzxy)]}
+  H. (∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]}
+  I. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rxyz)]}
+  J. (∃x){Fx • (∃y)(∃z)[(Vy • Dz) • Rxzy]}
+Answer key: H
+LINEAGE:
+- MMLU parent: formal_logic#15 (MMLU test split, Hendrycks et al. 2021)
+  Parent question:  Select the best translation into predicate logic. Some firefighters rescue victims from danger. (Dx: x is danger; Fx: x is a firefighter; Vx: x is a victim; Rxyz: x rescues y from z)
+    A. (∃x){Fx • (∀y)[Dy ⊃ (∃z)(Vz • Rxyz)]}
+    B. (∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]}
+    C. (∃x){Fx • (∃y)(∃z)[(Vy • Dz) • Rxzy]}
+    D. (∀x){Fx ⊃ (∃y)[Vy . (∃z)(Dz • Rxyz)]}
+  Parent key: B ((∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]})
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=parent A, C=NEW, D=parent D, E=NEW, F=NEW, G=NEW, H=NEW, I=NEW, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10669  (subject area: computer science)
+Question:
+Statement 1| The ReLU's gradient is zero for $x<0$, and the sigmoid gradient $\sigma(x)(1-\sigma(x))\le \frac{1}{4}$ for all $x$. Statement 2| The sigmoid has a continuous gradient and the ReLU has a discontinuous gradient.
+Options:
+  A. Statement 1 is true for x < 0, statement 2 is false for x ≠ 0
+  B. True, True
+  C. True, False
+  D. Statement 1 is only true for x > 0, statement 2 is always false
+  E. False for statement 1, statement 2 is true if x ≠ 0
+  F. Statement 1 is only false for x > 0, statement 2 is always true
+  G. False for statement 1, statement 2 is true if x = 0
+  H. False, True
+  I. False, False
+  J. True for statement 1, statement 2 depends on the function
+Answer key: B
+LINEAGE:
+- MMLU parent: machine_learning#104 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Statement 1| The ReLU's gradient is zero for $x<0$, and the sigmoid gradient $\sigma(x)(1-\sigma(x))\le \frac{1}{4}$ for all $x$. Statement 2| The sigmoid has a continuous gradient and the ReLU has a discontinuous gradient.
+    A. True, True
+    B. False, False
+    C. True, False
+    D. False, True
+  Parent key: A (True, True)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=parent C, D=NEW, E=NEW, F=NEW, G=NEW, H=parent D, I=parent B, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1063  (subject area: law)
+Question:
+In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+Options:
+  A. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+  B. because the Girl Scouts of America did not know about their ownership until 2009.
+  C. because the tenant continued to occupy the apartment building after the landowner's death.
+  D. because the tenant discontinued paying rent following the landowner's death.
+  E. if the tenant was never formally notified about the landowner's will.
+  F. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+  G. because the statutory period for adverse possession had not yet been reached.
+  H. if the tenant claimed to have bought the apartment building from the landowner before her death.
+  I. because the tenant never paid taxes on the apartment building.
+  J. if the tenant made significant improvements to the apartment building.
+Answer key: A
+LINEAGE:
+- MMLU parent: professional_law#128 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+    A. because the tenant discontinued paying rent following the landowner's death.
+    B. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+    C. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+    D. because the tenant never paid taxes on the apartment building.
+  Parent key: C (if the tenant believed that his lease with the landowner was still in effect after the latter died.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=NEW, D=parent A, E=NEW, F=parent B, G=NEW, H=NEW, I=parent D, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-364  (subject area: business)
+Question:
+What is a normative perspective?
+Options:
+  A. The way things were.
+  B. The way things might have been.
+  C. The way things are going to be.
+  D. The way things are perceived to be.
+  E. The way things are.
+  F. The way things could have been.
+  G. The way things should be.
+  H. The way things were thought to be.
+  I. The way things appear to be.
+  J. The way things could be.
+Answer key: G
+LINEAGE:
+- MMLU parent: management#2 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: What is a normative perspective?
+    A. The way things are.
+    B. The way things are going to be.
+    C. The way things should be.
+    D. The way things were.
+  Parent key: C (The way things should be.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=parent B, D=NEW, E=parent A, F=NEW, G=parent C, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://laboursonline.com/onlineexamtest/mcqs-questions-answers.php?que_id=159301&test_id=1873&title=What%20is%20a%20normative%20perspective?&subid=75&subcat=MBA&test=MBA%20Principles%20and%20Practices%20of%20Management%20Mcq%20Set%207'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-9996  (subject area: physics)
+Question:
+A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+Options:
+  A. 2kT
+  B. (7/2) k T
+  C. 5kT
+  D. (1/4) k T
+  E. 3kT
+  F. kT
+  G. 4kT
+  H. (3/2) k T
+  I. (1/2) k T
+  J. (5/2) k T
+Answer key: E
+LINEAGE:
+- MMLU parent: college_physics#34 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+    A. (1/2) k T
+    B. kT
+    C. (3/2) k T
+    D. 3kT
+  Parent key: D (3kT)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent D, F=parent B, G=NEW, H=parent C, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '2001 GRE Physics Exam (GR0177 #5)'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5423  (subject area: other)
+Question:
+In which country does language pose a centrifugal force?
+Options:
+  A. Australia
+  B. Russia
+  C. Canada
+  D. Japan
+  E. Norway
+  F. Brazil
+  G. United States
+  H. Germany
+Answer key: C
+LINEAGE:
+- MMLU parent: high_school_geography#172 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In which country does language pose a centrifugal force?
+    A. Canada
+    B. United States
+    C. Brazil
+    D. Norway
+  Parent key: A (Canada)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent A, D=NEW, E=parent D, F=parent C, G=parent B, H=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1996  (subject area: psychology)
+Question:
+The information that family members continuously exchange and that helps minimize deviation and maintain the family's stability is referred to as ________ feedback.
+Options:
+  A. positive
+  B. negative
+  C. feedback loop
+  D. neutral
+  E. reciprocal
+  F. regulatory
+  G. internal
+  H. counteractive
+  I. external
+  J. circular
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_psychology#200 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The information that family members continuously exchange and that helps minimize deviation and maintain the family's stability is referred to as ________ feedback.
+    A. external
+    B. internal
+    C. negative
+    D. positive
+  Parent key: C (negative)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=parent C, C=NEW, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://www.brainscape.com/flashcards/tp-questions-for-more-review-2434502/packs/908453'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11065  (subject area: philosophy)
+Question:
+Gauthier claims that there is nothing for practical rationality to be besides:
+Options:
+  A. logical justification.
+  B. epistemic justification.
+  C. existential justification.
+  D. theoretical justification.
+  E. moral justification.
+  F. emotional justification.
+  G. deliberative justification.
+  H. an illusion.
+  I. spiritual justification.
+  J. aesthetic justification.
+Answer key: G
+LINEAGE:
+- MMLU parent: philosophy#54 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Gauthier claims that there is nothing for practical rationality to be besides:
+    A. moral justification.
+    B. deliberative justification.
+    C. epistemic justification.
+    D. an illusion.
+  Parent key: B (deliberative justification.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent C, C=NEW, D=NEW, E=parent A, F=NEW, G=parent B, H=parent D, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-936  (subject area: law)
+Question:
+A defendant, an indigent, was arrested and charged with attempted murder. The defendant, who had a history of psychiatric problems, had been diagnosed as being paranoid schizophrenic. The defendant was represented by a court-appointed attorney. In trying to prepare for trial, the attorney met with the defendant on numerous occasions. The attorney, however, found it difficult to communicate with the defendant, who, due to his paranoia, distrusted the attorney and believed he was working with the prosecution to convict him. The defendant was subsequently convicted. After the defendant was sentenced, the attorney filed an appeal seeking to overturn the conviction and have a new trial ordered. The appeal, in part, challenged the constitutionality of a state statute that placed the burden of proof on the defendant by requiring him to prove mental incompetency by clear and convincing evidence. In addition, the appeal claimed that the attorney was unable to provide adequate representation because there was a failure of communication between the defendant and his attorney. The appeal will most likely be
+Options:
+  A. granted, because the defendant has the burden to prove mental incompetency by a preponderance of the evidence, not by clear and convincing evidence.
+  B. denied, because the defendant cannot base an appeal on ineffective assistance of counsel due to his own failure to communicate with his lawyer.
+  C. denied, because it is constitutionally permissible to place the burden on the defendant to prove mental incompetency by clear and convincing evidence.
+  D. granted, because the prosecution has the burden to prove the defendant's competency by a preponderance of evidence.
+  E. denied, because the burden of proof lies with the defendant in cases of mental incompetency.
+  F. granted, because the state statute is unconstitutional as it places an undue burden on the defendant.
+  G. denied, because the defendant's own paranoia and distrust led to the breakdown in communication with his attorney.
+  H. granted, because the defendant's mental condition prevented him from effectively communicating with his attorney.
+  I. granted, because the attorney was unable to provide adequate representation due to the defendant's mental condition.
+  J. denied, because the defendant's mental incompetency does not absolve him of the crime he has been accused of.
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_law#841 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A defendant, an indigent, was arrested and charged with attempted murder. The defendant, who had a history of psychiatric problems, had been diagnosed as being paranoid schizophrenic. The defendant was represented by a court-appointed attorney. In trying to prepare for trial, the attorney met with the defendant on numerous occasions. The attorney, however, found it difficult to communicate with the defendant, who, due to his paranoia, distrusted the attorney and believed he was working with the prosecution to convict him. The defendant was subsequently convicted. After the defendant was sentenced, the attorney filed an appeal seeking to overturn the conviction and have a new trial ordered. The appeal, in part, challenged the constitutionality of a state statute that placed the burden of proof on the defendant by requiring him to prove mental incompetency by clear and convincing evidence. In addition, the appeal claimed that the attorney was unable to provide adequate representation because there was a failure of communication between the defendant and his attorney. The appeal will most likely be
+    A. granted, because the prosecution has the burden to prove the defendant's competency by a preponderance of evidence.
+    B. granted, because the defendant has the burden to prove mental incompetency by a preponderance of the evidence, not by clear and convincing evidence.
+    C. denied, because it is constitutionally permissible to place the burden on the defendant to prove mental incompetency by clear and convincing evidence.
+    D. denied, because the defendant cannot base an appeal on ineffective assistance of counsel due to his own failure to communicate with his lawyer.
+  Parent key: A (granted, because the prosecution has the burden to prove the defendant's competency by a preponderance of evidence.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=parent D, C=parent C, D=parent A, E=NEW, F=NEW, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-7631  (subject area: economics)
+Question:
+How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR     VALUE OF THE DOLLAR
+Options:
+  A. Increased supply     Depreciating
+  B. Decreased supply     Appreciating
+  C. No change in supply     Appreciating
+  D. Increased demand     Depreciating
+  E. Decreased demand     Appreciating
+  F. Increased demand     Appreciating
+  G. Decreased supply     Depreciating
+  H. Increased supply     Appreciating
+  I. No change in demand     Depreciating
+Answer key: F
+LINEAGE:
+- MMLU parent: high_school_macroeconomics#180 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR     VALUE OF THE DOLLAR
+    A. Increased demand     Appreciating
+    B. Increased supply     Appreciating
+    C. Decreased supply     Depreciating
+    D. Decreased demand     Depreciating
+  Parent key: A (Increased demand     Appreciating)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=NEW, F=parent A, G=parent C, H=parent B, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): D (Decreased demand     Depreciating)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6986  (subject area: economics)
+Question:
+The demand curve for labor is derived from
+Options:
+  A. the demand curve for the output produced by labor
+  B. the demand curve for the input used by labor
+  C. the aggregate demand in the economy
+  D. the market labor demand curve
+  E. the equilibrium employment level in the labor market
+  F. the labor supply curve for the firm
+  G. the price elasticity of demand for labor
+  H. the product supply curve for the firm
+  I. the labor demand curve for the industry
+  J. the equilibrium wage in the labor market
+Answer key: A
+LINEAGE:
+- MMLU parent: high_school_microeconomics#224 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The demand curve for labor is derived from
+    A. the market labor demand curve
+    B. the demand curve for the output produced by labor
+    C. the labor supply curve for the firm
+    D. the equilibrium wage in the labor market
+  Parent key: B (the demand curve for the output produced by labor)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=NEW, C=NEW, D=parent A, E=NEW, F=parent C, G=NEW, H=NEW, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2530  (subject area: psychology)
+Question:
+Which of the following is the best example of an attribute that is culturally-based rather than primarily psychologically-based?
+Options:
+  A. Having the desire to reproduce
+  B. Following a particular dress code
+  C. Arriving on time for work
+  D. Fearing death
+  E. Preference for certain types of foods
+  F. Responding to physical pain
+  G. Caring for one's children
+  H. Needing sleep
+  I. Seeking safety
+  J. Seeking food and water
+Answer key: C
+LINEAGE:
+- MMLU parent: high_school_psychology#285 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following is the best example of an attribute that is culturally-based rather than primarily psychologically-based?
+    A. Caring for one's children
+    B. Arriving on time for work
+    C. Having the desire to reproduce
+    D. Seeking food and water
+  Parent key: B (Arriving on time for work)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent B, D=NEW, E=NEW, F=NEW, G=parent A, H=NEW, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-766  (subject area: business)
+Question:
+Vertical integration forwards is when a firm mergers or acquires another
+Options:
+  A. Towards the consumer
+  B. With a competitor
+  C. At the same stage of the supply chain
+  D. In a different country
+  E. Towards the manufacturer
+  F. Towards the source of supply
+  G. In another industry
+  H. At a different stage of the supply chain
+  I. Towards the supplier of raw materials
+Answer key: A
+LINEAGE:
+- MMLU parent: management#95 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Vertical integration forwards is when a firm mergers or acquires another
+    A. Towards the source of supply
+    B. Towards the consumer
+    C. At the same stage of the supply chain
+    D. In another industry
+  Parent key: B (Towards the consumer)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=NEW, C=parent C, D=NEW, E=NEW, F=parent A, G=parent D, H=NEW, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/uk/orc/busecon/business/combe/student/mcqs/ch14/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-8150  (subject area: math)
+Question:
+A number, rounded to the nearest thousand,is 47,000. Which number could be the number that was rounded?
+Options:
+  A. 46,504
+  B. 46,295
+  C. 47,924
+  D. 47,999
+  E. 47,520
+  F. 47,500
+Answer key: A
+LINEAGE:
+- MMLU parent: elementary_mathematics#349 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A number, rounded to the nearest thousand,is 47,000. Which number could be the number that was rounded?
+    A. 46,295
+    B. 46,504
+    C. 47,520
+    D. 47,924
+  Parent key: B (46,504)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=parent A, C=parent D, D=NEW, E=parent C, F=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5185  (subject area: other)
+Question:
+On January 1, year 1, a company purchased equipment for $100 million. The equipment consists of four major components, of which two components comprise 80% of the total cost and each has a 20-year useful life. The remaining two components have costs of $10 million each; one of them has a useful life of four years, and the other has a useful life of five years. The company applies the cost model to the equipment and uses the straight-line method of depreciation. Under IFRS, what is the depreciation expense for the year ended December 31, year 1?
+Options:
+  A. $7,500,000
+  B. $5,000,000
+  C. $6,000,000
+  D. $8,000,000
+  E. $10,000,000
+  F. $9,500,000
+  G. $7,000,000
+  H. $4,000,000
+  I. $9,000,000
+  J. $8,500,000
+Answer key: J
+LINEAGE:
+- MMLU parent: professional_accounting#57 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: On January 1, year 1, a company purchased equipment for $100 million. The equipment consists of four major components, of which two components comprise 80% of the total cost and each has a 20-year useful life. The remaining two components have costs of $10 million each; one of them has a useful life of four years, and the other has a useful life of five years. The company applies the cost model to the equipment and uses the straight-line method of depreciation. Under IFRS, what is the depreciation expense for the year ended December 31, year 1?
+    A. $4,000,000
+    B. $5,000,000
+    C. $8,000,000
+    D. $8,500,000
+  Parent key: D ($8,500,000)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=parent C, E=NEW, F=NEW, G=NEW, H=parent A, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6891  (subject area: economics)
+Question:
+Which of the following statements is true?
+Options:
+  A. The demand for loanable funds consists of savers.
+  B. Real GDP is the sum of the money supply and the velocity of money.
+  C. The supply of loanable funds is solely determined by the central bank's policies.
+  D. Dollars earned today have more purchasing power than dollars earned a year from today.
+  E. The velocity of money is the speed at which the stock market indices change.
+  F. The demand for loanable funds is entirely driven by government borrowing.
+  G. Purchasing power parity ensures that dollars have the same value across all time periods.
+  H. The supply of loanable funds consists of investors.
+  I. Inflation rates are inversely proportional to the velocity of money at all times.
+Answer key: D
+LINEAGE:
+- MMLU parent: high_school_macroeconomics#214 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following statements is true?
+    A. The velocity of money is equal to real GDP divided by the money supply.
+    B. Dollars earned today have more purchasing power than dollars earned a year from today.
+    C. The supply of loanable funds consists of investors.
+    D. The demand for loanable funds consists of savers.
+  Parent key: B (Dollars earned today have more purchasing power than dollars earned a year from today.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=NEW, D=parent B, E=NEW, F=NEW, G=NEW, H=parent C, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): A (The velocity of money is equal to real GDP divided by the money supply.)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.

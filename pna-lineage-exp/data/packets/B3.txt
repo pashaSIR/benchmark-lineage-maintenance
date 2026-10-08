@@ -1,0 +1,774 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-4944  (subject area: history)
+Question:
+This question refers to the following information.
+Read the the following petition to answer questions.
+The Scribbling-Machines have thrown thousands of your petitioners out of employ, whereby they are brought into great distress, and are not able to procure a maintenance for their families, and deprived them of the opportunity of bringing up their children to labour. … The number of Scribbling-Machines extending about seventeen miles south-west of Leeds exceed all belief, being no less than one hundred and seventy! And as each machine will do as much work in twelve hours, as ten men can in that time do by hand, … [And, as the machines do] as much work in one day as would otherwise employ twenty men, … [a] full four thousand men are left to shift for a living how they can, and must of course fall to the Parish, if not timely relieved. … How are those men, thus thrown out of employ to provide for their families; and what are they to put their children apprentice to, that the rising generation may have something to keep them at work, in order that they may not be like vagabonds strolling about in idleness? … Many more evils we could enumerate, but we would hope, that the sensible part of mankind, who are not biased by interest, must see the dreadful tendency of their continuance; a depopulation must be the consequence; trade being then lost, the landed interest will have no other satisfaction but that of being last devoured.
+Leeds Woolen Workers Petition, 1786
+This document can be used as evidence for
+Options:
+  A. the rise of the Luddite movement in Britain in the eighteenth century
+  B. the decline of the British economy in the eighteenth century
+  C. the protest against child labor in the eighteenth century Britain
+  D. the rise of trade unions in Britain in the eighteenth century
+  E. the spread of revolutionary ideas among the British working class in the eighteenth century
+  F. an increase in the use of child labor in eighteenth-century Britain
+  G. the replacing of traditional laborers by machines in the industrialization of Britain in the eighteenth century
+Answer key: G
+LINEAGE:
+- MMLU parent: high_school_european_history#8 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: This question refers to the following information.
+Read the the following petition to answer questions.
+The Scribbling-Machines have thrown thousands of your petitioners out of employ, whereby they are brought into great distress, and are not able to procure a maintenance for their families, and deprived them of the opportunity of bringing up their children to labour. … The number of Scribbling-Machines extending about seventeen miles south-west of Leeds exceed all belief, being no less than one hundred and seventy! And as each machine will do as much work in twelve hours, as ten men can in that time do by hand, … [And, as the machines do] as much work in one day as would otherwise employ twenty men, … [a] full four thousand men are left to shift for a living how they can, and must of course fall to the Parish, if not timely relieved. … How are those men, thus thrown out of employ to provide for their families; and what are they to put their children apprentice to, that the rising generation may have something to keep them at work, in order that they may not be like vagabonds strolling about in idleness? … Many more evils we could enumerate, but we would hope, that the sensible part of mankind, who are not biased by interest, must see the dreadful tendency of their continuance; a depopulation must be the consequence; trade being then lost, the landed interest will have no other satisfaction but that of being last devoured.
+Leeds Woolen Workers Petition, 1786
+This document can be used as evidence for
+    A. the spread of revolutionary ideas among the British working class in the eighteenth century
+    B. the rise of the Luddite movement in Britain in the eighteenth century
+    C. the replacing of traditional laborers by machines in the industrialization of Britain in the eighteenth century
+    D. an increase in the use of child labor in eighteenth-century Britain
+  Parent key: C (the replacing of traditional laborers by machines in the industrialization of Britain in the eighteenth century)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=NEW, C=NEW, D=NEW, E=parent A, F=parent D, G=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11115  (subject area: philosophy)
+Question:
+According to Socrates, the value or quality of one's life depends on understanding the principles of, or basic rationale for human existence.  Without such knowledge (he suggests) life lacks virtue, because:
+Options:
+  A. understanding existence philosophically leads to personal satisfaction.
+  B. one's life lacks virtue if they do not contribute to society.
+  C. ignorance is a virtue in itself, as it leads to humility.
+  D. philosophical understanding is not necessary as long as one is happy.
+  E. acting virtuously means acting in way that is informed about what one is doing and why.
+  F. virtue is irrelevant to the quality of life.
+  G. someone who does not understand existence philosophically could never do anything right.
+  H. not only is virtue knowledge but also the unexamined life is not worth living.
+  I. the value of life is determined by one's personal wealth and status.
+  J. to have the power or ability to do anything at all requires that we know what we are doing.
+Answer key: E
+LINEAGE:
+- MMLU parent: philosophy#161 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: According to Socrates, the value or quality of one's life depends on understanding the principles of, or basic rationale for human existence.  Without such knowledge (he suggests) life lacks virtue, because:
+    A. acting virtuously means acting in way that is informed about what one is doing and why.
+    B. someone who does not understand existence philosophically could never do anything right.
+    C. to have the power or ability to do anything at all requires that we know what we are doing.
+    D. not only is virtue knowledge but also the unexamined life is not worth living.
+  Parent key: A (acting virtuously means acting in way that is informed about what one is doing and why.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent A, F=NEW, G=parent B, H=parent D, I=NEW, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6154  (subject area: health)
+Question:
+The term "senescence" refers to
+Options:
+  A. The loss of physical abilities
+  B. The process of cellular division
+  C. The development of disease
+  D. Biological aging
+  E. The process of becoming older
+  F. The acquisition of knowledge and wisdom
+  G. The loss of mental abilities
+  H. The process of physical growth
+  I. An increased vulnerability
+  J. The increase in physical strength
+Answer key: I
+LINEAGE:
+- MMLU parent: human_aging#182 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The term "senescence" refers to
+    A. An increased vulnerability
+    B. The process of becoming older
+    C. The loss of mental abilities
+    D. Biological aging
+  Parent key: A (An increased vulnerability)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent D, E=parent B, F=NEW, G=parent C, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-3112  (subject area: biology)
+Question:
+In plants, the tendency of climbing vines to twine their tendrils around a trellis is called
+Options:
+  A. thermotropism
+  B. geotropism
+  C. heliotropism
+  D. phototropism
+  E. rheotropism
+  F. gravitropism
+  G. hydrotropism
+  H. skototropism
+  I. chemotropism
+  J. thigmotropism
+Answer key: J
+LINEAGE:
+- MMLU parent: high_school_biology#177 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In plants, the tendency of climbing vines to twine their tendrils around a trellis is called
+    A. thigmotropism
+    B. hydrotropism
+    C. phototropism
+    D. geotropism
+  Parent key: A (thigmotropism)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=NEW, D=parent C, E=NEW, F=NEW, G=parent B, H=NEW, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-8907  (subject area: math)
+Question:
+Find the GCD of 25 and 55.
+Options:
+  A. 275
+  B. 15
+  C. 20
+  D. 50
+  E. 11
+  F. 30
+  G. 5
+  H. 10
+  I. 25
+  J. 35
+Answer key: G
+LINEAGE:
+- MMLU parent: elementary_mathematics#202 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Find the GCD of 25 and 55.
+    A. 5
+    B. 11
+    C. 50
+    D. 275
+  Parent key: A (5)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=NEW, D=parent C, E=parent B, F=NEW, G=parent A, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; proposed correct answer = '5'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1271  (subject area: law)
+Question:
+Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+Options:
+  A. denied, because the delay did not infringe upon the defendant's rights.
+  B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+  C. granted, because the defendant was not given the opportunity to confront his accuser.
+  D. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+  E. denied, because the delay was not excessive and was for a permissible purpose.
+  F. granted, because the only eyewitness to the crime died before the trial.
+  G. denied, because the defendant was eventually charged within the statute of limitations.
+  H. denied, because the prosecutor had a valid reason to delay the indictment.
+  I. granted, because the prosecutor failed to find the defendant's accomplice.
+  J. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+Answer key: E
+LINEAGE:
+- MMLU parent: professional_law#1364 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+    A. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+    B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+    C. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+    D. denied, because the delay was not excessive and was for a permissible purpose.
+  Parent key: D (denied, because the delay was not excessive and was for a permissible purpose.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=parent C, E=parent D, F=NEW, G=NEW, H=NEW, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1406  (subject area: law)
+Question:
+A woman joined a web site to get her credit reports. The site required creation of an account before she could enter. On that form, a notice appeared in bold letters: "TERMS AND CONDITIONS: This is a Contract. By creating an account, you agree to and accept the terms and conditions for use of this website." She did not access the terms, which she could have done by clicking a conspicuous link. She started an account and paid $50 for a credit report. For the next 6 months, her credit card was automatically billed $50, without notice, except that she received email notice that the report was available at the site. The terms and conditions provided that she authorized the charges, unless she notified the company otherwise in advance. Which party will likely prevail on the issue of whether she was bound to pay for the 6 months until she canceled?
+Options:
+  A. The company will prevail because the woman had the opportunity to review the terms and conditions before agreeing to them.
+  B. The company will prevail because the provision notifying her of the contract is in bold and the contract is easily accessible.
+  C. The woman will prevail because terms and conditions have been ruled to be contracts of adhesion that are largely unenforceable.
+  D. The woman will prevail because the terms and conditions, or important parts, must be described on the 'create an account' page, which was not done here.
+  E. The company will prevail because the woman failed to cancel her subscription and thus implicitly agreed to the terms.
+  F. The company will prevail because any mention of terms and conditions is enough to put the prospective member on notice of contract terms.
+  G. The woman will prevail because she did not explicitly agree to the recurring charges.
+  H. The woman will prevail because she was not given explicit notice of the recurring charges.
+  I. The company will prevail because the woman did not cancel her subscription and thus accepted the terms.
+  J. The woman will prevail because the terms were not explicitly stated before she made the initial payment.
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_law#248 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A woman joined a web site to get her credit reports. The site required creation of an account before she could enter. On that form, a notice appeared in bold letters: "TERMS AND CONDITIONS: This is a Contract. By creating an account, you agree to and accept the terms and conditions for use of this website." She did not access the terms, which she could have done by clicking a conspicuous link. She started an account and paid $50 for a credit report. For the next 6 months, her credit card was automatically billed $50, without notice, except that she received email notice that the report was available at the site. The terms and conditions provided that she authorized the charges, unless she notified the company otherwise in advance. Which party will likely prevail on the issue of whether she was bound to pay for the 6 months until she canceled?
+    A. The woman will prevail because terms and conditions have been ruled to be contracts of adhesion that are largely unenforceable.
+    B. The company will prevail because the provision notifying her of the contract is in bold and the contract is easily accessible.
+    C. The woman will prevail because the terms and conditions, or important parts, must be described on the 'create an account' page, which was not done here.
+    D. The company will prevail because any mention of terms and conditions is enough to put the prospective member on notice of contract terms.
+  Parent key: B (The company will prevail because the provision notifying her of the contract is in bold and the contract is easily accessible.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=parent A, D=parent C, E=NEW, F=parent D, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2385  (subject area: psychology)
+Question:
+Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+Options:
+  A. Leave without informing his clients of his absence.
+  B. give his clients a phone number where he can be reached.
+  C. Provide his clients with online resources to manage their issues in his absence.
+  D. Continue his sessions via phone calls or video conferencing while on vacation.
+  E. Inform his clients only a day before his departure about his unavailability.
+  F. Cancel all appointments for the duration of his vacation without informing his clients.
+  G. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+  H. hire a colleague to take over his appointments while he is on vacation.
+  I. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+  J. Arrange for a colleague to provide only emergency sessions, while regular appointments are paused.
+Answer key: I
+LINEAGE:
+- MMLU parent: professional_psychology#273 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+    A. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+    B. give his clients a phone number where he can be reached.
+    C. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+    D. hire a colleague to take over his appointments while he is on vacation.
+  Parent key: C (give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=NEW, E=NEW, F=NEW, G=parent A, H=parent D, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10651  (subject area: computer science)
+Question:
+Consider the following assumptions about electronic storage for the text in all the books of a university's libraries. - The libraries at the university collectively contain 3 million books. - A book contains an average of 400 pages. - A page contains an average of 50 lines. - A line on a page contains an average of 10 words. - A word contains an average of 5 letters/characters. - A letter/character is represented by 1 byte. Based on the given assumptions, which of the following is the unit in which the electronic storage required for the text in all the books of the university's libraries would best be measured?
+Options:
+  A. Kilobyte (2^10 or approximately 10^3 bytes)
+  B. Petabyte ( 2^50 or approximately 10^15 bytes)
+  C. Yottabyte (2^80 or approximately 10^24 bytes)
+  D. Exabyte (2^60 or approximately 10^18 bytes)
+  E. Byte (1 byte)
+  F. Bit (1/8 of a byte)
+  G. Zettabyte (2^70 or approximately 10^21 bytes)
+  H. Terabyte ( 2^40 or approximately 10^12 bytes)
+  I. Gigabyte ( 2^30 or approximately 10^9 bytes)
+  J. Megabyte ( 2^20 or approximately 10^6 bytes)
+Answer key: H
+LINEAGE:
+- MMLU parent: high_school_computer_science#81 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Consider the following assumptions about electronic storage for the text in all the books of a university's libraries. - The libraries at the university collectively contain 3 million books. - A book contains an average of 400 pages. - A page contains an average of 50 lines. - A line on a page contains an average of 10 words. - A word contains an average of 5 letters/characters. - A letter/character is represented by 1 byte. Based on the given assumptions, which of the following is the unit in which the electronic storage required for the text in all the books of the university's libraries would best be measured?
+    A. Megabyte ( 2^20 or approximately 10^6 bytes)
+    B. Gigabyte ( 2^30 or approximately 10^9 bytes)
+    C. Terabyte ( 2^40 or approximately 10^12 bytes)
+    D. Petabyte ( 2^50 or approximately 10^15 bytes)
+  Parent key: C (Terabyte ( 2^40 or approximately 10^12 bytes))
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=NEW, D=NEW, E=NEW, F=NEW, G=NEW, H=parent C, I=parent B, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-8975  (subject area: math)
+Question:
+Statement 1 | If H is a subgroup of G and a belongs to G then aH is a subgroup of G if and only if a is in H. Statement 2 | If H is a subgroup of G and a and b belong to G then aH = bH if and only if ab is in H.
+Options:
+  A. True, True
+  B. False, False
+  C. True, False
+  D. False, True
+Answer key: C
+LINEAGE:
+- MMLU parent: abstract_algebra#95 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Statement 1 | If H is a subgroup of G and a belongs to G then aH is a subgroup of G if and only if a is in H. Statement 2 | If H is a subgroup of G and a and b belong to G then aH = bH if and only if ab is in H.
+    A. True, True
+    B. False, False
+    C. True, False
+    D. False, True
+  Parent key: C (True, False)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '1: https://math.stackexchange.com/questions/579341/condition-on-a-coset-to-be-a-subgroup\r\n\r\n2: https://en.wikipedia.org/wiki/Coset#Properties1: https://math.stackexchange.com/questions/64371/showing-group-with-p2-elements-is-abelian?noredirect=1&lq=1\r\n2: https://proofwiki.org/wiki/Sylow_p-Subgroup_is_Unique_iff_Normal#:~:text=If%20G%20has%20precisely%20one,one%20such%20Sylow%20p-subgroup.'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-9586  (subject area: physics)
+Question:
+Which planet(s) in the solar system has/have active plate tectonics?
+Options:
+  A. None of the above
+  B. Venus
+  C. Saturn
+  D. Venus and Mars
+  E. Neptune
+  F. Uranus
+  G. Earth
+  H. Mars and Earth
+  I. Mars
+  J. Jupiter
+Answer key: G
+LINEAGE:
+- MMLU parent: astronomy#122 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which planet(s) in the solar system has/have active plate tectonics?
+    A. Mars
+    B. Venus
+    C. Earth
+    D. Mars and Earth
+  Parent key: C (Earth)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=NEW, E=NEW, F=NEW, G=parent C, H=parent D, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; proposed correct answer = 'Earth'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2863  (subject area: biology)
+Question:
+This process has as its products NADP+, ADP, and sugar.
+Options:
+  A. Oxidative phosphorylation
+  B. Glycolysis
+  C. Beta oxidation
+  D. Chemiosmosis
+  E. Light-dependent reactions
+  F. Pyruvate oxidation
+  G. Fermentation
+  H. Calvin cycle
+  I. Krebs cycle
+  J. Anaerobic respiration
+Answer key: H
+LINEAGE:
+- MMLU parent: high_school_biology#297 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: This process has as its products NADP+, ADP, and sugar.
+    A. Glycolysis
+    B. Chemiosmosis
+    C. Fermentation
+    D. Calvin cycle
+  Parent key: D (Calvin cycle)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=NEW, D=parent B, E=NEW, F=NEW, G=parent C, H=parent D, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://en.wikipedia.org/wiki/Calvin_cycle'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-7746  (subject area: math)
+Question:
+If g (x) = f (–x) for all real numbers x, and if (3, 2) is a point on the graph of g, which of the following points MUST be on the graph of f ?
+Options:
+  A. (–2, 3)
+  B. (2, –3)
+  C. (3, 2)
+  D. (–3, –2)
+  E. (–2, 2)
+  F. (2, –2)
+  G. (2, 3)
+  H. (–3, 2)
+  I. (3, –2)
+  J. (–2, –3)
+Answer key: H
+LINEAGE:
+- MMLU parent: high_school_mathematics#199 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: If g (x) = f (–x) for all real numbers x, and if (3, 2) is a point on the graph of g, which of the following points MUST be on the graph of f ?
+    A. (3, 2)
+    B. (3, –2)
+    C. (–3, 2)
+    D. (–3, –2)
+  Parent key: C ((–3, 2))
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent A, D=parent B, E=NEW, F=NEW, G=NEW, H=parent C, I=parent D, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1241  (subject area: law)
+Question:
+A man owned a piece of land with a run-down log cabin on it. He lost interest in it, letting tax bills pile up and failing to maintain it. In 1990, a homeless couple occupied the crumbling cabin. They restored it, fenced the perimeter, and maintained the grounds. They started paying the taxes, despite knowing there was an absentee owner. In 2000, the owner appeared and demanded that they pay rent. They agreed but stopped the payments two years later after consulting an attorney. The required statutory period in the state is 20 years. In 2011 the owner filed an ejectment action, asserting his ownership rights. Leaving aside any other theories or equities, can the couple prevail on a theory of adverse possession?
+Options:
+  A. No, because the statutory period had not been met when the owner filed for ejectment.
+  B. Yes, because they maintained the grounds of the property.
+  C. Yes, because they had exclusive possession of the property.
+  D. Yes, because they were on the land for over 20 years.
+  E. Yes, because they owned the property due to paying the taxes on it.
+  F. No, because they missed some of the tax payments during that 20-year period.
+  G. No, because they knew there was an absentee owner.
+  H. Yes, because they made improvements to the property.
+  I. No, because the hostile possession was interrupted for two years when they paid rent.
+  J. No, because they did not have a legal claim to the property.
+Answer key: I
+LINEAGE:
+- MMLU parent: professional_law#708 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A man owned a piece of land with a run-down log cabin on it. He lost interest in it, letting tax bills pile up and failing to maintain it. In 1990, a homeless couple occupied the crumbling cabin. They restored it, fenced the perimeter, and maintained the grounds. They started paying the taxes, despite knowing there was an absentee owner. In 2000, the owner appeared and demanded that they pay rent. They agreed but stopped the payments two years later after consulting an attorney. The required statutory period in the state is 20 years. In 2011 the owner filed an ejectment action, asserting his ownership rights. Leaving aside any other theories or equities, can the couple prevail on a theory of adverse possession?
+    A. Yes, because they were on the land for over 20 years.
+    B. No, because they missed some of the tax payments during that 20-year period.
+    C. No, because the hostile possession was interrupted for two years when they paid rent.
+    D. Yes, because they owned the property due to paying the taxes on it.
+  Parent key: C (No, because the hostile possession was interrupted for two years when they paid rent.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent A, E=parent D, F=parent B, G=NEW, H=NEW, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11215  (subject area: philosophy)
+Question:
+Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.
+Options:
+  A. existentialist
+  B. ideological
+  C. apathetic
+  D. agnostic
+  E. secular
+  F. spiritual
+  G. religious
+  H. philosophical
+  I. pragmatic
+  J. nonreligious
+Answer key: G
+LINEAGE:
+- MMLU parent: philosophy#171 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.
+    A. secular
+    B. nonreligious
+    C. religious
+    D. pragmatic
+  Parent key: C (religious)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent A, F=NEW, G=parent C, H=NEW, I=parent D, J=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/us/companion.websites/9780190207038/stu_res/ch9/lev2/mcq/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10762  (subject area: computer science)
+Question:
+Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?
+1. An attacker replacing bytes sent by a client with bytes of the attacker’s own choosing.
+2. An attacker reading the plaintext bytes sent by a client.
+Options:
+  A. False, True
+  B. False, False
+  C. False, Partly True
+  D. Partly True, False
+  E. True, False
+  F. True, Partly False
+  G. True, Partly True
+  H. Partly False, True
+  I. True, True
+  J. Partly True, True
+Answer key: I
+LINEAGE:
+- MMLU parent: computer_security#44 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?
+1. An attacker replacing bytes sent by a client with bytes of the attacker’s own choosing.
+2. An attacker reading the plaintext bytes sent by a client.
+    A. True, True
+    B. False, False
+    C. True, False
+    D. False, True
+  Parent key: A (True, True)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=parent B, C=NEW, D=NEW, E=parent C, F=NEW, G=NEW, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://css.csail.mit.edu/6.858/2015/quiz/q15-2-sol.pdf'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1684  (subject area: law)
+Question:
+A landlord was the owner of a two-story dwelling house and leased it completely furnished to a tenant for a 10-year period. Two years after the tenant entered into the leasehold agreement with the landlord, he subleases the house to his cousin. Thereafter, the cousin defaults on the rental payments. If the landlord brings an action to recover the past rent due from the cousin, the landlord will:
+Options:
+  A. recover, because pnvity of estate exists between a landlord and sublessee.
+  B. recover, because there is privity of contract between a landlord and sublessee.
+  C. recover, because there is both privity of estate and privity of contract between a landlord and sublessee.
+  D. not recover, because privity of estate does not exist between the landlord and sublessee.
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_law#207 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A landlord was the owner of a two-story dwelling house and leased it completely furnished to a tenant for a 10-year period. Two years after the tenant entered into the leasehold agreement with the landlord, he subleases the house to his cousin. Thereafter, the cousin defaults on the rental payments. If the landlord brings an action to recover the past rent due from the cousin, the landlord will:
+    A. recover, because pnvity of estate exists between a landlord and sublessee.
+    B. recover, because there is privity of contract between a landlord and sublessee.
+    C. recover, because there is both privity of estate and privity of contract between a landlord and sublessee.
+    D. not recover, because privity of estate does not exist between the landlord and sublessee.
+  Parent key: D (not recover, because privity of estate does not exist between the landlord and sublessee.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4933  (subject area: history)
+Question:
+What occupation date do most archaeologists agree on for Australia?
+Options:
+  A. soon after 60,000 years ago
+  B. approximately 50,000 years ago
+  C. no earlier than 100,000 years ago
+  D. soon after 30,000 years ago
+  E. no later than 70,000 years ago
+  F. soon after 80,000 years ago
+  G. no earlier than 80,000 years ago
+  H. soon after 40,000 years ago
+  I. approximately 25,000 years ago
+  J. no earlier than 20,000 years ago
+Answer key: H
+LINEAGE:
+- MMLU parent: prehistory#169 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: What occupation date do most archaeologists agree on for Australia?
+    A. no earlier than 80,000 years ago
+    B. soon after 60,000 years ago
+    C. soon after 40,000 years ago
+    D. no earlier than 20,000 years ago
+  Parent key: C (soon after 40,000 years ago)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=NEW, C=NEW, D=NEW, E=NEW, F=NEW, G=parent A, H=parent C, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/us/companion.websites/9780190275853/resources/ch7/quiz/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1420  (subject area: law)
+Question:
+A college student initiated a criminal case against his former roommate, claiming the former roommate snuck in and removed his state-of-the-art home theater equipment from his house. The college student took the complaint papers that were approved by the prosecution and filed them with a magistrate court. An ongoing police investigation later determined, however, that the college student was a vengeful person not averse to creating stories, and that he and the former roommate had been arguing over several related issues. They also determined that he never had any quality sound or video equipment. The police dropped the prosecution, and the criminal case was dismissed at the preliminary hearing. When the former roommate filed a civil case against the college student alleging the tort of malicious prosecution, will evidence of the student's reputation for dishonesty be admissible and why? 
+Options:
+  A. No, because character evidence is never admissible in any case.
+  B. No, because reputation evidence is considered too prejudicial to be admissible.
+  C. Yes, because the student's dishonesty directly affects the credibility of his initial criminal complaint.
+  D. No, because the past reputation of a person is not considered as evidence in court.
+  E. No, because character evidence is only admissible if it is directly related to the act in question.
+  F. Yes, because the student's reputation for dishonesty directly relates to the tort of malicious prosecution.
+  G. Yes, because reputation evidence, just like most character evidence, is virtually always admissible.
+  H. Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.
+  I. Yes, because while most character evidence is not admissible, some is, and reputation evidence is always admissible.
+  J. Yes, because dishonesty at any time in the past is always relevant to a malicious prosecution complaint.
+Answer key: H
+LINEAGE:
+- MMLU parent: professional_law#376 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A college student initiated a criminal case against his former roommate, claiming the former roommate snuck in and removed his state-of-the-art home theater equipment from his house. The college student took the complaint papers that were approved by the prosecution and filed them with a magistrate court. An ongoing police investigation later determined, however, that the college student was a vengeful person not averse to creating stories, and that he and the former roommate had been arguing over several related issues. They also determined that he never had any quality sound or video equipment. The police dropped the prosecution, and the criminal case was dismissed at the preliminary hearing. When the former roommate filed a civil case against the college student alleging the tort of malicious prosecution, will evidence of the student's reputation for dishonesty be admissible and why?
+    A. Yes, because dishonesty at any time in the past is always relevant to a malicious prosecution complaint.
+    B. Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.
+    C. Yes, because reputation evidence, just like most character evidence, is virtually always admissible.
+    D. Yes, because while most character evidence is not admissible, some is, and reputation evidence is always admissible.
+  Parent key: B (Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=NEW, F=NEW, G=parent C, H=parent B, I=parent D, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): stem changed; options changed (late-2024 options: A. Yes, because the student's reputation for dishonesty directly relates to the tort of malicious prosecution.; B. No, because reputation evidence is considered too prejudicial to be admissible.; C. Yes, because dishonesty at any time in the past is always relevant to a malicious prosecution complaint.; D. Yes, because the student's dishonesty directly affects the credibility of his initial criminal complaint.; E. Yes, because reputation evidence, just like most character evidence, is virtually always admissible.; F. Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.; G. No, because character evidence is only admissible if it is directly related to the act in question.; H. No, because the past reputation of a person is not considered as evidence in court.; I. Yes, because while most character evidence is not admissible, some is, and reputation evidence is always admissible.; J. No, because character evidence is never admissible in any case.); key changed from F ('Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.') in late 2024 to H now
+
+### Item PRO-9588  (subject area: physics)
+Question:
+A heat pump is to extract heat from an outdoor environment at 7°C and heat the environment indoors to 27°C. For each 15,000 J of heat delivered indoors, the smallest amount of work that must be supplied to the heat pump is approximately
+Options:
+  A. 1,500 J
+  B. 1,000 J
+  C. 700 J
+  D. 3,500 J
+  E. 500 J
+  F. 4,000 J
+  G. 1,100 J
+  H. 3,000 J
+  I. 2,000 J
+  J. 2,500 J
+Answer key: B
+LINEAGE:
+- MMLU parent: college_physics#45 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A heat pump is to extract heat from an outdoor environment at 7°C and heat the environment indoors to 27°C. For each 15,000 J of heat delivered indoors, the smallest amount of work that must be supplied to the heat pump is approximately
+    A. 500 J
+    B. 1,000 J
+    C. 1,100 J
+    D. 2,000 J
+  Parent key: B (1,000 J)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=NEW, E=parent A, F=NEW, G=parent C, H=NEW, I=parent D, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '2008 GRE Physics Exam (GR0877 #35)'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11187  (subject area: philosophy)
+Question:
+Aesthetic values have to do with _______
+Options:
+  A. the physical durability of works of art and other objects that could be judged beautiful
+  B. the moral value of works of art and other objects that could be judged beautiful
+  C. the moral values of artists and critics
+  D. the political implications of works of art and other objects that could be judged beautiful
+  E. the economic value of works of art and other objects that could be judged beautiful
+  F. good and bad works of art and other objects that could be judged beautiful
+  G. the historical significance of works of art and other objects that could be judged beautiful
+  H. the cultural context of works of art and other objects that could be judged beautiful
+  I. the religious symbolism in works of art and other objects that could be judged beautiful
+  J. pragmatic decisions regarding the display of art
+Answer key: F
+LINEAGE:
+- MMLU parent: philosophy#305 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Aesthetic values have to do with _______
+    A. the moral value of works of art and other objects that could be judged beautiful
+    B. good and bad works of art and other objects that could be judged beautiful
+    C. the moral values of artists and critics
+    D. pragmatic decisions regarding the display of art
+  Parent key: B (good and bad works of art and other objects that could be judged beautiful)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=parent C, D=NEW, E=NEW, F=parent B, G=NEW, H=NEW, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1145  (subject area: law)
+Question:
+A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of? 
+Options:
+  A. Justifiable homicide.
+  B. Reckless endangerment.
+  C. Battery.
+  D. Attempted murder.
+  E. Felonious assault.
+  F. Assault with a deadly weapon.
+  G. Voluntary manslaughter.
+  H. Negligent homicide.
+  I. Involuntary manslaughter.
+  J. Murder.
+Answer key: J
+LINEAGE:
+- MMLU parent: professional_law#160 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of?
+    A. Murder.
+    B. Voluntary manslaughter.
+    C. Involuntary manslaughter.
+    D. Battery.
+  Parent key: A (Murder.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent D, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent C, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): stem changed; options changed (late-2024 options: A. Assault with a deadly weapon.; B. Battery.; C. Involuntary manslaughter.; D. Voluntary manslaughter.; E. Murder.; F. Felonious assault.; G. Reckless endangerment.; H. Justifiable homicide.; I. Attempted murder.; J. Negligent homicide.); key changed from E ('Murder.') in late 2024 to J now
+
+### Item PRO-3489  (subject area: biology)
+Question:
+If a couple has had three sons and the woman is pregnant with their fourth child, what is the probability that child 4 will also be male?
+Options:
+  A. 3/4
+  B. 2/3
+  C. 1/16
+  D. 1/4
+  E. 1/5
+  F. 4/5
+  G. 1/8
+  H. 1/3
+  I. 1/2
+  J. 1/10
+Answer key: I
+LINEAGE:
+- MMLU parent: high_school_biology#151 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: If a couple has had three sons and the woman is pregnant with their fourth child, what is the probability that child 4 will also be male?
+    A. 1/2
+    B. 1/4
+    C. 1/8
+    D. 1/16
+  Parent key: A (1/2)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent D, D=parent B, E=NEW, F=NEW, G=parent C, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10954  (subject area: philosophy)
+Question:
+ Which of the given formulas of PL is the best symbolization of the following sentence?
+Doctors are helpful unless their patients are rude.
+Options:
+  A. H ∨ R
+  B. ~H ∧ R
+  C. ~H ↔ R
+  D. H • R
+  E. H ∧ ~R
+  F. ~H ∨ R
+  G. H ↔ R
+  H. H → R
+  I. H ≡ R
+  J. H ∨ ~R
+Answer key: A
+LINEAGE:
+- MMLU parent: formal_logic#96 (MMLU test split, Hendrycks et al. 2021)
+  Parent question:  Which of the given formulas of PL is the best symbolization of the following sentence?
+Doctors are helpful unless their patients are rude.
+    A. H ≡ R
+    B. H • R
+    C. H ∨ ~R
+    D. H ∨ R
+  Parent key: D (H ∨ R)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D, E=NEW, F=NEW, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://learninglink.oup.com/access/content/marcus-student-resources/marcus-student-arc-section-2-1-quiz'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6115  (subject area: health)
+Question:
+A 2-month-old female is brought to the office for her first routine health maintenance examination and for her immunization update. In order to determine whether or not any contraindications exist for diphtheria, tetanus, pertussis (DtaP) immunization, the parents should be questioned regarding
+Options:
+  A. allergy to eggs
+  B. previous seizures
+  C. dietary habits
+  D. gestational age at birth
+  E. family history of diabetes
+  F. any chronic conditions
+  G. history of heart disease
+  H. Apgar scores at birth
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_medicine#155 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A 2-month-old female is brought to the office for her first routine health maintenance examination and for her immunization update. In order to determine whether or not any contraindications exist for diphtheria, tetanus, pertussis (DtaP) immunization, the parents should be questioned regarding
+    A. allergy to eggs
+    B. Apgar scores at birth
+    C. gestational age at birth
+    D. previous seizures
+  Parent key: D (previous seizures)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent D, C=NEW, D=parent C, E=NEW, F=NEW, G=NEW, H=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://www.cdc.gov/vaccines/hcp/vis/vis-statements/dtap.html'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.

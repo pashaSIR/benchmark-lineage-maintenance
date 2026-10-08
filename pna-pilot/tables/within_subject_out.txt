@@ -1,0 +1,10 @@
+eligible subjects (>=5 defects, >=2 source nodes of 5+ items): 7
+virology                     def=57 sourced= 89 nodes5+= 3 | B20 rand 11.37 adapt 12.69 (1.12) screen 13.00 (1.14) | B40 rand 22.89 adapt 25.60 (1.12)
+college_chemistry            def=25 sourced= 96 nodes5+= 3 | B20 rand  4.99 adapt 11.62 (2.33) screen 13.01 (2.61) | B40 rand  9.99 adapt 17.88 (1.79)
+human_sexuality              def=17 sourced= 51 nodes5+= 2 | B20 rand  3.40 adapt  3.17 (0.93) screen  2.73 (0.8) | B40 rand  6.85 adapt  6.23 (0.91)
+business_ethics              def=14 sourced= 99 nodes5+=11 | B20 rand  2.80 adapt  3.38 (1.21) screen  2.66 (0.95) | B40 rand  5.55 adapt  6.76 (1.22)
+human_aging                  def=12 sourced= 93 nodes5+=12 | B20 rand  2.39 adapt  2.34 (0.98) screen  1.80 (0.75) | B40 rand  4.75 adapt  4.84 (1.02)
+machine_learning             def=11 sourced= 67 nodes5+= 2 | B20 rand  2.23 adapt  2.18 (0.98) screen  2.30 (1.03) | B40 rand  4.40 adapt  4.30 (0.98)
+public_relations             def= 9 sourced= 91 nodes5+= 5 | B20 rand  1.80 adapt  1.63 (0.91) screen  4.95 (2.75) | B40 rand  3.61 adapt  3.35 (0.93)
+ALL 57 subjects B20: random 67.6, adaptive 76.8, screen 91.9; eligible only: random 29.0, adaptive 37.0, screen 40.5
+ALL 57 subjects B40: random 135.2, adaptive 147.8, screen 159.7; eligible only: random 58.0, adaptive 69.0, screen 71.9

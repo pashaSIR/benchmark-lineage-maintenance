@@ -1,0 +1,375 @@
+### Item PRO-10110  (subject area: physics)
+Question:
+A photon strikes an electron of mass m that is initially at rest, creating an electron-positron pair. The photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon. The energy of the photon was
+Options:
+  A. 5mc^2
+  B. 6mc^2
+  C. 3mc^2
+  D. Infinite
+  E. mc^2/2
+  F. mc^2
+  G. mc^2/4
+  H. Zero
+  I. 2mc^2
+  J. 4mc^2
+Answer key: J
+
+### Item PRO-4999  (subject area: history)
+Question:
+Which of the following was the greatest advantage of using fire in human evolution?
+Options:
+  A. Fire can be used in warfare and to clear fields.
+  B. Fire was used to create the first forms of currency.
+  C. Fire allowed early humans to fly kites at night.
+  D. Fire was used to create intricate cave paintings.
+  E. Fire makes meat more digestible and kills bacteria.
+  F. Fire was used to scare away insects and pests.
+Answer key: E
+
+### Item PRO-6379  (subject area: health)
+Question:
+A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?
+Options:
+  A. Increases cAMP concentration
+  B. Increases nitric oxide concentration
+  C. Inhibits potassium flux
+  D. Inhibits sodium flux
+Answer key: B
+
+### Item PRO-1610  (subject area: law)
+Question:
+A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, "Well, of course, we always pay for a writer's work." She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?
+Options:
+  A. The court will rule that there can be no contract as the writer didn't explicitly state his expectation for compensation for the idea itself.
+  B. The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.
+  C. The court will rule that there was no consideration specifically mentioned and under those circumstances, the law viewed the synopsis as a gift to the producer.
+  D. The court will rule that there is an express contract because there was a meeting of the mind and mutual assent to the basic terms.
+  E. The court will rule that there was a unilateral contract, with the producer obligated to pay only if he used the idea.
+  F. The court will rule that the writer's case is invalid as there was no written agreement.
+  G. The court will rule that the producer's assistant lacked the authority to form a contract, and thus, no contract exists.
+  H. There were too many terms left out for this to be a contract, and it was too indefinite for the court to imply what the terms might have been.
+  I. The court will rule that the phone call between the writer and the producer's assistant formed a verbal contract.
+Answer key: B
+
+### Item PRO-940  (subject area: law)
+Question:
+Which of the following will not terminate a contract by operation of law?
+Options:
+  A. Change in law that makes contract impossible
+  B. Bankruptcy of one party
+  C. Expiration of the contract term
+  D. Partial performance
+  E. Supervening illegality
+  F. Death or insanity of a party.
+  G. Fulfillment of contract
+  H. Destruction of the subject matter of contract.
+Answer key: D
+
+### Item PRO-9817  (subject area: physics)
+Question:
+A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is
+Options:
+  A. 84m
+  B. -36m
+  C. -84m
+  D. -72m
+  E. 72m
+  F. 60m
+  G. -60m
+  H. -99m
+  I. 99m
+  J. 36m
+Answer key: B
+
+### Item PRO-9996  (subject area: physics)
+Question:
+A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+Options:
+  A. 2kT
+  B. (7/2) k T
+  C. 5kT
+  D. (1/4) k T
+  E. 3kT
+  F. kT
+  G. 4kT
+  H. (3/2) k T
+  I. (1/2) k T
+  J. (5/2) k T
+Answer key: E
+
+### Item PRO-9588  (subject area: physics)
+Question:
+A heat pump is to extract heat from an outdoor environment at 7°C and heat the environment indoors to 27°C. For each 15,000 J of heat delivered indoors, the smallest amount of work that must be supplied to the heat pump is approximately
+Options:
+  A. 1,500 J
+  B. 1,000 J
+  C. 700 J
+  D. 3,500 J
+  E. 500 J
+  F. 4,000 J
+  G. 1,100 J
+  H. 3,000 J
+  I. 2,000 J
+  J. 2,500 J
+Answer key: B
+
+### Item PRO-11215  (subject area: philosophy)
+Question:
+Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.
+Options:
+  A. existentialist
+  B. ideological
+  C. apathetic
+  D. agnostic
+  E. secular
+  F. spiritual
+  G. religious
+  H. philosophical
+  I. pragmatic
+  J. nonreligious
+Answer key: G
+
+### Item PRO-3489  (subject area: biology)
+Question:
+If a couple has had three sons and the woman is pregnant with their fourth child, what is the probability that child 4 will also be male?
+Options:
+  A. 3/4
+  B. 2/3
+  C. 1/16
+  D. 1/4
+  E. 1/5
+  F. 4/5
+  G. 1/8
+  H. 1/3
+  I. 1/2
+  J. 1/10
+Answer key: I
+
+### Item PRO-6628  (subject area: health)
+Question:
+Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:
+
+Options:
+  A. lowering intramuscular lipid storage
+  B. Increasing liver glycogen content
+  C. Increasing muscle glycogen use during exercise
+  D. Increasing intramuscular lipid use during exercise
+Answer key: D
+
+### Item PRO-4933  (subject area: history)
+Question:
+What occupation date do most archaeologists agree on for Australia?
+Options:
+  A. soon after 60,000 years ago
+  B. approximately 50,000 years ago
+  C. no earlier than 100,000 years ago
+  D. soon after 30,000 years ago
+  E. no later than 70,000 years ago
+  F. soon after 80,000 years ago
+  G. no earlier than 80,000 years ago
+  H. soon after 40,000 years ago
+  I. approximately 25,000 years ago
+  J. no earlier than 20,000 years ago
+Answer key: H
+
+### Item PRO-1996  (subject area: psychology)
+Question:
+The information that family members continuously exchange and that helps minimize deviation and maintain the family's stability is referred to as ________ feedback.
+Options:
+  A. positive
+  B. negative
+  C. feedback loop
+  D. neutral
+  E. reciprocal
+  F. regulatory
+  G. internal
+  H. counteractive
+  I. external
+  J. circular
+Answer key: B
+
+### Item PRO-1271  (subject area: law)
+Question:
+Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+Options:
+  A. denied, because the delay did not infringe upon the defendant's rights.
+  B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+  C. granted, because the defendant was not given the opportunity to confront his accuser.
+  D. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+  E. denied, because the delay was not excessive and was for a permissible purpose.
+  F. granted, because the only eyewitness to the crime died before the trial.
+  G. denied, because the defendant was eventually charged within the statute of limitations.
+  H. denied, because the prosecutor had a valid reason to delay the indictment.
+  I. granted, because the prosecutor failed to find the defendant's accomplice.
+  J. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+Answer key: E
+
+### Item PRO-1063  (subject area: law)
+Question:
+In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+Options:
+  A. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+  B. because the Girl Scouts of America did not know about their ownership until 2009.
+  C. because the tenant continued to occupy the apartment building after the landowner's death.
+  D. because the tenant discontinued paying rent following the landowner's death.
+  E. if the tenant was never formally notified about the landowner's will.
+  F. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+  G. because the statutory period for adverse possession had not yet been reached.
+  H. if the tenant claimed to have bought the apartment building from the landowner before her death.
+  I. because the tenant never paid taxes on the apartment building.
+  J. if the tenant made significant improvements to the apartment building.
+Answer key: A
+
+### Item PRO-1797  (subject area: law)
+Question:
+A homeowner executed a deed by which he conveyed his home and surround property for a consideration of one dollar, receipt of which was acknowledged, "to my daughter for life, then to my aunt for life, but if my aunt moves to another state, to my sister for the life of my aunt, then to the heirs of my aunt if my aunt does not move to another state, and to the heirs of my sister if my aunt does move to another state. " This deed was promptly recorded. During the daughter's lifetime, the aunt's interest may best be described as a
+Options:
+  A. vested remainder subject to open.
+  B. contingent remainder.
+  C. fee simple subject to executory limitation.
+  D. reversionary interest.
+  E. life estate pur autre vie.
+  F. shifting executory interest.
+  G. fee simple determinable.
+  H. fee simple subject to condition subsequent.
+  I. vested remainder subject to partial divestiture.
+  J. vested remainder subject to complete divestiture.
+Answer key: J
+
+### Item PRO-364  (subject area: business)
+Question:
+What is a normative perspective?
+Options:
+  A. The way things were.
+  B. The way things might have been.
+  C. The way things are going to be.
+  D. The way things are perceived to be.
+  E. The way things are.
+  F. The way things could have been.
+  G. The way things should be.
+  H. The way things were thought to be.
+  I. The way things appear to be.
+  J. The way things could be.
+Answer key: G
+
+### Item PRO-1210  (subject area: law)
+Question:
+Some homeless people started residing on a strip of land located under a bridge. The land was owned by a nearby chemical manufacturer. The squatters did not ask permission, and the company did not feel it was an urgent problem. The squatters used a small lake on the property for bathing and drinking water. Within a few days, two squatters died from what was later revealed to be highly polluted water coming from the company's waste discharges. The company knew that it had a waste discharge problem. The estates of the two decedents sued the company. Will they likely prevail on their tort claim despite the company's defense that the decedents were trespassers?
+Options:
+  A. No, because owner owes no duty to trespassers except if it acts with willful or wanton disregard.
+  B. No, because the squatters voluntarily chose to use the polluted water, thereby assuming the risk.
+  C. Yes, because even though they trespassed, the owner had a duty to warn because it knew that they were in danger.
+  D. Yes, because the owner had a duty to ensure that its property was not causing harm to others, irrespective of their legal status.
+  E. No, because the company was unaware that the squatters were using the polluted water for bathing and drinking.
+  F. No, because the squatters should have tested the water before using it.
+  G. Yes, because the company knowingly created a hazardous condition and failed to rectify it.
+  H. No, because an owner of land never has to worry about protecting the safety of trespassers.
+  I. Yes, because the owner negligently allowed the pollution of the water.
+Answer key: C
+
+### Item PRO-1361  (subject area: law)
+Question:
+A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+Options:
+  A. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+  B. Yes, the newspaper's actions are protected by freedom of the press, and the doctor cannot prove malice.
+  C. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  D. No, the newspaper's actions caused harm to the doctor's reputation, which is enough to sustain a claim, regardless of proven special damages.
+  E. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+  F. No, the newspaper acted negligently in its reporting, which is enough to sustain a libel claim.
+  G. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+  H. Yes, the doctor is a public figure, and the newspaper had no intention of harming his reputation.
+  I. Yes, the newspaper's defense of public interest is valid, and the doctor cannot prove any special damages.
+  J. No, the doctor has a valid claim for defamation per se, and the newspaper's defense is invalid.
+Answer key: C
+
+### Item PRO-262  (subject area: business)
+Question:
+ Which of the following is the rate at which a market adopts an innovation?
+Options:
+  A. Market penetration rate.
+  B. Adoption process.
+  C. Market adoption scale.
+  D. Process of market saturation.
+  E. Process of differentiation.
+  F. Product lifecycle.
+  G. Process of diffusion.
+  H. Innovation rate.
+  I. Process of diversification.
+  J. Adoption lifecycle.
+Answer key: G
+
+### Item PRO-5502  (subject area: other)
+Question:
+Weak states face a number of security threats, which of the following threats is the odd one out?
+Options:
+  A. Warlordism and the assertion of the interests and influences of criminal gangs.
+  B. A sudden influx of refugees fleeing conflict from neighbouring states.
+  C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+  D. Competition for authoritative power or coercion from strongmen.
+Answer key: B
+
+### Item PRO-10762  (subject area: computer science)
+Question:
+Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?
+1. An attacker replacing bytes sent by a client with bytes of the attacker’s own choosing.
+2. An attacker reading the plaintext bytes sent by a client.
+Options:
+  A. False, True
+  B. False, False
+  C. False, Partly True
+  D. Partly True, False
+  E. True, False
+  F. True, Partly False
+  G. True, Partly True
+  H. Partly False, True
+  I. True, True
+  J. Partly True, True
+Answer key: I
+
+### Item PRO-1496  (subject area: law)
+Question:
+One afternoon, a pilot was flying a small airplane when it suddenly ran out of gas. As he was coming in for an emergency landing, the plane crossed into a neighboring state at a very low altitude. At this time, a 9-year-old boy was walking to school when he was struck and injured by an object, which may have fallen from the plane. In federal court, a negligence suit was brought against the pilot by the father of the boy for his son. Accompanied by his father, the boy had visited an attorney for preliminary discussions regarding the case. However, the father did not retain the attorney to represent his son in the lawsuit. Instead, the father hired another lawyer to handle the case. At trial, the pilot's attorney calls the consulting attorney to testify what the boy had said to him regarding his physical condition during the consultation that the attorney had had with the boy and his father. The attorney's testimony is
+Options:
+  A. admissible, because the father did not retain the consulting attorney, thus nullifying any privilege.
+  B. inadmissible, because it was a statement of physical condition not made for the purpose of obtaining medical treatment.
+  C. inadmissible, because the attorney-client privilege prevents such a breach of confidential communications.
+  D. inadmissible, because the attorney-client privilege is maintained even if a different attorney is hired.
+  E. admissible, because the lawsuit makes all previous communications related to the case public.
+  F. admissible, because the boy was not the attorney's client, only the father was.
+  G. admissible, because there is no privilege of confidentiality when a person other than the client is present at the attorney-client consultation.
+  H. admissible, because the attorney-client privilege was waived by the filing of the lawsuit.
+  I. inadmissible, because the consultation was preliminary and does not constitute a formal attorney-client relationship.
+  J. inadmissible, because the boy is a minor and cannot legally waive his rights to attorney-client privilege.
+Answer key: C
+
+### Item PRO-1541  (subject area: law)
+Question:
+The Supreme Court has original jurisdiction in certain areas. Congress has given lower federal courts concurrent jurisdiction with the Supreme Court in all cases except for disputes involving:
+Options:
+  A. maritime issues
+  B. private citizens
+  C. international disputes
+  D. federal laws
+  E. different states
+  F. constitutional matters
+  G. a state as a party
+  H. federal officials
+  I. public ministers and consuls
+Answer key: E
+
+### Item PRO-2530  (subject area: psychology)
+Question:
+Which of the following is the best example of an attribute that is culturally-based rather than primarily psychologically-based?
+Options:
+  A. Having the desire to reproduce
+  B. Following a particular dress code
+  C. Arriving on time for work
+  D. Fearing death
+  E. Preference for certain types of foods
+  F. Responding to physical pain
+  G. Caring for one's children
+  H. Needing sleep
+  I. Seeking safety
+  J. Seeking food and water
+Answer key: C

@@ -1,0 +1,27 @@
+[F1] Redux snapshot: 5700 items, 338 defects (excl. 'expert'), 32 'expert' labels
+[F1] source recoverability: Counter({'recovered': 3931, 'none': 1383, 'expert': 386})
+[F1] recovered-source items 3931, defects 219; within-subject permutation p = 0.0635 (T0=1692.0, R=2000)
+[F1] 2156 (subject,source) nodes; top 5% (108) hold 200/219 defects; nodes with any defect: 127
+[F1] hot nodes (n>=10, rate>=30%): [('virology', 'human virology 5e', '35/53'), ('college_chemistry', 'electron paramagnetic resonance', '16/19'), ('virology', 'epidemiology 227 ucla final examination 2011', '13/25'), ('virology', 'biostatistics and epidemiology step 1 sample quest', '9/10'), ('business_ethics', 'https://learninglink.oup.com/access/content/craneb', '3/10')]
+      subject virology: subject-wide rate 57/100; this node 35/53
+      subject college_chemistry: subject-wide rate 25/100; this node 16/19
+      subject virology: subject-wide rate 57/100; this node 13/25
+      subject virology: subject-wide rate 57/100; this node 9/10
+      subject business_ethics: subject-wide rate 14/100; this node 3/10
+[F1/B] ICC of defect within source node = 0.292; size-weighted mean cluster size = 8.4; DEFF = 3.17
+[SIM] {'budget': 50, 'item_only_mean': 3.04, 'provenance_mean': 9.01, 'lift': 2.96, 'item_only_p_zero': 0.044, 'prov_p_zero': 0.043}
+[SIM] {'budget': 100, 'item_only_mean': 6.01, 'provenance_mean': 20.95, 'lift': 3.49, 'item_only_p_zero': 0.004, 'prov_p_zero': 0.0}
+[SIM] {'budget': 200, 'item_only_mean': 12.02, 'provenance_mean': 39.9, 'lift': 3.32, 'item_only_p_zero': 0.0, 'prov_p_zero': 0.0}
+[SIM] {'budget': 400, 'item_only_mean': 23.84, 'provenance_mean': 67.91, 'lift': 2.85, 'item_only_p_zero': 0.0, 'prov_p_zero': 0.0}
+[F4] Redux parents kept in MMLU-Pro: n=2863, any-defect rate=6.287%, wrong/no-correct-key rate=2.655%
+[F4] Redux parents dropped from MMLU-Pro: n=2835, any-defect rate=5.573%, wrong/no-correct-key rate=2.328%
+[F4] odds ratio kept-vs-dropped (any defect) = 1.14 [95% CI 0.91, 1.42]
+[F2] flagged-key parents present in Pro, by outcome: {('wrong groundtruth', 'survived'): 57, ('no correct answer', 'survived'): 17, ('wrong groundtruth', 'mutated'): 1, ('wrong groundtruth', 'fixed'): 3}
+[F2] MMLU-derived Pro items whose key changed across Pro snapshots: 20; of those Redux-audited: 11, Redux-flagged: 4
+[T] Pro items that dropped >=1 MMLU option: 446/6810; Redux-audited 146, Redux-defect rate 11.0% vs all audited Pro parents 6.2%
+[B] ICC within subject = 0.139, cluster size 100, DEFF = 14.80
+[B] ICC of subject-centred defect within source node = 0.109; mean cluster 8.4; residual DEFF = 1.81
+[SIM2] {'budget': 50, 'item': 2.96, 'subject': 8.12, 'source': 9.33, 'source_vs_subject': 1.15}
+[SIM2] {'budget': 100, 'item': 5.93, 'subject': 20.71, 'source': 20.71, 'source_vs_subject': 1.0}
+[SIM2] {'budget': 200, 'item': 11.76, 'subject': 40.62, 'source': 40.57, 'source_vs_subject': 1.0}
+[F1] nodes>=5 items: 145 nodes, 1602 items, 119 defects; within-subject permutation p = 0.0010

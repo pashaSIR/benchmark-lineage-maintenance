@@ -1,0 +1,385 @@
+### Item PRO-4928  (subject area: history)
+Question:
+What do the amount of grave goods buried with the children at Sungir' indicate?
+Options:
+  A. The children were sometimes leaders of the tribe.
+  B. The tribe had a complex system of inherited social statuses.
+  C. The tribe was involved in an intricate trade network.
+  D. The tribe practiced a form of ancestor worship and the goods were offerings to the spirits.
+  E. The tribe spent most of their time carving beads.
+Answer key: B
+
+### Item PRO-6986  (subject area: economics)
+Question:
+The demand curve for labor is derived from
+Options:
+  A. the demand curve for the output produced by labor
+  B. the demand curve for the input used by labor
+  C. the aggregate demand in the economy
+  D. the market labor demand curve
+  E. the equilibrium employment level in the labor market
+  F. the labor supply curve for the firm
+  G. the price elasticity of demand for labor
+  H. the product supply curve for the firm
+  I. the labor demand curve for the industry
+  J. the equilibrium wage in the labor market
+Answer key: A
+
+### Item PRO-1420  (subject area: law)
+Question:
+A college student initiated a criminal case against his former roommate, claiming the former roommate snuck in and removed his state-of-the-art home theater equipment from his house. The college student took the complaint papers that were approved by the prosecution and filed them with a magistrate court. An ongoing police investigation later determined, however, that the college student was a vengeful person not averse to creating stories, and that he and the former roommate had been arguing over several related issues. They also determined that he never had any quality sound or video equipment. The police dropped the prosecution, and the criminal case was dismissed at the preliminary hearing. When the former roommate filed a civil case against the college student alleging the tort of malicious prosecution, will evidence of the student's reputation for dishonesty be admissible and why? 
+Options:
+  A. No, because character evidence is never admissible in any case.
+  B. No, because reputation evidence is considered too prejudicial to be admissible.
+  C. Yes, because the student's dishonesty directly affects the credibility of his initial criminal complaint.
+  D. No, because the past reputation of a person is not considered as evidence in court.
+  E. No, because character evidence is only admissible if it is directly related to the act in question.
+  F. Yes, because the student's reputation for dishonesty directly relates to the tort of malicious prosecution.
+  G. Yes, because reputation evidence, just like most character evidence, is virtually always admissible.
+  H. Yes, because even though character evidence is too collateral to be admitted for circumstantial evidence, it is admissible if it is directly at issue in the case.
+  I. Yes, because while most character evidence is not admissible, some is, and reputation evidence is always admissible.
+  J. Yes, because dishonesty at any time in the past is always relevant to a malicious prosecution complaint.
+Answer key: H
+
+### Item PRO-2385  (subject area: psychology)
+Question:
+Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+Options:
+  A. Leave without informing his clients of his absence.
+  B. give his clients a phone number where he can be reached.
+  C. Provide his clients with online resources to manage their issues in his absence.
+  D. Continue his sessions via phone calls or video conferencing while on vacation.
+  E. Inform his clients only a day before his departure about his unavailability.
+  F. Cancel all appointments for the duration of his vacation without informing his clients.
+  G. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+  H. hire a colleague to take over his appointments while he is on vacation.
+  I. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+  J. Arrange for a colleague to provide only emergency sessions, while regular appointments are paused.
+Answer key: I
+
+### Item PRO-1902  (subject area: law)
+Question:
+A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, "Very well," and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, "Listen, unless you let me look inside that bag, I'm going to call the police. " The woman replied, "Very well," and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely
+Options:
+  A. not prevail, because no physical force was used to detain her.
+  B. prevail, because she was falsely accused of theft.
+  C. not prevail, because she agreed to the manager's request to inspect her bag.
+  D. prevail, because the manager threatened to call the police.
+  E. prevail, because the manager did not have reasonable grounds to suspect that the woman had committed a theft.
+  F. not prevail, because she matched the description of the suspected thief.
+  G. prevail, because the manager had no direct evidence of theft.
+  H. prevail, because she was detained for an unreasonably long period of time.
+  I. not prevail, because the manager gave the woman permission to leave after conducting her investigation.
+Answer key: H
+
+### Item PRO-6407  (subject area: health)
+Question:
+Which level of personality description appears to show the most change with age?
+Options:
+  A. Values
+  B. Communication skills
+  C. Identity
+  D. Traits
+  E. Self-esteem
+  F. Interests
+  G. Social roles
+  H. Emotional responses
+  I. Coping strategies
+  J. Personal concerns
+Answer key: J
+
+### Item PRO-8907  (subject area: math)
+Question:
+Find the GCD of 25 and 55.
+Options:
+  A. 275
+  B. 15
+  C. 20
+  D. 50
+  E. 11
+  F. 30
+  G. 5
+  H. 10
+  I. 25
+  J. 35
+Answer key: G
+
+### Item PRO-6104  (subject area: health)
+Question:
+A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9°C (102.0°F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step?
+Options:
+  A. Begin corticosteroid treatment
+  B. Place a percutaneous endoscopic gastrostomy (PEG) tube
+  C. Administer influenza vaccine
+  D. Prescribe fludrocortisone
+  E. Discontinue levodopa and carbidopa
+  F. Arrange for home oxygen therapy
+  G. Initiate physical therapy
+  H. Obtain CT scan of the chest
+  I. Obtain a swallowing evaluation
+  J. Start patient on anticoagulant therapy
+Answer key: I
+
+### Item PRO-6169  (subject area: health)
+Question:
+When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+Options:
+  A. anterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  B. posterior fragment to be displaced downwards by the action of the digastric muscle.
+  C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+  D. posterior fragment to be displaced laterally by the action of the medial pterygoid muscle.
+  E. anterior fragment to be displaced medially by the action of the medial pterygoid muscle.
+  F. posterior fragment to be displaced upwards by the action of the masseter muscle.
+  G. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  H. anterior fragment to be displaced upwards by the action of the masseter muscle.
+  I. anterior fragment to be displaced downwards by the action of the digastric muscle.
+  J. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+Answer key: I
+
+### Item PRO-1196  (subject area: law)
+Question:
+Two days before his home was to be sold at a foreclosure sale, a homeowner obtained a temporary restraining order (TRO) in federal court that prevented his lender from proceeding with the sale for 14 days or until a preliminary injunction hearing could take place, whichever was sooner. When a preliminary injunction hearing could not be scheduled within the original 14-day period, the court extended the TRO for another 30 days. The lender appealed the court's order extending the TRO. The homeowner has moved to dismiss the appeal. Is the appellate court likely to dismiss the appeal?
+Options:
+  A. No, because the TRO is considered a final order and therefore appealable.
+  B. No, because the lender has the right to appeal any order that prevents the foreclosure sale.
+  C. Yes, because the preliminary injunction hearing could not be scheduled within the original 14-day period.
+  D. No, because a TRO is immediately appealable.
+  E. Yes, because the lender did not have the right to appeal the TRO extension.
+  F. No, because the 30-day extension makes the TRO equivalent to a preliminary injunction and therefore appealable.
+  G. Yes, because the court did not have jurisdiction to extend the TRO.
+  H. No, because the homeowner's motion to dismiss is not valid.
+  I. Yes, because there is no final judgment from which an appeal may be taken.
+Answer key: F
+
+### Item PRO-10847  (subject area: philosophy)
+Question:
+When faced with the complaint that utilitarianism is a doctrine worthy of swine, Mill responds that pleasures differ in:
+Options:
+  A. cost.
+  B. weight.
+  C. species.
+  D. purity.
+  E. morality.
+  F. frequency.
+  G. quality.
+  H. practicality.
+  I. intensity.
+  J. duration.
+Answer key: G
+
+### Item PRO-4944  (subject area: history)
+Question:
+This question refers to the following information.
+Read the the following petition to answer questions.
+The Scribbling-Machines have thrown thousands of your petitioners out of employ, whereby they are brought into great distress, and are not able to procure a maintenance for their families, and deprived them of the opportunity of bringing up their children to labour. … The number of Scribbling-Machines extending about seventeen miles south-west of Leeds exceed all belief, being no less than one hundred and seventy! And as each machine will do as much work in twelve hours, as ten men can in that time do by hand, … [And, as the machines do] as much work in one day as would otherwise employ twenty men, … [a] full four thousand men are left to shift for a living how they can, and must of course fall to the Parish, if not timely relieved. … How are those men, thus thrown out of employ to provide for their families; and what are they to put their children apprentice to, that the rising generation may have something to keep them at work, in order that they may not be like vagabonds strolling about in idleness? … Many more evils we could enumerate, but we would hope, that the sensible part of mankind, who are not biased by interest, must see the dreadful tendency of their continuance; a depopulation must be the consequence; trade being then lost, the landed interest will have no other satisfaction but that of being last devoured.
+Leeds Woolen Workers Petition, 1786
+This document can be used as evidence for
+Options:
+  A. the rise of the Luddite movement in Britain in the eighteenth century
+  B. the decline of the British economy in the eighteenth century
+  C. the protest against child labor in the eighteenth century Britain
+  D. the rise of trade unions in Britain in the eighteenth century
+  E. the spread of revolutionary ideas among the British working class in the eighteenth century
+  F. an increase in the use of child labor in eighteenth-century Britain
+  G. the replacing of traditional laborers by machines in the industrialization of Britain in the eighteenth century
+Answer key: G
+
+### Item PRO-6891  (subject area: economics)
+Question:
+Which of the following statements is true?
+Options:
+  A. The demand for loanable funds consists of savers.
+  B. Real GDP is the sum of the money supply and the velocity of money.
+  C. The supply of loanable funds is solely determined by the central bank's policies.
+  D. Dollars earned today have more purchasing power than dollars earned a year from today.
+  E. The velocity of money is the speed at which the stock market indices change.
+  F. The demand for loanable funds is entirely driven by government borrowing.
+  G. Purchasing power parity ensures that dollars have the same value across all time periods.
+  H. The supply of loanable funds consists of investors.
+  I. Inflation rates are inversely proportional to the velocity of money at all times.
+Answer key: D
+
+### Item PRO-11115  (subject area: philosophy)
+Question:
+According to Socrates, the value or quality of one's life depends on understanding the principles of, or basic rationale for human existence.  Without such knowledge (he suggests) life lacks virtue, because:
+Options:
+  A. understanding existence philosophically leads to personal satisfaction.
+  B. one's life lacks virtue if they do not contribute to society.
+  C. ignorance is a virtue in itself, as it leads to humility.
+  D. philosophical understanding is not necessary as long as one is happy.
+  E. acting virtuously means acting in way that is informed about what one is doing and why.
+  F. virtue is irrelevant to the quality of life.
+  G. someone who does not understand existence philosophically could never do anything right.
+  H. not only is virtue knowledge but also the unexamined life is not worth living.
+  I. the value of life is determined by one's personal wealth and status.
+  J. to have the power or ability to do anything at all requires that we know what we are doing.
+Answer key: E
+
+### Item PRO-10954  (subject area: philosophy)
+Question:
+ Which of the given formulas of PL is the best symbolization of the following sentence?
+Doctors are helpful unless their patients are rude.
+Options:
+  A. H ∨ R
+  B. ~H ∧ R
+  C. ~H ↔ R
+  D. H • R
+  E. H ∧ ~R
+  F. ~H ∨ R
+  G. H ↔ R
+  H. H → R
+  I. H ≡ R
+  J. H ∨ ~R
+Answer key: A
+
+### Item PRO-11130  (subject area: philosophy)
+Question:
+ In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+Options:
+  A. it views coercion as a violation of human rights
+  B. it believes in the power of persuasion over coercion
+  C. the Confucian model believes in voluntary compliance based on mutual respect and understanding.
+  D. it affirms the autonomy of individuals apart from others.
+  E. The Confucian model actually accepts coercion.
+  F. the costs of eliminating a collective action problem are not irrelevant to its solution
+  G. coercion is seen as a last resort, only to be used in extreme circumstances
+  H. the Confucian model prioritizes collective action over individual action
+  I. it cannot lead to real social change, which involves changes of mind as well as action
+  J. it believes in the intrinsic goodness and perfectibility of human beings
+Answer key: D
+
+### Item PRO-6115  (subject area: health)
+Question:
+A 2-month-old female is brought to the office for her first routine health maintenance examination and for her immunization update. In order to determine whether or not any contraindications exist for diphtheria, tetanus, pertussis (DtaP) immunization, the parents should be questioned regarding
+Options:
+  A. allergy to eggs
+  B. previous seizures
+  C. dietary habits
+  D. gestational age at birth
+  E. family history of diabetes
+  F. any chronic conditions
+  G. history of heart disease
+  H. Apgar scores at birth
+Answer key: B
+
+### Item PRO-2863  (subject area: biology)
+Question:
+This process has as its products NADP+, ADP, and sugar.
+Options:
+  A. Oxidative phosphorylation
+  B. Glycolysis
+  C. Beta oxidation
+  D. Chemiosmosis
+  E. Light-dependent reactions
+  F. Pyruvate oxidation
+  G. Fermentation
+  H. Calvin cycle
+  I. Krebs cycle
+  J. Anaerobic respiration
+Answer key: H
+
+### Item PRO-11740  (subject area: engineering)
+Question:
+Four identical alternators each are rated for 20 MVA, 11 KV having a subtransient reactance of 16% are working in parallel. The short circuit level at the busbar is
+Options:
+  A. 600 MVA
+  B. 800 MVA
+  C. 125 MVA
+  D. 500 MVA
+  E. 700 MVA
+  F. 300 MVA
+  G. 200 MVA
+  H. 400 MVA
+  I. 900 MVA
+  J. 100 MVA
+Answer key: D
+
+### Item PRO-11161  (subject area: philosophy)
+Question:
+ Select the best translation into predicate logic. Some firefighters rescue victims from danger. (Dx: x is danger; Fx: x is a firefighter; Vx: x is a victim; Rxyz: x rescues y from z)
+Options:
+  A. (∀x){Fx ⊃ (∃y)[Vy . (∃z)(Dz • Rxyz)]}
+  B. (∃x){Fx • (∀y)[Dy ⊃ (∃z)(Vz • Rxyz)]}
+  C. (∀x){Fx ⊃ (∃y)[Dy . (∃z)(Vz • Rxyz)]}
+  D. (∃x){Fx • (∀y)[Vy ⊃ (∀z)(Dz • Rxyz)]}
+  E. (∃x){Fx • (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  F. (∀x){Fx ⊃ (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  G. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rzxy)]}
+  H. (∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]}
+  I. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rxyz)]}
+  J. (∃x){Fx • (∃y)(∃z)[(Vy • Dz) • Rxzy]}
+Answer key: H
+
+### Item PRO-5841  (subject area: other)
+Question:
+In performing substantive tests regarding the granting of stock options to senior management of an issuer an auditor most likely would
+Options:
+  A. Interview senior management to determine their knowledge of stock options.
+  B. Confirm with the issuer's legal counsel whether the options were legally granted.
+  C. Review the public records of the SEC to determine whether the options were properly reported.
+  D. Trace the authorization for the options granted to the board of directors' approval.
+  E. Confirm with those members of management as to whether they are actually option holders.
+  F. Review the issuer's tax records to determine the tax implications of the stock options.
+  G. Verify the existence of option holders in the issuer's payroll and human resources records.
+  H. Review the minutes of the board of directors' meetings to determine if the options were discussed.
+  I. Analyze the financial reports to determine the impact of the stock options on the company's profitability.
+  J. Inspect the company's employee handbook to verify the policy on stock options.
+Answer key: D
+
+### Item PRO-10513  (subject area: computer science)
+Question:
+In Python 3, which of the following function sets the integer starting value used in generating random numbers?
+Options:
+  A. uniform(a, b)
+  B. randint(a, b)
+  C. random()
+  D. random.randint(a, b)
+  E. seed([x])
+  F. randrange ([start,] stop [,step])
+  G. shuffle(lst)
+  H. sample(population, k)
+  I. setseed([x])
+  J. choice(seq)
+Answer key: E
+
+### Item PRO-6370  (subject area: health)
+Question:
+A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?
+Options:
+  A. Internal iliac
+  B. Popliteal
+  C. Sacral
+  D. Superficial inguinal
+Answer key: D
+
+### Item PRO-2210  (subject area: psychology)
+Question:
+The most likely use of an “in-basket” technique in personnel selection would be with which type of employee
+Options:
+  A. Financial
+  B. Customer Service
+  C. Technical
+  D. Sales
+  E. Marketing
+  F. Manufacturing
+  G. Managerial
+  H. Secretarial
+  I. Clerical
+  J. Human Resources
+Answer key: G
+
+### Item PRO-5250  (subject area: other)
+Question:
+A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. The passage suggests that the speaker would describe the "account" mentioned in the first sentence as
+Options:
+  A. comprehensive
+  B. exaggerated
+  C. insightful
+  D. precise
+  E. adequate
+  F. mystifying
+  G. deficient
+  H. erroneous
+  I. misleading
+  J. enlightening
+Answer key: G

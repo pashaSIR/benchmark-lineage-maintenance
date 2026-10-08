@@ -1,0 +1,138 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-1063  (subject area: law)
+Question:
+In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+Options:
+  A. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+  B. because the Girl Scouts of America did not know about their ownership until 2009.
+  C. because the tenant continued to occupy the apartment building after the landowner's death.
+  D. because the tenant discontinued paying rent following the landowner's death.
+  E. if the tenant was never formally notified about the landowner's will.
+  F. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+  G. because the statutory period for adverse possession had not yet been reached.
+  H. if the tenant claimed to have bought the apartment building from the landowner before her death.
+  I. because the tenant never paid taxes on the apartment building.
+  J. if the tenant made significant improvements to the apartment building.
+Answer key: A
+LINEAGE:
+- MMLU parent: professional_law#128 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+    A. because the tenant discontinued paying rent following the landowner's death.
+    B. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+    C. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+    D. because the tenant never paid taxes on the apartment building.
+  Parent key: C (if the tenant believed that his lease with the landowner was still in effect after the latter died.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=NEW, D=parent A, E=NEW, F=parent B, G=NEW, H=NEW, I=parent D, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+TWO PRIOR ADJUDICATIONS (they disagree; verify, do not split the difference):
+  - Adjudicator X: severity ambiguous, type T3, origin O2, key A; Partly accept claims. Tenant's possession during 7-year term (to 1992) is permissive; nonpayment is not repudiation. From 1992, 20 years not elapsed by 2009, so added G is a defensible ground. But action date is unstated, so G is not decisively true; A reflects the intended permissive-possession reasoning. [evidence: Adverse possession: tenant's possession not hostile during lease absent clear repudiation; 1992+20=2012 > 2009.]
+  - Adjudicator Y: severity probable, type T3, origin O2, key None; I accept both claims. A tenant's possession during the lease (to 1992) is permissive absent clear repudiation, and nonpayment alone is not repudiation, so only about 17 years had run by 2009. Added option G ('statutory period not yet reached') is therefore correct under majority doctrine, competing with conditional key A. [evidence: Adverse possession doctrine: tenant's possession not hostile to landlord during term absent clear repudiation (Powell on Real Property; Restatement). 1992 to 2009 = 17 < 20.]
+
+### Item PRO-1271  (subject area: law)
+Question:
+Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+Options:
+  A. denied, because the delay did not infringe upon the defendant's rights.
+  B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+  C. granted, because the defendant was not given the opportunity to confront his accuser.
+  D. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+  E. denied, because the delay was not excessive and was for a permissible purpose.
+  F. granted, because the only eyewitness to the crime died before the trial.
+  G. denied, because the defendant was eventually charged within the statute of limitations.
+  H. denied, because the prosecutor had a valid reason to delay the indictment.
+  I. granted, because the prosecutor failed to find the defendant's accomplice.
+  J. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+Answer key: E
+LINEAGE:
+- MMLU parent: professional_law#1364 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Two men held-up a liquor store in a city. During the robbery, one of the participants shot and killed the owner of the store. Over a year later, police detectives arrested a defendant after obtaining reliable information that the defendant was the robber who was responsible for killing the store's owner. Afterward, the defendant was taken to the station house where he was booked for the crime and then incarcerated. The next day, the prosecuting attorney made a decision to delay indictment until he could discover the identity of the defendant's accomplice. The defendant was then released from police custody. In this jurisdiction the statute of limitations for murder is five years. Five months later, the prosecuting attorney, after unsuccessfully attempting to secure information on the defendant's cohort, indicted the defendant, charging him with felony murder. Shortly before trial, the only eyewitness to the crime died. He would have testified that the defendant did not participate in the robbery. The defendant's motion to dismiss the indictment because of the delay between the date of the crime and the date of the indictment will most probably be
+    A. granted, because the prosecutor is constitutionally required to press charges, if at all, within a reasonable time after probable cause is established.
+    B. granted, because the delay in prosecuting the defendant actually prejudiced him.
+    C. denied, because pre-indictment delay does not violate the Constitution, as long as it does not exceed an applicable statute of limitations.
+    D. denied, because the delay was not excessive and was for a permissible purpose.
+  Parent key: D (denied, because the delay was not excessive and was for a permissible purpose.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=parent C, E=parent D, F=NEW, G=NEW, H=NEW, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+TWO PRIOR ADJUDICATIONS (they disagree; verify, do not split the difference):
+  - Adjudicator X: severity probable, type T3, origin O2, key None; Accept the claim in part. Under Lovasco and Marion, investigative delay made in good faith does not violate due process even when it causes actual prejudice. Added H ('prosecutor had a valid reason to delay') states the same dispositive rationale as key E, so an expert would accept it. Added A is a vaguer conclusion. G and D are wrong because the statute of limitations is not the only limit. [evidence: United States v. Lovasco, 431 U.S. 783 (1977); United States v. Marion, 404 U.S. 307 (1971).]
+  - Adjudicator Y: severity ambiguous, type T3, origin O2, key E; Partly accept the T3 claim. Under Lovasco, good-faith investigative delay does not violate due process even when it causes prejudice, so E is correct. The added option H ('valid reason to delay') states much the same rationale, and the added option A is a true but vague conclusion. D (the original distractor) is wrong because Marion allows due-process limits within the statute of limitations. E remains the best answer. [evidence: United States v. Lovasco, 431 U.S. 783 (1977); United States v. Marion, 404 U.S. 307 (1971).]
+
+### Item PRO-1361  (subject area: law)
+Question:
+A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+Options:
+  A. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+  B. Yes, the newspaper's actions are protected by freedom of the press, and the doctor cannot prove malice.
+  C. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  D. No, the newspaper's actions caused harm to the doctor's reputation, which is enough to sustain a claim, regardless of proven special damages.
+  E. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+  F. No, the newspaper acted negligently in its reporting, which is enough to sustain a libel claim.
+  G. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+  H. Yes, the doctor is a public figure, and the newspaper had no intention of harming his reputation.
+  I. Yes, the newspaper's defense of public interest is valid, and the doctor cannot prove any special damages.
+  J. No, the doctor has a valid claim for defamation per se, and the newspaper's defense is invalid.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#1261 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+    A. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+    B. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+    C. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+    D. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  Parent key: D (No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent D, D=NEW, E=parent A, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+TWO PRIOR ADJUDICATIONS (they disagree; verify, do not split the difference):
+  - Adjudicator X: severity probable, type T3, origin O2, key None; Accept the T3 claim. C is the textbook answer: an imputation of a loathsome disease is libel per se, and special damages are not needed. The added option J ('valid claim for defamation per se, defense invalid') states the same conclusion. The added option F is also correct for a private figure under Gertz, where negligence suffices. Several answers are defensible. [evidence: Restatement (Second) Torts §§569, 572; Gertz v. Robert Welch, Inc., 418 U.S. 323 (1974).]
+  - Adjudicator Y: severity ambiguous, type T3, origin O2, key C; Accept the claim as ambiguous. Key C (libel per se, so no special damages are needed) answers the defense directly. Added J (valid defamation per se claim, defense invalid) says nearly the same thing. Added F (negligence suffices for a private figure under Gertz) is also defensible, so experts may accept several 'No' options. A is wrong because the article is libel, not slander. [evidence: Restatement (Second) Torts §569; Gertz v. Robert Welch, 418 U.S. 323 (1974).]
+
+### Item PRO-6169  (subject area: health)
+Question:
+When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+Options:
+  A. anterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  B. posterior fragment to be displaced downwards by the action of the digastric muscle.
+  C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+  D. posterior fragment to be displaced laterally by the action of the medial pterygoid muscle.
+  E. anterior fragment to be displaced medially by the action of the medial pterygoid muscle.
+  F. posterior fragment to be displaced upwards by the action of the masseter muscle.
+  G. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  H. anterior fragment to be displaced upwards by the action of the masseter muscle.
+  I. anterior fragment to be displaced downwards by the action of the digastric muscle.
+  J. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+Answer key: I
+LINEAGE:
+- MMLU parent: anatomy#73 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+    A. anterior fragment to be displaced downwards by the action of the digastric muscle.
+    B. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+    C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+    D. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+  Parent key: A (anterior fragment to be displaced downwards by the action of the digastric muscle.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent A, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+TWO PRIOR ADJUDICATIONS (they disagree; verify, do not split the difference):
+  - Adjudicator X: severity probable, type T2, origin O1, key None; Accept claims. In unfavourable body fractures elevators (masseter, temporalis, medial pterygoid) pull the posterior fragment superomedially while digastric depresses the anterior. Parent option J (posterior medially) was already correct; added F (posterior upward by masseter) is also correct. Key I correct but not unique. [evidence: StatPearls 'Mandible Fractures': masseter, temporalis, medial pterygoid distract proximal segment superomedially; digastric/mylohyoid displace inferiorly.]
+  - Adjudicator Y: severity probable, type T3, origin O2, key None; I accept the claims. In unfavourable mandibular body fractures, the elevators (masseter, temporalis, medial pterygoid) pull the posterior fragment upward, and the digastric depresses the anterior fragment. Added F (posterior fragment upward by masseter) is as correct as key I. Parent option J (posterior fragment medially by medial pterygoid) is also defensible for vertically unfavourable fractures. [evidence: StatPearls 'Mandible Fractures'; oral surgery texts: proximal segment displaced superomedially by elevators; anterior segment inferiorly by digastric.]

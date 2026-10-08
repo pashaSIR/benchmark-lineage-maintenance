@@ -1,0 +1,51 @@
+pro_qid,mmlu_parent,redux_audited,redux_label,redux_source,pro_n_options,mmlu_options_kept,key_same_as_mmlu,auditor_verdict,defect_origin,note
+3160,high_school_biology#222,False,,,10,4,True,defect,MMLU-Pro augmentation,"Added option ""yolk sac"" is the correct membrane; key ""egg yolk"" (inherited from MMLU) is not a membrane"
+11224,formal_logic#89,True,ok,Expert,10,4,True,ok,,
+11658,electrical_engineering#56,False,,,10,4,True,ok,,
+5440,global_facts#4,True,ok,https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-slopechart?country=~JPN,10,4,True,ok,,
+1342,professional_law#909,False,,,9,3,True,ok,,
+4916,high_school_us_history#201,False,,,10,4,True,ok,,
+8119,high_school_statistics#169,False,,,10,4,True,ok,,
+8272,high_school_mathematics#10,False,,,10,4,True,ok,,
+9718,high_school_physics#60,False,,,10,4,True,ok,,
+11204,world_religions#59,True,ok,https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-12-self-quiz,9,3,True,defect,MMLU key (inherited); Pro dropped correct option,"MMLU key ""God is eternal and merciful"" is wrong (kami option is right); Redux marked OK citing an OUP self-quiz page that shows no key; MMLU-Pro removed the kami option"
+7496,high_school_macroeconomics#372,False,,,10,4,True,ok,,
+10561,machine_learning#100,False,,,8,4,True,ok,,
+1555,professional_law#1210,False,,,10,4,True,possible,MMLU-Pro augmentation,Added G (newsworthy / public interest) is a defensible alternative
+4824,high_school_us_history#169,False,,,10,4,True,ok,,
+11220,formal_logic#23,True,ok,Expert,10,4,True,ok,,
+1780,professional_law#252,True,ok,,6,4,True,ok,,
+6657,human_aging#211,True,ok,https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202,10,4,True,ok,,
+7361,high_school_macroeconomics#338,False,,,10,4,True,ok,,
+11287,electrical_engineering#70,True,ok,,3,3,True,ok,,
+10634,machine_learning#108,True,bad options clarity,Expert,4,4,True,minor,MMLU wording,Redux: bad options clarity (typo); key correct
+1559,professional_law#1306,False,,,10,4,True,ok,,
+11270,moral_disputes#244,False,,,8,4,True,ok,,
+1570,professional_law#1503,False,,,10,4,True,ok,,
+6443,professional_medicine#174,True,ok,http://dromersenturk.com/down/ornek_sorular/USMLE-Step-2.pdf,4,4,True,ok,,
+263,marketing#73,False,,,10,4,True,possible,MMLU-Pro augmentation,"""According to the British Government ... not a marketing function"": added options cannot be checked against the cited list"
+8388,high_school_mathematics#143,False,,,10,4,True,ok,,
+2466,high_school_psychology#496,True,ok,https://www.crackap.com/ap/psychology/question-246.html,10,4,True,ok,,
+10173,conceptual_physics#184,True,ok,https://www.toppr.com/ask/en-gb/question/when-an-alphaparticle-is-ejected-the-atomic-number-of-the-a,10,4,True,ok,,
+1709,professional_law#390,False,,,10,4,True,ok,,
+7155,high_school_macroeconomics#206,True,ok,https://homework.study.com/explanation/the-united-states-produces-rice-in-a-competitive-market-with-,4,4,True,ok,,
+2149,professional_psychology#438,True,ok,https://www.brainscape.com/flashcards/eppp-test-questions-6893798/packs/10974337,10,4,True,ok,,
+2274,professional_psychology#543,False,,,9,4,True,ok,,
+1626,professional_law#889,False,,,9,3,True,ok,,
+5118,professional_accounting#103,True,ok,https://quizlet.com/69551972/compilation-and-review-of-financial-statements-flash-cards/#:~:text=If%,10,4,True,ok,,
+9425,conceptual_physics#47,True,ok,https://brainly.com/question/29661150,10,4,True,ok,,
+2572,professional_psychology#282,False,,,10,4,True,ok,,
+5507,security_studies#144,True,ok,https://learninglink.oup.com/access/content/collins6e-student-resources/collins6e-chapter-5-self-tes,8,4,True,defect,MMLU-Pro augmentation,"""cannot be applied"" stem; added options D and F are also inapplicable statements -> multiple correct"
+8003,abstract_algebra#41,True,ok,in 3Z there is no positive characteristic.,10,4,True,ok,,
+6515,nutrition#275,False,,,10,4,True,ok,,
+3331,high_school_biology#236,False,,,10,4,True,defect,MMLU-Pro augmentation,"""least likely in hot arid"" stem; added heat-retention options (A,E,F,G,H,J) are all least likely -> multiple correct"
+128,marketing#3,True,ok,"Marketing, second edition",10,4,True,defect,MMLU-Pro augmentation,"""NOT one of the factors"" stem; added CEO / designer age / packaging colour are also not factors -> multiple correct"
+7495,high_school_macroeconomics#360,False,,,9,4,True,ok,,
+5299,sociology#181,True,ok,https://global.oup.com/uk/orc/sociology/fulcher4e/01student/mcqs/ch04/,10,4,True,defect,MMLU-Pro augmentation,"Added J ""mediates between id and superego"" is also a correct definition of ego"
+4695,high_school_european_history#77,False,,,10,4,True,likely defect,MMLU-Pro augmentation,"Added Kellogg-Briand Pact (non-aggression, peaceful settlement) and Tilsit arguably closer than key Triple Entente"
+10494,machine_learning#109,True,ok,Expert,4,4,True,ok,,
+7184,econometrics#42,True,ok,Introductory Econometrics for Finance - Chapter 6 (cambridge.org),9,3,True,possible,MMLU-Pro augmentation,"Added F ""no theoretical interpretations"" overlaps the textbook view of VAR coefficients"
+8775,abstract_algebra#12,True,ok,"The order of the subgroup generated by <1, 1> is order 165, so the associated quotient is of order 1",10,4,True,ok,,
+1102,professional_law#913,False,,,9,4,True,ok,,
+2783,high_school_psychology#524,False,,,10,4,True,ok,,
+7223,high_school_macroeconomics#84,True,ok,https://www.crackap.com/ap/macroeconomics/question-1.html,10,4,True,defect,MMLU key (inherited),"Buying an import leaves GDP unchanged; key ""both fall"" wrong; correct option J present; Redux marked OK citing crackap"

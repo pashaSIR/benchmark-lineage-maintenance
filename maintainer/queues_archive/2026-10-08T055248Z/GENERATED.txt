@@ -1,0 +1,2 @@
+generated_utc=2026-10-08T055248Z
+Queues generated before any maintainer submission. A local timestamp is not proof by itself: the public repo commit / Zenodo DOI made before filing is the third-party timestamp.

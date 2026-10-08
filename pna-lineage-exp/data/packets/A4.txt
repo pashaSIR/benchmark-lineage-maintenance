@@ -1,0 +1,378 @@
+### Item PRO-3542  (subject area: chemistry)
+Question:
+Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).
+Options:
+  A. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+  B. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9809 at W-band
+  C. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9509 at W-band
+  D. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9609 at W-band
+  E. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9609 at W-band
+  F. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9709 at W-band
+  G. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9709 at W-band
+  H. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9509 at W-band
+  I. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9609 at W-band
+  J. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9809 at W-band
+Answer key: A
+
+### Item PRO-10989  (subject area: philosophy)
+Question:
+Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+H ≡ (I · ~J)
+K ≡ ~H
+~(K ⊃ J) / I ≡ J
+Options:
+  A. Valid
+  B. Invalid. Counterexample when I, J, and K are true and H is false
+  C. Invalid. Counterexample when K is true and I, H, and J are false
+  D. Invalid. Counterexample when H, I, and J are true and K is false
+  E. Invalid. Counterexample when K and J are true and I and H are false
+  F. Invalid. Counterexample when H and J are true and I and K are false
+  G. Invalid. Counterexample when I and J are true and H and K are false
+  H. Invalid. Counterexample when I and H are true and J and K are false
+  I. Invalid. Counterexample when J is true and I, H, and K are false
+  J. Invalid. Counterexample when I, H, and K are true and J is false
+Answer key: A
+
+### Item PRO-1684  (subject area: law)
+Question:
+A landlord was the owner of a two-story dwelling house and leased it completely furnished to a tenant for a 10-year period. Two years after the tenant entered into the leasehold agreement with the landlord, he subleases the house to his cousin. Thereafter, the cousin defaults on the rental payments. If the landlord brings an action to recover the past rent due from the cousin, the landlord will:
+Options:
+  A. recover, because pnvity of estate exists between a landlord and sublessee.
+  B. recover, because there is privity of contract between a landlord and sublessee.
+  C. recover, because there is both privity of estate and privity of contract between a landlord and sublessee.
+  D. not recover, because privity of estate does not exist between the landlord and sublessee.
+Answer key: D
+
+### Item PRO-5897  (subject area: other)
+Question:
+Which Pope immediately preceded John Paul II?
+Options:
+  A. Alexander VI
+  B. Hank II
+  C. John Paul III
+  D. Benedict XVI
+  E. Leo XIII
+  F. Pius XII
+  G. John XXIII
+  H. John Paul I
+  I. Paul VI
+  J. Innocent X
+Answer key: H
+
+### Item PRO-1735  (subject area: law)
+Question:
+A home security protection company provided protection services to property owners in the immediate area. The owner of a summer cottage in the area hired the company to provide 24- hour protection during the winter months when his home was unoccupied. According to the security arrangement, the company's uniformed guards would periodically patrol the property and, if necessary, provide an "armed response" to any unauthorized individuals who were found trespassing on the property. The company provided security protection to the owner's property for two years. The owner then notified the company that he was planning to sell the cottage. As a result, he requested that the company discontinue its home-protection service, effective immediately. Two weeks later, a burglar broke into the cottage and was ransacking it. As the burglar was exiting from the owner's house carrying a portable television set, he was seen by a security guard working for the company. The security guard, who was driving past the home on security patrol, had not been informed that the owner had discontinued protection services. The security guard suddenly stopped his patrol vehicle and ran toward the burglar shouting, "Stop! Don't move or I'll shoot!" Startled, the burglar dropped the television set and began to flee. Believing that the suspected burglar was about to escape, the security guard pulled out his service revolver and fired a bullet at the burglar. The shot struck the burglar in the leg, seriously wounding him. If the burglar asserts a claim against the owner for negligently failing to supervise those providing security services for the owner's property, the burglar will probably
+Options:
+  A. not prevail, because the security guard was acting in the course of his duties.
+  B. prevail, because the burglar was unarmed when he was shot.
+  C. prevail, because the security guard acted without proper authorization.
+  D. prevail, because the security guard used excessive force.
+  E. not prevail, because the owner was not present when the shooting occurred.
+  F. not prevail, because the owner had discontinued protection services from the company when the shooting occurred.
+  G. prevail, because the owner knew or had reason to know that the company provided an "armed response" to suspected trespassers.
+  H. not prevail, because the owner had no control over the actions of the security guard.
+  I. prevail, because the owner did not properly inform the company of the discontinued services.
+  J. not prevail, because the burglar was trespassing on private property.
+Answer key: F
+
+### Item PRO-10669  (subject area: computer science)
+Question:
+Statement 1| The ReLU's gradient is zero for $x<0$, and the sigmoid gradient $\sigma(x)(1-\sigma(x))\le \frac{1}{4}$ for all $x$. Statement 2| The sigmoid has a continuous gradient and the ReLU has a discontinuous gradient.
+Options:
+  A. Statement 1 is true for x < 0, statement 2 is false for x ≠ 0
+  B. True, True
+  C. True, False
+  D. Statement 1 is only true for x > 0, statement 2 is always false
+  E. False for statement 1, statement 2 is true if x ≠ 0
+  F. Statement 1 is only false for x > 0, statement 2 is always true
+  G. False for statement 1, statement 2 is true if x = 0
+  H. False, True
+  I. False, False
+  J. True for statement 1, statement 2 depends on the function
+Answer key: B
+
+### Item PRO-4250  (subject area: chemistry)
+Question:
+How many moles of propane (C3H8) are there in 6.2 g of propane?
+Options:
+  A. 14.1 mol
+  B. 7.1 mol
+  C. 71 mol
+  D. 14.1 × 10^-1 mol
+  E. 1.4 × 10^-1 mol
+  F. 1.41 × 10^2 mol
+  G. 7.1 × 10^-1 mol
+  H. 0.71 mol
+  I. 1.4 mol
+  J. 141 mol
+Answer key: E
+
+### Item PRO-5423  (subject area: other)
+Question:
+In which country does language pose a centrifugal force?
+Options:
+  A. Australia
+  B. Russia
+  C. Canada
+  D. Japan
+  E. Norway
+  F. Brazil
+  G. United States
+  H. Germany
+Answer key: C
+
+### Item PRO-1241  (subject area: law)
+Question:
+A man owned a piece of land with a run-down log cabin on it. He lost interest in it, letting tax bills pile up and failing to maintain it. In 1990, a homeless couple occupied the crumbling cabin. They restored it, fenced the perimeter, and maintained the grounds. They started paying the taxes, despite knowing there was an absentee owner. In 2000, the owner appeared and demanded that they pay rent. They agreed but stopped the payments two years later after consulting an attorney. The required statutory period in the state is 20 years. In 2011 the owner filed an ejectment action, asserting his ownership rights. Leaving aside any other theories or equities, can the couple prevail on a theory of adverse possession?
+Options:
+  A. No, because the statutory period had not been met when the owner filed for ejectment.
+  B. Yes, because they maintained the grounds of the property.
+  C. Yes, because they had exclusive possession of the property.
+  D. Yes, because they were on the land for over 20 years.
+  E. Yes, because they owned the property due to paying the taxes on it.
+  F. No, because they missed some of the tax payments during that 20-year period.
+  G. No, because they knew there was an absentee owner.
+  H. Yes, because they made improvements to the property.
+  I. No, because the hostile possession was interrupted for two years when they paid rent.
+  J. No, because they did not have a legal claim to the property.
+Answer key: I
+
+### Item PRO-3112  (subject area: biology)
+Question:
+In plants, the tendency of climbing vines to twine their tendrils around a trellis is called
+Options:
+  A. thermotropism
+  B. geotropism
+  C. heliotropism
+  D. phototropism
+  E. rheotropism
+  F. gravitropism
+  G. hydrotropism
+  H. skototropism
+  I. chemotropism
+  J. thigmotropism
+Answer key: J
+
+### Item PRO-7369  (subject area: economics)
+Question:
+With respect to the kinked demand curve, which of the following is NOT correct?
+Options:
+  A. There is no price leader.
+  B. There are relatively equal shares of the market.
+  C. Price is greater than marginal costs.
+  D. The demand curve is of one continuous function.
+Answer key: D
+
+### Item PRO-7746  (subject area: math)
+Question:
+If g (x) = f (–x) for all real numbers x, and if (3, 2) is a point on the graph of g, which of the following points MUST be on the graph of f ?
+Options:
+  A. (–2, 3)
+  B. (2, –3)
+  C. (3, 2)
+  D. (–3, –2)
+  E. (–2, 2)
+  F. (2, –2)
+  G. (2, 3)
+  H. (–3, 2)
+  I. (3, –2)
+  J. (–2, –3)
+Answer key: H
+
+### Item PRO-9586  (subject area: physics)
+Question:
+Which planet(s) in the solar system has/have active plate tectonics?
+Options:
+  A. None of the above
+  B. Venus
+  C. Saturn
+  D. Venus and Mars
+  E. Neptune
+  F. Uranus
+  G. Earth
+  H. Mars and Earth
+  I. Mars
+  J. Jupiter
+Answer key: G
+
+### Item PRO-10651  (subject area: computer science)
+Question:
+Consider the following assumptions about electronic storage for the text in all the books of a university's libraries. - The libraries at the university collectively contain 3 million books. - A book contains an average of 400 pages. - A page contains an average of 50 lines. - A line on a page contains an average of 10 words. - A word contains an average of 5 letters/characters. - A letter/character is represented by 1 byte. Based on the given assumptions, which of the following is the unit in which the electronic storage required for the text in all the books of the university's libraries would best be measured?
+Options:
+  A. Kilobyte (2^10 or approximately 10^3 bytes)
+  B. Petabyte ( 2^50 or approximately 10^15 bytes)
+  C. Yottabyte (2^80 or approximately 10^24 bytes)
+  D. Exabyte (2^60 or approximately 10^18 bytes)
+  E. Byte (1 byte)
+  F. Bit (1/8 of a byte)
+  G. Zettabyte (2^70 or approximately 10^21 bytes)
+  H. Terabyte ( 2^40 or approximately 10^12 bytes)
+  I. Gigabyte ( 2^30 or approximately 10^9 bytes)
+  J. Megabyte ( 2^20 or approximately 10^6 bytes)
+Answer key: H
+
+### Item PRO-6599  (subject area: health)
+Question:
+Male to male transmission is a key feature of which pattern of inheritance?
+Options:
+  A. Autosomal incomplete dominance
+  B. X-linked dominant
+  C. Multifactorial inheritance
+  D. Mitochondrial inheritance
+  E. X-linked underdominance
+  F. X-linked recessive
+  G. Y-linked inheritance
+  H. Autosomal recessive
+  I. Autosomal dominant
+  J. X-linked overdominance
+Answer key: I
+
+### Item PRO-5930  (subject area: other)
+Question:
+Which one of the following North American associations is NOT correct?
+Options:
+  A. Southeast—African Americans
+  B. Southern prairie provinces—African Americans
+  C. New England—Latin Americans
+  D. Oklahoma and the Southwest—Native Americans
+  E. Quebec and northern Maine—French Americans and French Canadians
+  F. Florida—Native Americans
+Answer key: B
+
+### Item PRO-1396  (subject area: law)
+Question:
+A man was at a bar drinking beer when he started conversing with a woman who was seated at the next barstool. During the course of their conversation, the woman told the man that she was just laid off her job and desperately needed money to pay her rent. The man, a practical joker, pointed to a nearby coat rack and said, "Hey, see that fur coat there. Why don't you take it?" The man then told the woman that he would cause a disturbance to distract attention while she ran out of the bar with the coat. Believing that it was a good idea, the woman agreed to take part in the scheme. Thereupon, the man lit a matchbook and threw it on top of the bar. He then yelled, "The bar's on fire, help!" When everyone turned to look at the man, the woman ran to the back of the bar, took the fur coat and scurried outside unnoticed. Just as the woman left the bar and was running down the sidewalk, she was apprehended and arrested by a police officer. Later, the man confessed that the fur coat that the woman took really belonged to him. With respect to the man's and the woman's criminal liability, which of the following is most correct?
+Options:
+  A. The man and the woman are guilty of conspiracy.
+  B. The woman is guilty of conspiracy and larceny.
+  C. The man and the woman are guilty of larceny.
+  D. Neither the man nor the woman are guilty of larceny, but they are guilty of conspiracy.
+  E. The man is guilty of conspiracy and the woman is guilty of larceny.
+  F. The man is guilty of conspiracy.
+  G. The man and the woman are guilty of conspiracy and larceny.
+  H. The man and the woman are not guilty of either conspiracy or larceny.
+  I. The man is guilty of larceny.
+  J. The woman is guilty of larceny.
+Answer key: H
+
+### Item PRO-5155  (subject area: other)
+Question:
+Which of the following is not recognised as a level of society?
+Options:
+  A. the continent
+  B. the community
+  C. the city
+  D. the nation state
+  E. the church
+  F. the school
+  G. the household
+  H. the global village
+  I. the region
+  J. the office
+Answer key: J
+
+### Item PRO-1406  (subject area: law)
+Question:
+A woman joined a web site to get her credit reports. The site required creation of an account before she could enter. On that form, a notice appeared in bold letters: "TERMS AND CONDITIONS: This is a Contract. By creating an account, you agree to and accept the terms and conditions for use of this website." She did not access the terms, which she could have done by clicking a conspicuous link. She started an account and paid $50 for a credit report. For the next 6 months, her credit card was automatically billed $50, without notice, except that she received email notice that the report was available at the site. The terms and conditions provided that she authorized the charges, unless she notified the company otherwise in advance. Which party will likely prevail on the issue of whether she was bound to pay for the 6 months until she canceled?
+Options:
+  A. The company will prevail because the woman had the opportunity to review the terms and conditions before agreeing to them.
+  B. The company will prevail because the provision notifying her of the contract is in bold and the contract is easily accessible.
+  C. The woman will prevail because terms and conditions have been ruled to be contracts of adhesion that are largely unenforceable.
+  D. The woman will prevail because the terms and conditions, or important parts, must be described on the 'create an account' page, which was not done here.
+  E. The company will prevail because the woman failed to cancel her subscription and thus implicitly agreed to the terms.
+  F. The company will prevail because any mention of terms and conditions is enough to put the prospective member on notice of contract terms.
+  G. The woman will prevail because she did not explicitly agree to the recurring charges.
+  H. The woman will prevail because she was not given explicit notice of the recurring charges.
+  I. The company will prevail because the woman did not cancel her subscription and thus accepted the terms.
+  J. The woman will prevail because the terms were not explicitly stated before she made the initial payment.
+Answer key: B
+
+### Item PRO-9052  (subject area: physics)
+Question:
+A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be
+Options:
+  A. deflected in the -y-direction
+  B. deflected in both the +x and +y directions
+  C. deflected in the -x-direction
+  D. deflected in the +x-direction
+  E. deflected in the -z-direction
+  F. deflected in the +y-direction
+  G. not deflected at all
+  H. deflected in both the -x and -y directions
+  I. deflected in a direction dependent on the initial velocity of the proton
+  J. deflected in the +z-direction
+Answer key: C
+
+### Item PRO-5096  (subject area: other)
+Question:
+How long has the average United States citizen spent as president?
+Options:
+  A. 1 minute
+  B. 10 seconds
+  C. 1 seconds
+  D. 1 day
+  E. 10 minutes
+  F. 1 year
+  G. 30 seconds
+  H. 1 week
+  I. 10 years
+  J. 1 hour
+Answer key: B
+
+### Item PRO-11065  (subject area: philosophy)
+Question:
+Gauthier claims that there is nothing for practical rationality to be besides:
+Options:
+  A. logical justification.
+  B. epistemic justification.
+  C. existential justification.
+  D. theoretical justification.
+  E. moral justification.
+  F. emotional justification.
+  G. deliberative justification.
+  H. an illusion.
+  I. spiritual justification.
+  J. aesthetic justification.
+Answer key: G
+
+### Item PRO-2529  (subject area: psychology)
+Question:
+Every time you buy ice cream from the Yellow Brick Road ice cream parlor, you get your over-the-rainbow card stamped. Once you purchase ten items, you get your next item free. The Yellow Brick Road ice cream parlor has you on which of the following reinforcement schedules?
+Options:
+  A. Variable-interval
+  B. Fixed-interval
+  C. Continuous reinforcement
+  D. Variable-ratio with extinction
+  E. Fixed-ratio
+  F. Variable-ratio
+  G. Interval-ratio
+  H. Partial reinforcement
+  I. Ratio reinforcement
+  J. Fixed-variable
+Answer key: E
+
+### Item PRO-4956  (subject area: history)
+Question:
+This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, "On the Suppression of Sati," 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The first passage can be said to undermine which commonly held assumption about Western imperialism?
+Options:
+  A. That European colonizers sometimes interfered with native religious practices
+  B. That European colonizers concerned themselves deeply with turning profits
+  C. That European colonizers were uniformly eager to force their cultural norms on native populations
+  D. That European colonizers often resorted to armed force to impose their will on imperial subjects
+Answer key: C
+
+### Item PRO-6083  (subject area: health)
+Question:
+Exhaustion, confusion, and unresponsiveness can be indicators of:
+Options:
+  A. food poisoning.
+  B. respiratory failure.
+  C. mental health disorders.
+  D. being generally unwell.
+  E. a viral infection.
+Answer key: B

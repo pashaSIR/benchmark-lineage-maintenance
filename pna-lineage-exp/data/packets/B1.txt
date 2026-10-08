@@ -1,0 +1,766 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-1396  (subject area: law)
+Question:
+A man was at a bar drinking beer when he started conversing with a woman who was seated at the next barstool. During the course of their conversation, the woman told the man that she was just laid off her job and desperately needed money to pay her rent. The man, a practical joker, pointed to a nearby coat rack and said, "Hey, see that fur coat there. Why don't you take it?" The man then told the woman that he would cause a disturbance to distract attention while she ran out of the bar with the coat. Believing that it was a good idea, the woman agreed to take part in the scheme. Thereupon, the man lit a matchbook and threw it on top of the bar. He then yelled, "The bar's on fire, help!" When everyone turned to look at the man, the woman ran to the back of the bar, took the fur coat and scurried outside unnoticed. Just as the woman left the bar and was running down the sidewalk, she was apprehended and arrested by a police officer. Later, the man confessed that the fur coat that the woman took really belonged to him. With respect to the man's and the woman's criminal liability, which of the following is most correct?
+Options:
+  A. The man and the woman are guilty of conspiracy.
+  B. The woman is guilty of conspiracy and larceny.
+  C. The man and the woman are guilty of larceny.
+  D. Neither the man nor the woman are guilty of larceny, but they are guilty of conspiracy.
+  E. The man is guilty of conspiracy and the woman is guilty of larceny.
+  F. The man is guilty of conspiracy.
+  G. The man and the woman are guilty of conspiracy and larceny.
+  H. The man and the woman are not guilty of either conspiracy or larceny.
+  I. The man is guilty of larceny.
+  J. The woman is guilty of larceny.
+Answer key: H
+LINEAGE:
+- MMLU parent: professional_law#149 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A man was at a bar drinking beer when he started conversing with a woman who was seated at the next barstool. During the course of their conversation, the woman told the man that she was just laid off her job and desperately needed money to pay her rent. The man, a practical joker, pointed to a nearby coat rack and said, "Hey, see that fur coat there. Why don't you take it?" The man then told the woman that he would cause a disturbance to distract attention while she ran out of the bar with the coat. Believing that it was a good idea, the woman agreed to take part in the scheme. Thereupon, the man lit a matchbook and threw it on top of the bar. He then yelled, "The bar's on fire, help!" When everyone turned to look at the man, the woman ran to the back of the bar, took the fur coat and scurried outside unnoticed. Just as the woman left the bar and was running down the sidewalk, she was apprehended and arrested by a police officer. Later, the man confessed that the fur coat that the woman took really belonged to him. With respect to the man's and the woman's criminal liability, which of the following is most correct?
+    A. The man and the woman are guilty of conspiracy and larceny.
+    B. The man and the woman are guilty of larceny.
+    C. The woman is guilty of larceny.
+    D. The man and the woman are not guilty of either conspiracy or larceny.
+  Parent key: D (The man and the woman are not guilty of either conspiracy or larceny.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent B, D=NEW, E=NEW, F=NEW, G=parent A, H=parent D, I=NEW, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-3542  (subject area: chemistry)
+Question:
+Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).
+Options:
+  A. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+  B. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9809 at W-band
+  C. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9509 at W-band
+  D. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9609 at W-band
+  E. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9609 at W-band
+  F. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9709 at W-band
+  G. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9709 at W-band
+  H. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9509 at W-band
+  I. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9609 at W-band
+  J. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9809 at W-band
+Answer key: A
+LINEAGE:
+- MMLU parent: college_chemistry#86 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).
+    A. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9509 at W-band
+    B. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9609 at W-band
+    C. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9709 at W-band
+    D. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+  Parent key: D (Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=NEW, D=NEW, E=parent B, F=parent C, G=NEW, H=parent A, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'bad question clarity'; annotator reason = 'Missing information about L- and W- bands'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1361  (subject area: law)
+Question:
+A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+Options:
+  A. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+  B. Yes, the newspaper's actions are protected by freedom of the press, and the doctor cannot prove malice.
+  C. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  D. No, the newspaper's actions caused harm to the doctor's reputation, which is enough to sustain a claim, regardless of proven special damages.
+  E. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+  F. No, the newspaper acted negligently in its reporting, which is enough to sustain a libel claim.
+  G. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+  H. Yes, the doctor is a public figure, and the newspaper had no intention of harming his reputation.
+  I. Yes, the newspaper's defense of public interest is valid, and the doctor cannot prove any special damages.
+  J. No, the doctor has a valid claim for defamation per se, and the newspaper's defense is invalid.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#1261 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A newspaper printed an article stating that a local doctor was afflicted with a venereal disease and had volunteered for a program studying the various cures for the disease. The article was false, and was printed without adequate research. The doctor sued the newspaper company, claiming damages per se. The paper defended on the basis that this was a public interest article, that the paper was not reckless or malicious in its investigation and reporting, and that the doctor could not prove any special damages. Will the court adopt the defense reasoning and dismiss the case for failure to state a claim?
+    A. Yes, the doctor is a professional figure in the community and he must accept the risk of false reporting, especially where he cannot prove any special damages.
+    B. Yes, the newspaper is allowed to make mistakes as long as there is no malice, and the case must be dismissed as a matter of law.
+    C. No, this fits the requirements for slander per se and there is a valid claim of malice stated against the paper.
+    D. No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.
+  Parent key: D (No, this fits the requirements for libel per se, which is so inflammatory that the doctor does not have to prove special damages.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent D, D=NEW, E=parent A, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5502  (subject area: other)
+Question:
+Weak states face a number of security threats, which of the following threats is the odd one out?
+Options:
+  A. Warlordism and the assertion of the interests and influences of criminal gangs.
+  B. A sudden influx of refugees fleeing conflict from neighbouring states.
+  C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+  D. Competition for authoritative power or coercion from strongmen.
+Answer key: B
+LINEAGE:
+- MMLU parent: security_studies#25 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Weak states face a number of security threats, which of the following threats is the odd one out?
+    A. Warlordism and the assertion of the interests and influences of criminal gangs.
+    B. A sudden influx of refugees fleeing conflict from neighbouring states.
+    C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+    D. Competition for authoritative power or coercion from strongmen.
+  Parent key: B (A sudden influx of refugees fleeing conflict from neighbouring states.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-9052  (subject area: physics)
+Question:
+A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be
+Options:
+  A. deflected in the -y-direction
+  B. deflected in both the +x and +y directions
+  C. deflected in the -x-direction
+  D. deflected in the +x-direction
+  E. deflected in the -z-direction
+  F. deflected in the +y-direction
+  G. not deflected at all
+  H. deflected in both the -x and -y directions
+  I. deflected in a direction dependent on the initial velocity of the proton
+  J. deflected in the +z-direction
+Answer key: C
+LINEAGE:
+- MMLU parent: college_physics#28 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be
+    A. deflected in the +x-direction
+    B. deflected in the -x-direction
+    C. deflected in the +y-direction
+    D. deflected in the -y-direction
+  Parent key: B (deflected in the -x-direction)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent A, D=parent B, E=NEW, F=parent D, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '2001 GRE Physics Exam (GR0177 #58)'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4956  (subject area: history)
+Question:
+This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, "On the Suppression of Sati," 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The first passage can be said to undermine which commonly held assumption about Western imperialism?
+Options:
+  A. That European colonizers sometimes interfered with native religious practices
+  B. That European colonizers concerned themselves deeply with turning profits
+  C. That European colonizers were uniformly eager to force their cultural norms on native populations
+  D. That European colonizers often resorted to armed force to impose their will on imperial subjects
+Answer key: C
+LINEAGE:
+- MMLU parent: high_school_world_history#101 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, "On the Suppression of Sati," 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The first passage can be said to undermine which commonly held assumption about Western imperialism?
+    A. That European colonizers sometimes interfered with native religious practices
+    B. That European colonizers concerned themselves deeply with turning profits
+    C. That European colonizers were uniformly eager to force their cultural norms on native populations
+    D. That European colonizers often resorted to armed force to impose their will on imperial subjects
+  Parent key: C (That European colonizers were uniformly eager to force their cultural norms on native populations)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1718  (subject area: law)
+Question:
+A builder sold a new house to a buyer for use as the buyer's residence. The buyer paid 10% of the purchase price and financed the rest by executing a promissory note and purchase money mortgage to the builder. A year later, the buyer missed several mortgage payments to the builder and became unable to make payments to the builder and became unable to make payments. During that year, property values in the neighborhood declined substantially. The builder suggested that the buyer deed the house back to the builder to settle all claims and avoid the costs and other disadvantages of foreclosure. The buyer deeded the house back to the builder. Does the builder now own fee simple title to the house?
+Options:
+  A. No, because the builder cannot accept the deed while also holding the mortgage.
+  B. No, because the owner of a personal residence cannot waive the right to foreclosure.
+  C. Yes, because the transaction was reasonable and fair under the circumstances.
+  D. No, because the builder coerced the buyer into deeding the house back.
+  E. Yes, because the buyer defaulted on the mortgage payments.
+  F. Yes, because the builder originally held the mortgage.
+  G. Yes, because of the doctrine of equitable redemption.
+  H. No, because the buyer still technically owns the house until foreclosure.
+  I. No, because the deed back to the builder constitutes a disguised mortgage.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#677 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A builder sold a new house to a buyer for use as the buyer's residence. The buyer paid 10% of the purchase price and financed the rest by executing a promissory note and purchase money mortgage to the builder. A year later, the buyer missed several mortgage payments to the builder and became unable to make payments to the builder and became unable to make payments. During that year, property values in the neighborhood declined substantially. The builder suggested that the buyer deed the house back to the builder to settle all claims and avoid the costs and other disadvantages of foreclosure. The buyer deeded the house back to the builder. Does the builder now own fee simple title to the house?
+    A. No, because the deed back to the builder constitutes a disguised mortgage.
+    B. No, because the owner of a personal residence cannot waive the right to foreclosure.
+    C. Yes, because of the doctrine of equitable redemption.
+    D. Yes, because the transaction was reasonable and fair under the circumstances.
+  Parent key: D (Yes, because the transaction was reasonable and fair under the circumstances.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=parent D, D=NEW, E=NEW, F=NEW, G=parent C, H=NEW, I=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-262  (subject area: business)
+Question:
+ Which of the following is the rate at which a market adopts an innovation?
+Options:
+  A. Market penetration rate.
+  B. Adoption process.
+  C. Market adoption scale.
+  D. Process of market saturation.
+  E. Process of differentiation.
+  F. Product lifecycle.
+  G. Process of diffusion.
+  H. Innovation rate.
+  I. Process of diversification.
+  J. Adoption lifecycle.
+Answer key: G
+LINEAGE:
+- MMLU parent: marketing#26 (MMLU test split, Hendrycks et al. 2021)
+  Parent question:  Which of the following is the rate at which a market adopts an innovation?
+    A. Process of diffusion.
+    B. Process of differentiation.
+    C. Adoption process.
+    D. Adoption lifecycle.
+  Parent key: A (Process of diffusion.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent C, C=NEW, D=NEW, E=parent B, F=NEW, G=parent A, H=NEW, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11740  (subject area: engineering)
+Question:
+Four identical alternators each are rated for 20 MVA, 11 KV having a subtransient reactance of 16% are working in parallel. The short circuit level at the busbar is
+Options:
+  A. 600 MVA
+  B. 800 MVA
+  C. 125 MVA
+  D. 500 MVA
+  E. 700 MVA
+  F. 300 MVA
+  G. 200 MVA
+  H. 400 MVA
+  I. 900 MVA
+  J. 100 MVA
+Answer key: D
+LINEAGE:
+- MMLU parent: electrical_engineering#80 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Four identical alternators each are rated for 20 MVA, 11 KV having a subtransient reactance of 16% are working in parallel. The short circuit level at the busbar is
+    A. 500 MVA
+    B. 400 MVA
+    C. 125 MVA
+    D. 100 MVA
+  Parent key: A (500 MVA)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=parent A, E=NEW, F=NEW, G=NEW, H=parent B, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6379  (subject area: health)
+Question:
+A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?
+Options:
+  A. Increases cAMP concentration
+  B. Increases nitric oxide concentration
+  C. Inhibits potassium flux
+  D. Inhibits sodium flux
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_medicine#271 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A 52-year-old man is brought to the emergency department 30 minutes after he had an episode of chest pain radiating to his jaw while shoveling snow. His pulse is 80/min, and blood pressure is 130/70 mm Hg. The lungs are clear to auscultation. Cardiac examination shows an S4. While undergoing an ECG, the patient says that he feels the chest pain returning. The most appropriate immediate treatment is a drug with which of the following mechanisms of action?
+    A. Increases cAMP concentration
+    B. Increases nitric oxide concentration
+    C. Inhibits potassium flux
+    D. Inhibits sodium flux
+  Parent key: B (Increases nitric oxide concentration)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2639  (subject area: psychology)
+Question:
+An organizational psychologist would most likely recommend the use of vestibule training for which of the following jobs?
+Options:
+  A. receptionist
+  B. word processor
+  C. high school teacher
+  D. clinical psychologist.
+  E. software developer
+  F. salesperson.
+  G. newspaper journalist
+  H. airline pilot
+  I. bus driver
+  J. restaurant waiter
+Answer key: H
+LINEAGE:
+- MMLU parent: professional_psychology#420 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: An organizational psychologist would most likely recommend the use of vestibule training for which of the following jobs?
+    A. airline pilot
+    B. word processor
+    C. salesperson.
+    D. clinical psychologist.
+  Parent key: A (airline pilot)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=parent D, E=NEW, F=parent C, G=NEW, H=parent A, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10847  (subject area: philosophy)
+Question:
+When faced with the complaint that utilitarianism is a doctrine worthy of swine, Mill responds that pleasures differ in:
+Options:
+  A. cost.
+  B. weight.
+  C. species.
+  D. purity.
+  E. morality.
+  F. frequency.
+  G. quality.
+  H. practicality.
+  I. intensity.
+  J. duration.
+Answer key: G
+LINEAGE:
+- MMLU parent: philosophy#128 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: When faced with the complaint that utilitarianism is a doctrine worthy of swine, Mill responds that pleasures differ in:
+    A. purity.
+    B. quality.
+    C. species.
+    D. weight.
+  Parent key: B (quality.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=parent C, D=parent A, E=NEW, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5155  (subject area: other)
+Question:
+Which of the following is not recognised as a level of society?
+Options:
+  A. the continent
+  B. the community
+  C. the city
+  D. the nation state
+  E. the church
+  F. the school
+  G. the household
+  H. the global village
+  I. the region
+  J. the office
+Answer key: J
+LINEAGE:
+- MMLU parent: sociology#140 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following is not recognised as a level of society?
+    A. the household
+    B. the office
+    C. the global village
+    D. the nation state
+  Parent key: B (the office)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent D, E=NEW, F=NEW, G=parent A, H=parent C, I=NEW, J=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/uk/orc/sociology/fulcher4e/01student/mcqs/ch01'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-8809  (subject area: math)
+Question:
+It takes Kate k days to write a GRE math practice test. It takes John j days to write a GRE math practice test. If Kate and John work on a practice test in alternating 2-day shifts, it takes them 10 days when Kate starts and 10.5 days when John starts. How long would it take the two to complete a practice test if Kate and John worked simultaneously?
+Options:
+  A. 41/8 days
+  B. 13/2 days
+  C. 12/3 days
+  D. 36/7 days
+  E. 11/2 days
+  F. 9/2 days
+  G. 7 days
+  H. 5 days
+  I. 8 days
+  J. 10 days
+Answer key: D
+LINEAGE:
+- MMLU parent: college_mathematics#26 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: It takes Kate k days to write a GRE math practice test. It takes John j days to write a GRE math practice test. If Kate and John work on a practice test in alternating 2-day shifts, it takes them 10 days when Kate starts and 10.5 days when John starts. How long would it take the two to complete a practice test if Kate and John worked simultaneously?
+    A. 9/2 days
+    B. 5 days
+    C. 41/8 days
+    D. 36/7 days
+  Parent key: D (36/7 days)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=NEW, D=parent D, E=NEW, F=parent A, G=NEW, H=parent B, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1324  (subject area: law)
+Question:
+One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+Options:
+  A. Solicitation, attempted sale of narcotics, and false pretenses.
+  B. False pretenses.
+  C. Solicitation and false pretenses.
+  D. Attempted sale of narcotics and false pretenses.
+  E. Attempted sale of narcotics.
+  F. Attempted fraud.
+  G. No crimes, as no actual narcotics were involved.
+  H. Theft by deception.
+  I. Solicitation and attempted sale of narcotics.
+  J. Solicitation, theft by deception, and false pretenses.
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_law#427 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+    A. Solicitation and attempted sale of narcotics.
+    B. Attempted sale of narcotics and false pretenses.
+    C. False pretenses.
+    D. Solicitation, attempted sale of narcotics, and false pretenses.
+  Parent key: C (False pretenses.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=parent C, C=NEW, D=parent B, E=NEW, F=NEW, G=NEW, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1735  (subject area: law)
+Question:
+A home security protection company provided protection services to property owners in the immediate area. The owner of a summer cottage in the area hired the company to provide 24- hour protection during the winter months when his home was unoccupied. According to the security arrangement, the company's uniformed guards would periodically patrol the property and, if necessary, provide an "armed response" to any unauthorized individuals who were found trespassing on the property. The company provided security protection to the owner's property for two years. The owner then notified the company that he was planning to sell the cottage. As a result, he requested that the company discontinue its home-protection service, effective immediately. Two weeks later, a burglar broke into the cottage and was ransacking it. As the burglar was exiting from the owner's house carrying a portable television set, he was seen by a security guard working for the company. The security guard, who was driving past the home on security patrol, had not been informed that the owner had discontinued protection services. The security guard suddenly stopped his patrol vehicle and ran toward the burglar shouting, "Stop! Don't move or I'll shoot!" Startled, the burglar dropped the television set and began to flee. Believing that the suspected burglar was about to escape, the security guard pulled out his service revolver and fired a bullet at the burglar. The shot struck the burglar in the leg, seriously wounding him. If the burglar asserts a claim against the owner for negligently failing to supervise those providing security services for the owner's property, the burglar will probably
+Options:
+  A. not prevail, because the security guard was acting in the course of his duties.
+  B. prevail, because the burglar was unarmed when he was shot.
+  C. prevail, because the security guard acted without proper authorization.
+  D. prevail, because the security guard used excessive force.
+  E. not prevail, because the owner was not present when the shooting occurred.
+  F. not prevail, because the owner had discontinued protection services from the company when the shooting occurred.
+  G. prevail, because the owner knew or had reason to know that the company provided an "armed response" to suspected trespassers.
+  H. not prevail, because the owner had no control over the actions of the security guard.
+  I. prevail, because the owner did not properly inform the company of the discontinued services.
+  J. not prevail, because the burglar was trespassing on private property.
+Answer key: F
+LINEAGE:
+- MMLU parent: professional_law#1035 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A home security protection company provided protection services to property owners in the immediate area. The owner of a summer cottage in the area hired the company to provide 24- hour protection during the winter months when his home was unoccupied. According to the security arrangement, the company's uniformed guards would periodically patrol the property and, if necessary, provide an "armed response" to any unauthorized individuals who were found trespassing on the property. The company provided security protection to the owner's property for two years. The owner then notified the company that he was planning to sell the cottage. As a result, he requested that the company discontinue its home-protection service, effective immediately. Two weeks later, a burglar broke into the cottage and was ransacking it. As the burglar was exiting from the owner's house carrying a portable television set, he was seen by a security guard working for the company. The security guard, who was driving past the home on security patrol, had not been informed that the owner had discontinued protection services. The security guard suddenly stopped his patrol vehicle and ran toward the burglar shouting, "Stop! Don't move or I'll shoot!" Startled, the burglar dropped the television set and began to flee. Believing that the suspected burglar was about to escape, the security guard pulled out his service revolver and fired a bullet at the burglar. The shot struck the burglar in the leg, seriously wounding him. If the burglar asserts a claim against the owner for negligently failing to supervise those providing security services for the owner's property, the burglar will probably
+    A. prevail, because the burglar was unarmed when he was shot.
+    B. prevail, because the owner knew or had reason to know that the company provided an "armed response" to suspected trespassers.
+    C. not prevail, because the owner was not present when the shooting occurred.
+    D. not prevail, because the owner had discontinued protection services from the company when the shooting occurred.
+  Parent key: D (not prevail, because the owner had discontinued protection services from the company when the shooting occurred.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=NEW, D=NEW, E=parent C, F=parent D, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1797  (subject area: law)
+Question:
+A homeowner executed a deed by which he conveyed his home and surround property for a consideration of one dollar, receipt of which was acknowledged, "to my daughter for life, then to my aunt for life, but if my aunt moves to another state, to my sister for the life of my aunt, then to the heirs of my aunt if my aunt does not move to another state, and to the heirs of my sister if my aunt does move to another state. " This deed was promptly recorded. During the daughter's lifetime, the aunt's interest may best be described as a
+Options:
+  A. vested remainder subject to open.
+  B. contingent remainder.
+  C. fee simple subject to executory limitation.
+  D. reversionary interest.
+  E. life estate pur autre vie.
+  F. shifting executory interest.
+  G. fee simple determinable.
+  H. fee simple subject to condition subsequent.
+  I. vested remainder subject to partial divestiture.
+  J. vested remainder subject to complete divestiture.
+Answer key: J
+LINEAGE:
+- MMLU parent: professional_law#595 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A homeowner executed a deed by which he conveyed his home and surround property for a consideration of one dollar, receipt of which was acknowledged, "to my daughter for life, then to my aunt for life, but if my aunt moves to another state, to my sister for the life of my aunt, then to the heirs of my aunt if my aunt does not move to another state, and to the heirs of my sister if my aunt does move to another state. " This deed was promptly recorded. During the daughter's lifetime, the aunt's interest may best be described as a
+    A. contingent remainder.
+    B. shifting executory interest.
+    C. vested remainder subject to complete divestiture.
+    D. vested remainder subject to partial divestiture.
+  Parent key: C (vested remainder subject to complete divestiture.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=NEW, D=NEW, E=NEW, F=parent B, G=NEW, H=NEW, I=parent D, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2210  (subject area: psychology)
+Question:
+The most likely use of an “in-basket” technique in personnel selection would be with which type of employee
+Options:
+  A. Financial
+  B. Customer Service
+  C. Technical
+  D. Sales
+  E. Marketing
+  F. Manufacturing
+  G. Managerial
+  H. Secretarial
+  I. Clerical
+  J. Human Resources
+Answer key: G
+LINEAGE:
+- MMLU parent: professional_psychology#437 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The most likely use of an “in-basket” technique in personnel selection would be with which type of employee
+    A. Clerical
+    B. Sales
+    C. Managerial
+    D. Secretarial
+  Parent key: C (Managerial)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=NEW, F=NEW, G=parent C, H=parent D, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10989  (subject area: philosophy)
+Question:
+Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+H ≡ (I · ~J)
+K ≡ ~H
+~(K ⊃ J) / I ≡ J
+Options:
+  A. Valid
+  B. Invalid. Counterexample when I, J, and K are true and H is false
+  C. Invalid. Counterexample when K is true and I, H, and J are false
+  D. Invalid. Counterexample when H, I, and J are true and K is false
+  E. Invalid. Counterexample when K and J are true and I and H are false
+  F. Invalid. Counterexample when H and J are true and I and K are false
+  G. Invalid. Counterexample when I and J are true and H and K are false
+  H. Invalid. Counterexample when I and H are true and J and K are false
+  I. Invalid. Counterexample when J is true and I, H, and K are false
+  J. Invalid. Counterexample when I, H, and K are true and J is false
+Answer key: A
+LINEAGE:
+- MMLU parent: formal_logic#108 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+H ≡ (I · ~J)
+K ≡ ~H
+~(K ⊃ J) / I ≡ J
+    A. Valid
+    B. Invalid. Counterexample when I, H, and K are true and J is false
+    C. Invalid. Counterexample when I and H are true and J and K are false
+    D. Invalid. Counterexample when K is true and I, H, and J are false
+  Parent key: A (Valid)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=NEW, C=parent D, D=NEW, E=NEW, F=NEW, G=NEW, H=parent C, I=NEW, J=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'Expert'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10513  (subject area: computer science)
+Question:
+In Python 3, which of the following function sets the integer starting value used in generating random numbers?
+Options:
+  A. uniform(a, b)
+  B. randint(a, b)
+  C. random()
+  D. random.randint(a, b)
+  E. seed([x])
+  F. randrange ([start,] stop [,step])
+  G. shuffle(lst)
+  H. sample(population, k)
+  I. setseed([x])
+  J. choice(seq)
+Answer key: E
+LINEAGE:
+- MMLU parent: high_school_computer_science#79 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In Python 3, which of the following function sets the integer starting value used in generating random numbers?
+    A. choice(seq)
+    B. randrange ([start,] stop [,step])
+    C. random()
+    D. seed([x])
+  Parent key: D (seed([x]))
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=parent D, F=parent B, G=NEW, H=NEW, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1902  (subject area: law)
+Question:
+A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, "Very well," and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, "Listen, unless you let me look inside that bag, I'm going to call the police. " The woman replied, "Very well," and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely
+Options:
+  A. not prevail, because no physical force was used to detain her.
+  B. prevail, because she was falsely accused of theft.
+  C. not prevail, because she agreed to the manager's request to inspect her bag.
+  D. prevail, because the manager threatened to call the police.
+  E. prevail, because the manager did not have reasonable grounds to suspect that the woman had committed a theft.
+  F. not prevail, because she matched the description of the suspected thief.
+  G. prevail, because the manager had no direct evidence of theft.
+  H. prevail, because she was detained for an unreasonably long period of time.
+  I. not prevail, because the manager gave the woman permission to leave after conducting her investigation.
+Answer key: H
+LINEAGE:
+- MMLU parent: professional_law#973 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, "Very well," and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, "Listen, unless you let me look inside that bag, I'm going to call the police. " The woman replied, "Very well," and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely
+    A. prevail, because she was detained for an unreasonably long period of time.
+    B. prevail, because the manager did not have reasonable grounds to suspect that the woman had committed a theft.
+    C. not prevail, because under the circumstances, the manager had reasonable grounds to suspect that the woman had committed a theft.
+    D. not prevail, because the manager gave the woman permission to leave after conducting her investigation.
+  Parent key: A (prevail, because she was detained for an unreasonably long period of time.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent B, F=NEW, G=NEW, H=parent A, I=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): C (not prevail, because under the circumstances, the manager had reasonable grounds to suspect that the woman had committed a theft.)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6083  (subject area: health)
+Question:
+Exhaustion, confusion, and unresponsiveness can be indicators of:
+Options:
+  A. food poisoning.
+  B. respiratory failure.
+  C. mental health disorders.
+  D. being generally unwell.
+  E. a viral infection.
+Answer key: B
+LINEAGE:
+- MMLU parent: clinical_knowledge#128 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Exhaustion, confusion, and unresponsiveness can be indicators of:
+    A. respiratory failure.
+    B. being generally unwell.
+    C. renal failure.
+    D. cardiac failure.
+  Parent key: A (respiratory failure.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=NEW, D=parent B, E=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): C (renal failure.), D (cardiac failure.)
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1196  (subject area: law)
+Question:
+Two days before his home was to be sold at a foreclosure sale, a homeowner obtained a temporary restraining order (TRO) in federal court that prevented his lender from proceeding with the sale for 14 days or until a preliminary injunction hearing could take place, whichever was sooner. When a preliminary injunction hearing could not be scheduled within the original 14-day period, the court extended the TRO for another 30 days. The lender appealed the court's order extending the TRO. The homeowner has moved to dismiss the appeal. Is the appellate court likely to dismiss the appeal?
+Options:
+  A. No, because the TRO is considered a final order and therefore appealable.
+  B. No, because the lender has the right to appeal any order that prevents the foreclosure sale.
+  C. Yes, because the preliminary injunction hearing could not be scheduled within the original 14-day period.
+  D. No, because a TRO is immediately appealable.
+  E. Yes, because the lender did not have the right to appeal the TRO extension.
+  F. No, because the 30-day extension makes the TRO equivalent to a preliminary injunction and therefore appealable.
+  G. Yes, because the court did not have jurisdiction to extend the TRO.
+  H. No, because the homeowner's motion to dismiss is not valid.
+  I. Yes, because there is no final judgment from which an appeal may be taken.
+Answer key: F
+LINEAGE:
+- MMLU parent: professional_law#1494 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Two days before his home was to be sold at a foreclosure sale, a homeowner obtained a temporary restraining order (TRO) in federal court that prevented his lender from proceeding with the sale for 14 days or until a preliminary injunction hearing could take place, whichever was sooner. When a preliminary injunction hearing could not be scheduled within the original 14-day period, the court extended the TRO for another 30 days. The lender appealed the court's order extending the TRO. The homeowner has moved to dismiss the appeal. Is the appellate court likely to dismiss the appeal?
+    A. No, because a TRO is immediately appealable.
+    B. No, because the 30-day extension makes the TRO equivalent to a preliminary injunction and therefore appealable.
+    C. Yes, because a TRO is not appealable under the interlocutory appeals statute.
+    D. Yes, because there is no final judgment from which an appeal may be taken.
+  Parent key: B (No, because the 30-day extension makes the TRO equivalent to a preliminary injunction and therefore appealable.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent A, E=NEW, F=parent B, G=NEW, H=NEW, I=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): C (Yes, because a TRO is not appealable under the interlocutory appeals statute.)
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1541  (subject area: law)
+Question:
+The Supreme Court has original jurisdiction in certain areas. Congress has given lower federal courts concurrent jurisdiction with the Supreme Court in all cases except for disputes involving:
+Options:
+  A. maritime issues
+  B. private citizens
+  C. international disputes
+  D. federal laws
+  E. different states
+  F. constitutional matters
+  G. a state as a party
+  H. federal officials
+  I. public ministers and consuls
+Answer key: E
+LINEAGE:
+- MMLU parent: professional_law#920 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The Supreme Court has original jurisdiction in certain areas. Congress has given lower federal courts concurrent jurisdiction with the Supreme Court in all cases except for disputes involving:
+    A. ambassadors
+    B. public ministers and consuls
+    C. different states
+    D. a state as a party
+  Parent key: C (different states)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent C, F=NEW, G=parent D, H=NEW, I=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): A (ambassadors)
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5250  (subject area: other)
+Question:
+A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. The passage suggests that the speaker would describe the "account" mentioned in the first sentence as
+Options:
+  A. comprehensive
+  B. exaggerated
+  C. insightful
+  D. precise
+  E. adequate
+  F. mystifying
+  G. deficient
+  H. erroneous
+  I. misleading
+  J. enlightening
+Answer key: G
+LINEAGE:
+- MMLU parent: miscellaneous#595 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. The passage suggests that the speaker would describe the "account" mentioned in the first sentence as
+    A. enlightening
+    B. mystifying
+    C. deficient
+    D. erroneous
+  Parent key: C (deficient)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=NEW, F=parent B, G=parent C, H=parent D, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.

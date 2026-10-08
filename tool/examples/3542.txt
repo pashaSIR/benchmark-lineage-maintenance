@@ -1,0 +1,14 @@
+Correction: no_correct_answer on MMLU college_chemistry#86
+Parent stem: Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).
+Parent key: D  Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+Questioned content: Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+Evidence: exp(-h nu/kT): L-band 0.9998, W-band 0.9851
+
+Re-review queue (rank 0 = annotation layer, 1 = carries the questioned content, 2 = check, 3 = documented only):
+  [0] MMLU-Redux  college_chemistry#86                     re-annotation of parent              edge: copy                         content: inherited  | Redux label: bad question clarity | -> aryopg/mmlu-redux (GitHub); edinburgh-dawg/mmlu-redux-2.0 (Hugging Face) | not filed
+  [1] MMLU-Pro    question_id 3542                         derived (child)                      edge: options 4->10 (6 added)      content: inherited  | key same as parent; key unchanged since late-2024 | -> TIGER-AI-Lab/MMLU-Pro (GitHub); TIGER-Lab/MMLU-Pro (Hugging Face) | not filed
+  [3] MMMLU       translations of parent college_chemistry#86 documented derivative (NOT joined)   edge: translation                  content: unverified | MMLU test set translated into 14 languages | -> openai/MMMLU (Hugging Face) | not filed
+  [3] Global-MMLU translations of parent college_chemistry#86 documented derivative (NOT joined)   edge: translation                  content: unverified | MMLU translated into 41 non-English languages (42 incl. English) | -> CohereForAI/Global-MMLU (Hugging Face) | not filed
+  [3] MMLU-ProX   translations of each MMLU-Pro child      documented derivative (NOT joined)   edge: translation                  content: unverified | MMLU-Pro (de-duplicated, 11,829 items) translated into 29 languages | -> li-lab/MMLU-ProX (Hugging Face) | not filed
+
+Coverage: reconstructed lineage (normalized exact or fuzzy>=0.85 stem match); HF revisions unchecked; translations not joined.

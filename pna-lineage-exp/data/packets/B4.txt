@@ -1,0 +1,751 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-5096  (subject area: other)
+Question:
+How long has the average United States citizen spent as president?
+Options:
+  A. 1 minute
+  B. 10 seconds
+  C. 1 seconds
+  D. 1 day
+  E. 10 minutes
+  F. 1 year
+  G. 30 seconds
+  H. 1 week
+  I. 10 years
+  J. 1 hour
+Answer key: B
+LINEAGE:
+- MMLU parent: miscellaneous#163 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: How long has the average United States citizen spent as president?
+    A. 1 seconds
+    B. 10 seconds
+    C. 1 minute
+    D. 10 minutes
+  Parent key: B (10 seconds)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=parent B, C=parent A, D=NEW, E=parent D, F=NEW, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5930  (subject area: other)
+Question:
+Which one of the following North American associations is NOT correct?
+Options:
+  A. Southeast—African Americans
+  B. Southern prairie provinces—African Americans
+  C. New England—Latin Americans
+  D. Oklahoma and the Southwest—Native Americans
+  E. Quebec and northern Maine—French Americans and French Canadians
+  F. Florida—Native Americans
+Answer key: B
+LINEAGE:
+- MMLU parent: high_school_geography#115 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which one of the following North American associations is NOT correct?
+    A. Southeast—African Americans
+    B. Oklahoma and the Southwest—Native Americans
+    C. Quebec and northern Maine—French Americans and French Canadians
+    D. Southern prairie provinces—African Americans
+  Parent key: D (Southern prairie provinces—African Americans)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent D, C=NEW, D=parent B, E=parent C, F=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'www.crackap.com - AP Human Geography Question 71'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6169  (subject area: health)
+Question:
+When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+Options:
+  A. anterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  B. posterior fragment to be displaced downwards by the action of the digastric muscle.
+  C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+  D. posterior fragment to be displaced laterally by the action of the medial pterygoid muscle.
+  E. anterior fragment to be displaced medially by the action of the medial pterygoid muscle.
+  F. posterior fragment to be displaced upwards by the action of the masseter muscle.
+  G. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  H. anterior fragment to be displaced upwards by the action of the masseter muscle.
+  I. anterior fragment to be displaced downwards by the action of the digastric muscle.
+  J. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+Answer key: I
+LINEAGE:
+- MMLU parent: anatomy#73 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+    A. anterior fragment to be displaced downwards by the action of the digastric muscle.
+    B. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+    C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+    D. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+  Parent key: A (anterior fragment to be displaced downwards by the action of the digastric muscle.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent A, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1087  (subject area: law)
+Question:
+A wife and her husband were having dinner at a restaurant when the wife excused herself to go to the bathroom. The restaurant was owned and operated by a chef. As the wife was walking past a table where another customer was seated, she slipped and fell on an egg roll that had been lying on the floor for quite some time, although the chef was unaware that it had fallen onto the floor. When she fell, her head struck a serving tray that was located in the aisle. The fall caused the wife to suffer a severe concussion. The customer knew that the egg roll was on the floor, and although he could have done so, he did not warn the wife. If the wife asserts a claim against the chef for the injuries she suffered from the fall, she will most likely
+Options:
+  A. recover, because the customer was negligent in not warning her about the egg roll.
+  B. not recover, because the customer could have prevented the injury by warning the wife of the presences of the egg roll.
+  C. recover, because the egg roll was on the floor for a substantial period of time before the accident.
+  D. not recover, because she should have been more careful while walking.
+  E. recover, because the egg roll on the floor constituted an unsafe condition of the premises.
+  F. not recover, because the chef was not directly responsible for the egg roll being on the floor.
+  G. not recover, because the chef did not know that the egg roll was on the floor.
+  H. not recover, because it is not the chef's responsibility to monitor the floor at all times.
+  I. recover, because the serving tray was placed in a dangerous location.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#458 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A wife and her husband were having dinner at a restaurant when the wife excused herself to go to the bathroom. The restaurant was owned and operated by a chef. As the wife was walking past a table where another customer was seated, she slipped and fell on an egg roll that had been lying on the floor for quite some time, although the chef was unaware that it had fallen onto the floor. When she fell, her head struck a serving tray that was located in the aisle. The fall caused the wife to suffer a severe concussion. The customer knew that the egg roll was on the floor, and although he could have done so, he did not warn the wife. If the wife asserts a claim against the chef for the injuries she suffered from the fall, she will most likely
+    A. recover, because the egg roll on the floor constituted an unsafe condition of the premises.
+    B. recover, because the egg roll was on the floor for a substantial period of time before the accident.
+    C. not recover, because the chef did not know that the egg roll was on the floor.
+    D. not recover, because the customer could have prevented the injury by warning the wife of the presences of the egg roll.
+  Parent key: B (recover, because the egg roll was on the floor for a substantial period of time before the accident.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=parent B, D=NEW, E=parent A, F=NEW, G=parent C, H=NEW, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6628  (subject area: health)
+Question:
+Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:
+
+Options:
+  A. lowering intramuscular lipid storage
+  B. Increasing liver glycogen content
+  C. Increasing muscle glycogen use during exercise
+  D. Increasing intramuscular lipid use during exercise
+Answer key: D
+LINEAGE:
+- MMLU parent: nutrition#97 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:
+
+    A. lowering intramuscular lipid storage
+    B. Increasing liver glycogen content
+    C. Increasing muscle glycogen use during exercise
+    D. Increasing intramuscular lipid use during exercise
+  Parent key: D (Increasing intramuscular lipid use during exercise)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10110  (subject area: physics)
+Question:
+A photon strikes an electron of mass m that is initially at rest, creating an electron-positron pair. The photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon. The energy of the photon was
+Options:
+  A. 5mc^2
+  B. 6mc^2
+  C. 3mc^2
+  D. Infinite
+  E. mc^2/2
+  F. mc^2
+  G. mc^2/4
+  H. Zero
+  I. 2mc^2
+  J. 4mc^2
+Answer key: J
+LINEAGE:
+- MMLU parent: college_physics#85 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A photon strikes an electron of mass m that is initially at rest, creating an electron-positron pair. The photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon. The energy of the photon was
+    A. mc^2
+    B. 2mc^2
+    C. 3mc^2
+    D. 4mc^2
+  Parent key: D (4mc^2)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=NEW, F=parent A, G=NEW, H=NEW, I=parent B, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '2001 GRE Physics Exam (GR0177 #99)'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-7027  (subject area: economics)
+Question:
+In the equation GDP = C + I + G + X X stands for
+Options:
+  A. exports.
+  B. exports minus imports.
+  C. imports.
+  D. gross domestic product.
+  E. consumption.
+  F. government spending.
+  G. investment.
+  H. total domestic production.
+  I. expenditures.
+  J. imports minus exports.
+Answer key: B
+LINEAGE:
+- MMLU parent: high_school_macroeconomics#55 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In the equation GDP = C + I + G + X X stands for
+    A. exports.
+    B. expenditures.
+    C. exports minus imports.
+    D. imports minus exports.
+  Parent key: C (exports minus imports.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent C, C=NEW, D=NEW, E=NEW, F=NEW, G=NEW, H=NEW, I=parent B, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6370  (subject area: health)
+Question:
+A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?
+Options:
+  A. Internal iliac
+  B. Popliteal
+  C. Sacral
+  D. Superficial inguinal
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_medicine#184 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?
+    A. Internal iliac
+    B. Popliteal
+    C. Sacral
+    D. Superficial inguinal
+  Parent key: D (Superficial inguinal)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://www.usmle.org/sites/default/files/2021-08/Step_1_Sample_Items.pdf'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6104  (subject area: health)
+Question:
+A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9°C (102.0°F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step?
+Options:
+  A. Begin corticosteroid treatment
+  B. Place a percutaneous endoscopic gastrostomy (PEG) tube
+  C. Administer influenza vaccine
+  D. Prescribe fludrocortisone
+  E. Discontinue levodopa and carbidopa
+  F. Arrange for home oxygen therapy
+  G. Initiate physical therapy
+  H. Obtain CT scan of the chest
+  I. Obtain a swallowing evaluation
+  J. Start patient on anticoagulant therapy
+Answer key: I
+LINEAGE:
+- MMLU parent: professional_medicine#34 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9°C (102.0°F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step?
+    A. Obtain CT scan of the chest
+    B. Obtain a swallowing evaluation
+    C. Place a percutaneous endoscopic gastrostomy (PEG) tube
+    D. Prescribe fludrocortisone
+  Parent key: B (Obtain a swallowing evaluation)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent C, C=NEW, D=parent D, E=NEW, F=NEW, G=NEW, H=parent A, I=parent B, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://www.usmle.org/sites/default/files/2021-08/Step_3_Sample_Items.pdf'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-9817  (subject area: physics)
+Question:
+A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is
+Options:
+  A. 84m
+  B. -36m
+  C. -84m
+  D. -72m
+  E. 72m
+  F. 60m
+  G. -60m
+  H. -99m
+  I. 99m
+  J. 36m
+Answer key: B
+LINEAGE:
+- MMLU parent: high_school_physics#56 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is
+    A. 99m
+    B. 36m
+    C. -36m
+    D. -99m
+  Parent key: C (-36m)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=NEW, E=NEW, F=NEW, G=NEW, H=parent A, I=parent D, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://brainly.com/question/11612034'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2936  (subject area: biology)
+Question:
+Which of the following factors does NOT promote linkage disequilibrium?
+Options:
+  A. Asexual reproduction
+  B. Coadapted gene complexes
+  C. Epistasis
+  D. Random mating
+Answer key: D
+LINEAGE:
+- MMLU parent: college_biology#54 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following factors does NOT promote linkage disequilibrium?
+    A. Asexual reproduction
+    B. Coadapted gene complexes
+    C. Epistasis
+    D. Random mating
+  Parent key: D (Random mating)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6268  (subject area: health)
+Question:
+Fats normally contain triacylglycerols at concentrations of:
+
+Options:
+  A. > 95%
+  B. 95-100%
+  C. < 50%
+  D. 75-95%
+  E. 50-60%
+  F. 60-75%
+  G. 50- 75%
+  H. 25-50%
+  I. 10-25%
+  J. < 10%
+Answer key: A
+LINEAGE:
+- MMLU parent: nutrition#124 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Fats normally contain triacylglycerols at concentrations of:
+
+    A. 75-95%
+    B. 50- 75%
+    C. > 95%
+    D. < 50%
+  Parent key: C (> 95%)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent D, D=parent A, E=NEW, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-2529  (subject area: psychology)
+Question:
+Every time you buy ice cream from the Yellow Brick Road ice cream parlor, you get your over-the-rainbow card stamped. Once you purchase ten items, you get your next item free. The Yellow Brick Road ice cream parlor has you on which of the following reinforcement schedules?
+Options:
+  A. Variable-interval
+  B. Fixed-interval
+  C. Continuous reinforcement
+  D. Variable-ratio with extinction
+  E. Fixed-ratio
+  F. Variable-ratio
+  G. Interval-ratio
+  H. Partial reinforcement
+  I. Ratio reinforcement
+  J. Fixed-variable
+Answer key: E
+LINEAGE:
+- MMLU parent: high_school_psychology#270 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Every time you buy ice cream from the Yellow Brick Road ice cream parlor, you get your over-the-rainbow card stamped. Once you purchase ten items, you get your next item free. The Yellow Brick Road ice cream parlor has you on which of the following reinforcement schedules?
+    A. Variable-ratio
+    B. Variable-interval
+    C. Fixed-ratio
+    D. Fixed-interval
+  Parent key: C (Fixed-ratio)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent B, B=parent D, C=NEW, D=NEW, E=parent C, F=parent A, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4898  (subject area: history)
+Question:
+This question refers to the following information.
+"Our constitution does not copy the laws of neighboring states; we are rather a pattern to others than imitators ourselves. Its administration favors the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbor for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty. But all this ease in our private relations does not make us lawless as citizens. Against this fear is our chief safeguard, teaching us to obey the magistrates and the laws, particularly such as regard the protection of the injured, whether they are actually on the statute book, or belong to that code which, although unwritten, yet cannot be broken without acknowledged disgrace."
+Thucydides, History of the Peloponnesian War, ca. 415 B.C.E.
+During the time period in which this text was written, who was allowed to participate in the Greek democratic process?
+Options:
+  A. All children born within the geographic boundaries of the state
+  B. All adult men who have served in the military
+  C. All adult men born within the geographic boundaries of the state
+  D. Only the wealthy and influential men of the state
+  E. All adult men and women who were citizens of the state by birth
+  F. All adult men who were citizens of the state by birth
+  G. All adult men, regardless of their birthplace
+  H. All adult men and women born within the geographic boundaries of the state
+  I. All adult men and women, regardless of their birthplace
+  J. Only those who were educated and could read and write
+Answer key: F
+LINEAGE:
+- MMLU parent: high_school_world_history#146 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: This question refers to the following information.
+"Our constitution does not copy the laws of neighboring states; we are rather a pattern to others than imitators ourselves. Its administration favors the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbor for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty. But all this ease in our private relations does not make us lawless as citizens. Against this fear is our chief safeguard, teaching us to obey the magistrates and the laws, particularly such as regard the protection of the injured, whether they are actually on the statute book, or belong to that code which, although unwritten, yet cannot be broken without acknowledged disgrace."
+Thucydides, History of the Peloponnesian War, ca. 415 B.C.E.
+During the time period in which this text was written, who was allowed to participate in the Greek democratic process?
+    A. All adult men born within the geographic boundaries of the state
+    B. All adult men and women born within the geographic boundaries of the state
+    C. All adult men who were citizens of the state by birth
+    D. All adult men and women who were citizens of the state by birth
+  Parent key: C (All adult men who were citizens of the state by birth)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent A, D=NEW, E=parent D, F=parent C, G=NEW, H=parent B, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-11130  (subject area: philosophy)
+Question:
+ In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+Options:
+  A. it views coercion as a violation of human rights
+  B. it believes in the power of persuasion over coercion
+  C. the Confucian model believes in voluntary compliance based on mutual respect and understanding.
+  D. it affirms the autonomy of individuals apart from others.
+  E. The Confucian model actually accepts coercion.
+  F. the costs of eliminating a collective action problem are not irrelevant to its solution
+  G. coercion is seen as a last resort, only to be used in extreme circumstances
+  H. the Confucian model prioritizes collective action over individual action
+  I. it cannot lead to real social change, which involves changes of mind as well as action
+  J. it believes in the intrinsic goodness and perfectibility of human beings
+Answer key: D
+LINEAGE:
+- MMLU parent: moral_disputes#93 (MMLU test split, Hendrycks et al. 2021)
+  Parent question:  In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+    A. the costs of eliminating a collective action problem are not irrelevant to its solution
+    B. it affirms the autonomy of individuals apart from others.
+    C. it cannot lead to real social change, which involves changes of mind as well as action
+    D. The Confucian model actually accepts coercion.
+  Parent key: B (it affirms the autonomy of individuals apart from others.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=parent D, F=parent A, G=NEW, H=NEW, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4250  (subject area: chemistry)
+Question:
+How many moles of propane (C3H8) are there in 6.2 g of propane?
+Options:
+  A. 14.1 mol
+  B. 7.1 mol
+  C. 71 mol
+  D. 14.1 × 10^-1 mol
+  E. 1.4 × 10^-1 mol
+  F. 1.41 × 10^2 mol
+  G. 7.1 × 10^-1 mol
+  H. 0.71 mol
+  I. 1.4 mol
+  J. 141 mol
+Answer key: E
+LINEAGE:
+- MMLU parent: high_school_chemistry#195 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: How many moles of propane (C3H8) are there in 6.2 g of propane?
+    A. 14.1 mol
+    B. 1.4 × 10^-1 mol
+    C. 71 mol
+    D. 7.1 mol
+  Parent key: B (1.4 × 10^-1 mol)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent D, C=parent C, D=NEW, E=parent B, F=NEW, G=NEW, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1496  (subject area: law)
+Question:
+One afternoon, a pilot was flying a small airplane when it suddenly ran out of gas. As he was coming in for an emergency landing, the plane crossed into a neighboring state at a very low altitude. At this time, a 9-year-old boy was walking to school when he was struck and injured by an object, which may have fallen from the plane. In federal court, a negligence suit was brought against the pilot by the father of the boy for his son. Accompanied by his father, the boy had visited an attorney for preliminary discussions regarding the case. However, the father did not retain the attorney to represent his son in the lawsuit. Instead, the father hired another lawyer to handle the case. At trial, the pilot's attorney calls the consulting attorney to testify what the boy had said to him regarding his physical condition during the consultation that the attorney had had with the boy and his father. The attorney's testimony is
+Options:
+  A. admissible, because the father did not retain the consulting attorney, thus nullifying any privilege.
+  B. inadmissible, because it was a statement of physical condition not made for the purpose of obtaining medical treatment.
+  C. inadmissible, because the attorney-client privilege prevents such a breach of confidential communications.
+  D. inadmissible, because the attorney-client privilege is maintained even if a different attorney is hired.
+  E. admissible, because the lawsuit makes all previous communications related to the case public.
+  F. admissible, because the boy was not the attorney's client, only the father was.
+  G. admissible, because there is no privilege of confidentiality when a person other than the client is present at the attorney-client consultation.
+  H. admissible, because the attorney-client privilege was waived by the filing of the lawsuit.
+  I. inadmissible, because the consultation was preliminary and does not constitute a formal attorney-client relationship.
+  J. inadmissible, because the boy is a minor and cannot legally waive his rights to attorney-client privilege.
+Answer key: C
+LINEAGE:
+- MMLU parent: professional_law#0 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: One afternoon, a pilot was flying a small airplane when it suddenly ran out of gas. As he was coming in for an emergency landing, the plane crossed into a neighboring state at a very low altitude. At this time, a 9-year-old boy was walking to school when he was struck and injured by an object, which may have fallen from the plane. In federal court, a negligence suit was brought against the pilot by the father of the boy for his son. Accompanied by his father, the boy had visited an attorney for preliminary discussions regarding the case. However, the father did not retain the attorney to represent his son in the lawsuit. Instead, the father hired another lawyer to handle the case. At trial, the pilot's attorney calls the consulting attorney to testify what the boy had said to him regarding his physical condition during the consultation that the attorney had had with the boy and his father. The attorney's testimony is
+    A. admissible, because the attorney-client privilege was waived by the filing of the lawsuit.
+    B. admissible, because there is no privilege of confidentiality when a person other than the client is present at the attorney-client consultation.
+    C. inadmissible, because the attorney-client privilege prevents such a breach of confidential communications.
+    D. inadmissible, because it was a statement of physical condition not made for the purpose of obtaining medical treatment.
+  Parent key: C (inadmissible, because the attorney-client privilege prevents such a breach of confidential communications.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent D, C=parent C, D=NEW, E=NEW, F=NEW, G=parent B, H=parent A, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1438  (subject area: law)
+Question:
+Two friends were members of a fraternity at their college. During homecoming weekend, the fraternity held a big party, which was widely attended by students and alumni. At the party, the two friends were horsing around when the first friend pulled out a revolver. He gave the revolver's cylinder a spin, put the barrel of the gun to the second friend's head and, intending to scare the second friend, said, "Hey, man, let's play Russian roulette. " The second friend, who had consumed a fifth of bourbon, was very intoxicated. Thinking that the gun was unloaded, the second friend responded, "Sure, dude. " The first friend then pulled the trigger. The gun just made a clicking sound as the hammer fell on an empty chamber of the cylinder. The two friends both laughed and continued partying. Unbeknownst to the second friend, the first friend had placed bullets in two of the revolver's six firing chambers before making his challenge. The next day, the second friend found out that the gun was, in fact, loaded when the first friend pulled the trigger. If the second friend asserts a tort action against the first friend, he will most likely
+Options:
+  A. prevail, because the first friend intended to place the second friend in apprehension.
+  B. prevail, because the first friend showed gross negligence.
+  C. not prevail, because there was no physical harm inflicted on the second friend.
+  D. prevail, because the first friend's actions were reckless and dangerous.
+  E. prevail, because there was a substantial certainty that the second friend would be placed in apprehension.
+  F. not prevail, because the second friend was unaware that the gun was loaded.
+  G. not prevail, because the first friend did not actually intend to harm the second friend.
+  H. not prevail, because the second friend consented to participate in the Russian roulette game.
+  I. not prevail, because the second friend was under the influence of alcohol.
+Answer key: F
+LINEAGE:
+- MMLU parent: professional_law#618 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Two friends were members of a fraternity at their college. During homecoming weekend, the fraternity held a big party, which was widely attended by students and alumni. At the party, the two friends were horsing around when the first friend pulled out a revolver. He gave the revolver's cylinder a spin, put the barrel of the gun to the second friend's head and, intending to scare the second friend, said, "Hey, man, let's play Russian roulette. " The second friend, who had consumed a fifth of bourbon, was very intoxicated. Thinking that the gun was unloaded, the second friend responded, "Sure, dude. " The first friend then pulled the trigger. The gun just made a clicking sound as the hammer fell on an empty chamber of the cylinder. The two friends both laughed and continued partying. Unbeknownst to the second friend, the first friend had placed bullets in two of the revolver's six firing chambers before making his challenge. The next day, the second friend found out that the gun was, in fact, loaded when the first friend pulled the trigger. If the second friend asserts a tort action against the first friend, he will most likely
+    A. prevail, because the first friend intended to place the second friend in apprehension.
+    B. prevail, because there was a substantial certainty that the second friend would be placed in apprehension.
+    C. not prevail, because the second friend was unaware that the gun was loaded.
+    D. not prevail, because the second friend consented to participate in the Russian roulette game.
+  Parent key: C (not prevail, because the second friend was unaware that the gun was loaded.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=NEW, C=NEW, D=NEW, E=parent B, F=parent C, G=NEW, H=parent D, I=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-7369  (subject area: economics)
+Question:
+With respect to the kinked demand curve, which of the following is NOT correct?
+Options:
+  A. There is no price leader.
+  B. There are relatively equal shares of the market.
+  C. Price is greater than marginal costs.
+  D. The demand curve is of one continuous function.
+Answer key: D
+LINEAGE:
+- MMLU parent: high_school_microeconomics#220 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: With respect to the kinked demand curve, which of the following is NOT correct?
+    A. There is no price leader.
+    B. There are relatively equal shares of the market.
+    C. Price is greater than marginal costs.
+    D. The demand curve is of one continuous function.
+  Parent key: D (The demand curve is of one continuous function.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://www.crackap.com/ap/microeconomics/question-225-answer-and-explanation.html'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4779  (subject area: history)
+Question:
+Machu Picchu was built in the mountains as a:
+Options:
+  A. monument for an Inca king.
+  B. hunting ground for Inca rulers.
+  C. relaxing getaway for elites.
+  D. military training base.
+  E. defensive stronghold.
+  F. prison for political enemies.
+  G. site for agricultural experiments.
+  H. trade center for the Inca Empire.
+  I. shrine to the Inca rain god.
+  J. astronomical observatory.
+Answer key: C
+LINEAGE:
+- MMLU parent: prehistory#131 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Machu Picchu was built in the mountains as a:
+    A. defensive stronghold.
+    B. shrine to the Inca rain god.
+    C. relaxing getaway for elites.
+    D. astronomical observatory.
+  Parent key: C (relaxing getaway for elites.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=parent A, F=NEW, G=NEW, H=NEW, I=parent B, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/us/companion.websites/9780190275853/resources/ch13/quiz/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-4842  (subject area: history)
+Question:
+Why is the timing of monumental construction at Ceibal significant?
+Options:
+  A. It contradicts the hypothesis that the monumental construction of the Maya was largely inspired by the Olmec.
+  B. It confirms that the residents of Ceibal were inspired by the Olmec to build large platforms.
+  C. It contradicts the hypothesis that the development of monumental construction among the Maya was an internal process.
+  D. It confirms that the Olmec, who built most of the Maya monuments, were inspired by the Egyptians.
+Answer key: A
+LINEAGE:
+- MMLU parent: prehistory#165 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Why is the timing of monumental construction at Ceibal significant?
+    A. It contradicts the hypothesis that the monumental construction of the Maya was largely inspired by the Olmec.
+    B. It confirms that the residents of Ceibal were inspired by the Olmec to build large platforms.
+    C. It contradicts the hypothesis that the development of monumental construction among the Maya was an internal process.
+    D. It confirms that the Olmec, who built most of the Maya monuments, were inspired by the Egyptians.
+  Parent key: A (It contradicts the hypothesis that the monumental construction of the Maya was largely inspired by the Olmec.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-10855  (subject area: philosophy)
+Question:
+Craig says an actually infinite number of things _____.
+Options:
+  A. cannot exist
+  B. can be physically observed
+  C. can be counted one by one
+  D. is a concept beyond human comprehension
+  E. only exists in mathematics
+  F. can only exist in theory
+  G. is meaningless
+  H. exists somewhere
+  I. is possible
+  J. is a paradox
+Answer key: A
+LINEAGE:
+- MMLU parent: philosophy#308 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Craig says an actually infinite number of things _____.
+    A. is possible
+    B. is meaningless
+    C. exists somewhere
+    D. cannot exist
+  Parent key: D (cannot exist)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=NEW, C=NEW, D=NEW, E=NEW, F=NEW, G=parent B, H=parent C, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-1298  (subject area: law)
+Question:
+A baseball fan purchased two tickets for a World Series baseball game. The fan contacted his best friend and invited him to go to the game. The friend, who was a fanatic baseball fan, eagerly agreed. The fan told the friend that the game started at 7:00 p. m. and that he would pick him up at about 5:00 p. m. so they could get there early to watch batting practice. They were driving to the game together when the fan sped up to cross an intersection while the traffic signal was changing from amber to red. As he reached the intersection, the fan was traveling at 50 m. p. h. although the posted speed limit was 25 m. p. h. Simultaneously, a car entered the intersection on red and collided with the fan's vehicle. The friend suffered a broken pelvis in the collision. This jurisdiction has adopted the following "modified" comparative negligence statute:"A negligent plaintiff is entitled to obtain a recovery provided plaintiff's negligence is not equal to or greater than that of the defendant's; otherwise no recovery is permitted. "Suppose the friend brings suit against the driver of the car that entered the intersection on the red light to recover damages for his injury. Ajury returned a special verdict with the following findings: (1) The fan was 55 percent negligent in speeding; (2) The driver was 45 percent negligent in driving through the red light; and (3) The friend suffered $100,000 in damages. As a result, the court should enter a judgment for the friend in the amount of
+Options:
+  A. $45,000. 00
+  B. $50,000.00
+  C. nothing, because the fan was more negligentthan the driver.
+  D. A split judgment where the fan pays $55,000.00 and the driver pays $45,000.00
+  E. $100,000.00 but paid by both the fan and the driver
+  F. $45,000.00 but only from the driver's insurance
+  G. $55,000. 00
+  H. $55,000.00 but only from the fan's insurance
+  I. $55,000.00 from the driver as the fan was more negligent
+  J. $100,000. 00
+Answer key: J
+LINEAGE:
+- MMLU parent: professional_law#36 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A baseball fan purchased two tickets for a World Series baseball game. The fan contacted his best friend and invited him to go to the game. The friend, who was a fanatic baseball fan, eagerly agreed. The fan told the friend that the game started at 7:00 p. m. and that he would pick him up at about 5:00 p. m. so they could get there early to watch batting practice. They were driving to the game together when the fan sped up to cross an intersection while the traffic signal was changing from amber to red. As he reached the intersection, the fan was traveling at 50 m. p. h. although the posted speed limit was 25 m. p. h. Simultaneously, a car entered the intersection on red and collided with the fan's vehicle. The friend suffered a broken pelvis in the collision. This jurisdiction has adopted the following "modified" comparative negligence statute:"A negligent plaintiff is entitled to obtain a recovery provided plaintiff's negligence is not equal to or greater than that of the defendant's; otherwise no recovery is permitted. "Suppose the friend brings suit against the driver of the car that entered the intersection on the red light to recover damages for his injury. Ajury returned a special verdict with the following findings: (1) The fan was 55 percent negligent in speeding; (2) The driver was 45 percent negligent in driving through the red light; and (3) The friend suffered $100,000 in damages. As a result, the court should enter a judgment for the friend in the amount of
+    A. $100,000. 00
+    B. $55,000. 00
+    C. $45,000. 00
+    D. nothing, because the fan was more negligentthan the driver.
+  Parent key: A ($100,000. 00)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent D, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=NEW, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-5549  (subject area: other)
+Question:
+What sporting event is held annually on Memorial Day weekend?
+Options:
+  A. FIFA World Cup
+  B. Stanley Cup Finals
+  C. Wimbledon
+  D. World Series
+  E. Iditarod
+  F. Daytona 500
+  G. Super Bowl
+  H. The Masters
+  I. Kentucky Derby
+  J. Indianapolis 500
+Answer key: J
+LINEAGE:
+- MMLU parent: miscellaneous#553 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: What sporting event is held annually on Memorial Day weekend?
+    A. Iditarod
+    B. Kentucky Derby
+    C. Indianapolis 500
+    D. Super Bowl
+  Parent key: C (Indianapolis 500)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent A, F=NEW, G=parent D, H=NEW, I=parent B, J=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'none'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+
+### Item PRO-6407  (subject area: health)
+Question:
+Which level of personality description appears to show the most change with age?
+Options:
+  A. Values
+  B. Communication skills
+  C. Identity
+  D. Traits
+  E. Self-esteem
+  F. Interests
+  G. Social roles
+  H. Emotional responses
+  I. Coping strategies
+  J. Personal concerns
+Answer key: J
+LINEAGE:
+- MMLU parent: human_aging#70 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which level of personality description appears to show the most change with age?
+    A. Traits
+    B. Personal concerns
+    C. Coping strategies
+    D. Identity
+  Parent key: B (Personal concerns)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent D, D=parent A, E=NEW, F=NEW, G=NEW, H=NEW, I=parent C, J=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.

@@ -1,0 +1,13 @@
+Correction: option_defect on MMLU medical_genetics#64
+Parent stem: Male to male transmission is a key feature of which pattern of inheritance?
+Parent key: A  Autosomal dominant
+Questioned content: Y-linked inheritance
+
+Re-review queue (rank 0 = annotation layer, 1 = carries the questioned content, 2 = check, 3 = documented only):
+  [0] MMLU-Redux  medical_genetics#64                      re-annotation of parent              edge: copy                         content: not inherited | Redux label: ok | -> aryopg/mmlu-redux (GitHub); edinburgh-dawg/mmlu-redux-2.0 (Hugging Face) | not filed
+  [1] MMLU-Pro    question_id 6599                         derived (child)                      edge: options 4->10 (6 added)      content: added      | key same as parent; key unchanged since late-2024 | -> TIGER-AI-Lab/MMLU-Pro (GitHub); TIGER-Lab/MMLU-Pro (Hugging Face) | not filed
+  [3] MMLU-ProX   translations of each MMLU-Pro child      documented derivative (NOT joined)   edge: translation                  content: unverified | MMLU-Pro (de-duplicated, 11,829 items) translated into 29 languages | -> li-lab/MMLU-ProX (Hugging Face) | not filed
+  [-] MMMLU       translations of parent medical_genetics#64 documented derivative (NOT joined)   edge: translation                  content: not inherited | MMLU test set translated into 14 languages; questioned content entered downstream of MMLU, so parent translations need no change | -> openai/MMMLU (Hugging Face) | n/a
+  [-] Global-MMLU translations of parent medical_genetics#64 documented derivative (NOT joined)   edge: translation                  content: not inherited | MMLU translated into 41 non-English languages (42 incl. English); questioned content entered downstream of MMLU, so parent translations need no change | -> CohereForAI/Global-MMLU (Hugging Face) | n/a
+
+Coverage: reconstructed lineage (normalized exact or fuzzy>=0.85 stem match); HF revisions unchecked; translations not joined.

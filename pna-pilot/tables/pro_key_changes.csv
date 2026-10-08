@@ -1,0 +1,21 @@
+pro_qid,mmlu_parent,key_vA,key_vB,pro_key_text,mmlu_key_text,redux_label
+11289,electrical_engineering#103,flux.,flux.,charge.,flux.,
+6392,virology#42,Azidothymidine,Acyclovir,Acyclovir,Azidothymidine,
+8015,elementary_mathematics#14,13 bars of soap for $29.51,13 bars of soap for $29.51,20 bars of soap for $45.00,13 bars of soap for $29.51,
+8110,high_school_statistics#41,390,390,385,390,
+8122,high_school_statistics#181,"the teacher salaries are not negotiable, but the superintendent’s salary is negotiable, so the superintendent’s salary should be excluded from the population sampled","the teacher salaries are not negotiable, but the superintendent’s salary is negotiable, so the superintendent’s salary should be excluded from the population sampled",the skewed salary distribution tells us that assumption of normality of the sampled population will not be satisfied,"the teacher salaries are not negotiable, but the superintendent’s salary is negotiable, so the superintendent’s salary should be excluded from the population sampled",wrong groundtruth
+8142,elementary_mathematics#226,2.99p + 3.99d,2.99p + 3.99d,3.99d + 2.99p,2.99p + 3.99d,
+8230,high_school_statistics#10,It describes a process that creates estimates that are too high on average or too low on average.,It describes a process that creates estimates that are too high on average or too low on average.,It describes a sample that is not representative of the population.,It describes a process that creates estimates that are too high on average or too low on average.,ok
+8236,elementary_mathematics#10,200 + 450 + 200,200 + 450 + 200,180 + 440 + 220,200 + 450 + 200,
+8447,high_school_statistics#190,"Too high, because of undercoverage bias.","Too high, because of undercoverage bias.","Too high, because nonresponse bias tends to overestimate average results.","Too high, because of undercoverage bias.",
+8547,high_school_statistics#42,It is likely that the true proportion of high school students afraid to go to school is between 38% and 48%.,It is likely that the true proportion of high school students afraid to go to school is between 38% and 48%.,The pollsters are 95% confident that the true proportion is between 38% and 48%.,It is likely that the true proportion of high school students afraid to go to school is between 38% and 48%.,ok
+8572,elementary_mathematics#372,309,309,421,309,
+8680,elementary_mathematics#84,m = e/6,m = e/6,m = 1/6e,m = e/6,bad question clarity
+8780,high_school_statistics#38,Experiments are only conducted on human subjects; observational studies can be conducted on nonhuman subjects.,Experiments are only conducted on human subjects; observational studies can be conducted on nonhuman subjects.,"In an experiment, the researcher manipulates some variable to observe its effect on a response variable; in an observational study, he or she simply observes and records the observations.",Experiments are only conducted on human subjects; observational studies can be conducted on nonhuman subjects.,wrong groundtruth
+8881,high_school_statistics#22,Using stratified random sampling rather than simple random sampling,Using stratified random sampling rather than simple random sampling,Using a non-random sampling method,Using stratified random sampling rather than simple random sampling,ok
+8882,high_school_statistics#34,"This November, the average donation is $155.","This November, the average donation is $155.",We are 95% confident that the average donation in November is between about $149 and $161.,"This November, the average donation is $155.",ok
+1289,jurisprudence#36,Purely discussed jurisprudence only,Purely discussed jurisprudence only,"Separated law from religion, ethics, sociology and history",Purely discussed jurisprudence only,ok
+2394,professional_psychology#525,stability,stability,test-retest reliability,stability,ok
+2634,professional_psychology#343,reinforced practice,reinforced practice,systematic desensitization,reinforced practice,ok
+7063,econometrics#6,Includes too many variables,Includes too many variables,Includes as few variables as possible to explain the data,Includes too many variables,
+2817,high_school_biology#292,polygenic,polygenic,codominance,polygenic,wrong groundtruth

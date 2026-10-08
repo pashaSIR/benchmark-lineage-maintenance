@@ -1,0 +1,423 @@
+{
+ "n_items": 100,
+ "n_gold_defects": 14,
+ "n_gold_strict": 3,
+ "gold_items": [
+  "PRO-6169",
+  "PRO-3542",
+  "PRO-940",
+  "PRO-6268",
+  "PRO-11130",
+  "PRO-1361",
+  "PRO-6599",
+  "PRO-1271",
+  "PRO-5155",
+  "PRO-2530",
+  "PRO-936",
+  "PRO-1063",
+  "PRO-6154",
+  "PRO-4933"
+ ],
+ "arms": {
+  "A": {
+   "flags": 8,
+   "gold_found": 8,
+   "recall": 0.5714285714285714,
+   "precision": 1.0,
+   "recall_strict": 1.0,
+   "recall_incl_ambiguous": 0.7857142857142857,
+   "precision_incl_ambiguous": 0.7333333333333333,
+   "correct_origin_all_gold": 3,
+   "ambiguous_cases": 7,
+   "lookups": 0,
+   "agent_minutes_total": 4.430666666666666,
+   "minutes_per_item": 0.04430666666666666,
+   "minutes_per_gold_defect_found": 0.5538333333333333
+  },
+  "B": {
+   "flags": 14,
+   "gold_found": 12,
+   "recall": 0.8571428571428571,
+   "precision": 0.8571428571428571,
+   "recall_strict": 1.0,
+   "recall_incl_ambiguous": 0.9285714285714286,
+   "precision_incl_ambiguous": 0.6842105263157895,
+   "correct_origin_all_gold": 12,
+   "ambiguous_cases": 5,
+   "lookups": 0,
+   "agent_minutes_total": 5.607783333333333,
+   "minutes_per_item": 0.05607783333333333,
+   "minutes_per_gold_defect_found": 0.46731527777777776
+  },
+  "C": {
+   "flags": 9,
+   "gold_found": 9,
+   "recall": 0.6428571428571429,
+   "precision": 1.0,
+   "recall_strict": 1.0,
+   "recall_incl_ambiguous": 0.8571428571428571,
+   "precision_incl_ambiguous": 0.8,
+   "correct_origin_all_gold": 4,
+   "ambiguous_cases": 6,
+   "lookups": 79,
+   "agent_minutes_total": 10.516383333333334,
+   "minutes_per_item": 0.10516383333333333,
+   "minutes_per_gold_defect_found": 1.168487037037037
+  }
+ },
+ "localization_detected_by_both_AB": {
+  "n": 8,
+  "A": 3,
+  "B": 8
+ },
+ "delta_recall_BA_pp": 28.57142857142857,
+ "delta_recall_BA_ci95_pp": [
+  6.25,
+  54.54545454545454
+ ],
+ "mcnemar_BA": {
+  "B_only": 4,
+  "A_only": 0,
+  "p_exact": 0.125
+ },
+ "delta_recall_BC_pp": 21.42857142857142,
+ "delta_recall_BC_ci95_pp": [
+  0.0,
+  45.45454545454546
+ ],
+ "mcnemar_BC": {
+  "B_only": 3,
+  "C_only": 0,
+  "p_exact": 0.25
+ },
+ "delta_recall_CA_pp": 7.142857142857151,
+ "delta_recall_CA_ci95_pp": [
+  0.0,
+  23.809523809523803
+ ],
+ "mcnemar_CA": {
+  "C_only": 1,
+  "A_only": 0,
+  "p_exact": 1
+ },
+ "overlap_AB": {
+  "both": 8,
+  "A_only": [],
+  "B_only": [
+   "PRO-940",
+   "PRO-5155",
+   "PRO-1063",
+   "PRO-6154"
+  ],
+  "neither": [
+   "PRO-1361",
+   "PRO-1271"
+  ]
+ },
+ "C_only_vs_B": [],
+ "verdicts_changed_B_vs_A": 6,
+ "severity_changed_B_vs_A": 11,
+ "gold_origin_counts": {
+  "O2": 9,
+  "O1": 4,
+  "O4": 1
+ },
+ "gold_type_counts": {
+  "T3": 9,
+  "T2": 2,
+  "T1": 2,
+  "T6": 1
+ },
+ "random_clean_check": {
+  "n": 12,
+  "gold_defects_found": []
+ },
+ "redux_ok_overturned": [
+  "PRO-6169",
+  "PRO-6599",
+  "PRO-5155",
+  "PRO-4933"
+ ],
+ "redux_flagged_in_sample": {
+  "PRO-3542": "bad question clarity"
+ },
+ "redux_flagged_found": {
+  "A": [
+   "PRO-3542"
+  ],
+  "B": [
+   "PRO-3542"
+  ],
+  "C": [
+   "PRO-3542"
+  ]
+ },
+ "adjudicator_ambiguous_items": [
+  "PRO-1063",
+  "PRO-2385",
+  "PRO-5930",
+  "PRO-1324",
+  "PRO-1241",
+  "PRO-5449",
+  "PRO-1496",
+  "PRO-1420",
+  "PRO-1271",
+  "PRO-1735",
+  "PRO-1361"
+ ],
+ "tiebreaks": [
+  "PRO-1063",
+  "PRO-1271",
+  "PRO-1361"
+ ],
+ "kappa_adj_defect": 0.8032786885245902,
+ "kappa_adj_type": 0.857566765578635,
+ "kappa_adj_origin_on_agreed_defects": {
+  "n": 11,
+  "kappa": 0.8196721311475409,
+  "raw_agreement": 0.9090909090909091
+ },
+ "kappa_arms_defect": {
+  "AB": 0.6963562753036434,
+  "AC": 0.93573264781491,
+  "BC": 0.7558593749999999
+ },
+ "lineage_decisive_B": [
+  "PRO-6169",
+  "PRO-3542",
+  "PRO-5930",
+  "PRO-940",
+  "PRO-6268",
+  "PRO-1496",
+  "PRO-11130",
+  "PRO-1361",
+  "PRO-6599",
+  "PRO-1241",
+  "PRO-5155",
+  "PRO-2530",
+  "PRO-936",
+  "PRO-1063",
+  "PRO-2385",
+  "PRO-6154",
+  "PRO-1324",
+  "PRO-4933"
+ ],
+ "propagation": [
+  {
+   "item_id": "PRO-6169",
+   "origin": "O2",
+   "parent": "anatomy#73",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-3542",
+   "origin": "O1",
+   "parent": "college_chemistry#86",
+   "in_data_mmlu_pro_items_same_parent": 1,
+   "redux_copy": 1,
+   "documented_translations_of_parent": 55,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 2,
+   "documented_total": 86
+  },
+  {
+   "item_id": "PRO-940",
+   "origin": "O2",
+   "parent": "professional_law#886",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-6268",
+   "origin": "O2",
+   "parent": "nutrition#124",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-11130",
+   "origin": "O1",
+   "parent": "moral_disputes#93",
+   "in_data_mmlu_pro_items_same_parent": 1,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 55,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 1,
+   "documented_total": 85
+  },
+  {
+   "item_id": "PRO-1361",
+   "origin": "O2",
+   "parent": "professional_law#1261",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-6599",
+   "origin": "O2",
+   "parent": "medical_genetics#64",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-1271",
+   "origin": "O2",
+   "parent": "professional_law#1364",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-5155",
+   "origin": "O2",
+   "parent": "sociology#140",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-2530",
+   "origin": "O2",
+   "parent": "high_school_psychology#285",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-936",
+   "origin": "O1",
+   "parent": "professional_law#841",
+   "in_data_mmlu_pro_items_same_parent": 1,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 55,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 1,
+   "documented_total": 85
+  },
+  {
+   "item_id": "PRO-1063",
+   "origin": "O2",
+   "parent": "professional_law#128",
+   "in_data_mmlu_pro_items_same_parent": 0,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 0,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 0,
+   "documented_total": 29
+  },
+  {
+   "item_id": "PRO-6154",
+   "origin": "O1",
+   "parent": "human_aging#182",
+   "in_data_mmlu_pro_items_same_parent": 1,
+   "redux_copy": 0,
+   "documented_translations_of_parent": 55,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 1,
+   "documented_total": 85
+  },
+  {
+   "item_id": "PRO-4933",
+   "origin": "O4",
+   "parent": "prehistory#169",
+   "in_data_mmlu_pro_items_same_parent": 1,
+   "redux_copy": 1,
+   "documented_translations_of_parent": 55,
+   "mmlu_prox_copies_of_pro_items": 29,
+   "in_data_total": 2,
+   "documented_total": 86
+  }
+ ],
+ "propagation_summary": {
+  "upstream_gold_defects": 5,
+  "in_data_descendants_per_upstream_defect": 1.4,
+  "documented_descendants_per_upstream_defect": 85.4,
+  "documented_descendants_per_any_gold_defect": 49.142857142857146
+ },
+ "robustness_blind_gold": {
+  "blind_both": {
+   "n": 9,
+   "items": [
+    "PRO-6169",
+    "PRO-3542",
+    "PRO-6268",
+    "PRO-6599",
+    "PRO-2530",
+    "PRO-936",
+    "PRO-6154",
+    "PRO-1324",
+    "PRO-4933"
+   ],
+   "recall_A": 0.7777777777777778,
+   "recall_B": 0.8888888888888888,
+   "recall_C": 0.8888888888888888,
+   "recall_incl_amb_A": 1.0,
+   "recall_incl_amb_B": 1.0,
+   "recall_incl_amb_C": 1.0,
+   "overlap_with_primary_gold": 8,
+   "delta_BA_pp": 11.111111111111105,
+   "delta_BC_pp": 0.0
+  },
+  "blind_either": {
+   "n": 15,
+   "items": [
+    "PRO-6169",
+    "PRO-3542",
+    "PRO-940",
+    "PRO-6268",
+    "PRO-11130",
+    "PRO-1361",
+    "PRO-6599",
+    "PRO-1241",
+    "PRO-5155",
+    "PRO-2530",
+    "PRO-936",
+    "PRO-1063",
+    "PRO-6154",
+    "PRO-1324",
+    "PRO-4933"
+   ],
+   "recall_A": 0.5333333333333333,
+   "recall_B": 0.8666666666666667,
+   "recall_C": 0.6,
+   "recall_incl_amb_A": 0.8666666666666667,
+   "recall_incl_amb_B": 1.0,
+   "recall_incl_amb_C": 0.8666666666666667,
+   "overlap_with_primary_gold": 13,
+   "delta_BA_pp": 33.333333333333336,
+   "delta_BC_pp": 26.66666666666667
+  },
+  "kappa_blind_pair_defect": 0.6,
+  "kappa_blind_vs_primary_gold": 0.5371900826446281
+ }
+}

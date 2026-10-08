@@ -1,0 +1,389 @@
+### Item PRO-10513  (subject area: computer science)
+Question:
+In Python 3, which of the following function sets the integer starting value used in generating random numbers?
+Options:
+  A. uniform(a, b)
+  B. randint(a, b)
+  C. random()
+  D. random.randint(a, b)
+  E. seed([x])
+  F. randrange ([start,] stop [,step])
+  G. shuffle(lst)
+  H. sample(population, k)
+  I. setseed([x])
+  J. choice(seq)
+Answer key: E
+
+### Item PRO-766  (subject area: business)
+Question:
+Vertical integration forwards is when a firm mergers or acquires another
+Options:
+  A. Towards the consumer
+  B. With a competitor
+  C. At the same stage of the supply chain
+  D. In a different country
+  E. Towards the manufacturer
+  F. Towards the source of supply
+  G. In another industry
+  H. At a different stage of the supply chain
+  I. Towards the supplier of raw materials
+Answer key: A
+
+### Item PRO-10855  (subject area: philosophy)
+Question:
+Craig says an actually infinite number of things _____.
+Options:
+  A. cannot exist
+  B. can be physically observed
+  C. can be counted one by one
+  D. is a concept beyond human comprehension
+  E. only exists in mathematics
+  F. can only exist in theory
+  G. is meaningless
+  H. exists somewhere
+  I. is possible
+  J. is a paradox
+Answer key: A
+
+### Item PRO-11130  (subject area: philosophy)
+Question:
+ In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+Options:
+  A. it views coercion as a violation of human rights
+  B. it believes in the power of persuasion over coercion
+  C. the Confucian model believes in voluntary compliance based on mutual respect and understanding.
+  D. it affirms the autonomy of individuals apart from others.
+  E. The Confucian model actually accepts coercion.
+  F. the costs of eliminating a collective action problem are not irrelevant to its solution
+  G. coercion is seen as a last resort, only to be used in extreme circumstances
+  H. the Confucian model prioritizes collective action over individual action
+  I. it cannot lead to real social change, which involves changes of mind as well as action
+  J. it believes in the intrinsic goodness and perfectibility of human beings
+Answer key: D
+
+### Item PRO-6370  (subject area: health)
+Question:
+A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?
+Options:
+  A. Internal iliac
+  B. Popliteal
+  C. Sacral
+  D. Superficial inguinal
+Answer key: D
+
+### Item PRO-6628  (subject area: health)
+Question:
+Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:
+
+Options:
+  A. lowering intramuscular lipid storage
+  B. Increasing liver glycogen content
+  C. Increasing muscle glycogen use during exercise
+  D. Increasing intramuscular lipid use during exercise
+Answer key: D
+
+### Item PRO-1063  (subject area: law)
+Question:
+In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+Options:
+  A. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+  B. because the Girl Scouts of America did not know about their ownership until 2009.
+  C. because the tenant continued to occupy the apartment building after the landowner's death.
+  D. because the tenant discontinued paying rent following the landowner's death.
+  E. if the tenant was never formally notified about the landowner's will.
+  F. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+  G. because the statutory period for adverse possession had not yet been reached.
+  H. if the tenant claimed to have bought the apartment building from the landowner before her death.
+  I. because the tenant never paid taxes on the apartment building.
+  J. if the tenant made significant improvements to the apartment building.
+Answer key: A
+
+### Item PRO-4898  (subject area: history)
+Question:
+This question refers to the following information.
+"Our constitution does not copy the laws of neighboring states; we are rather a pattern to others than imitators ourselves. Its administration favors the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbor for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty. But all this ease in our private relations does not make us lawless as citizens. Against this fear is our chief safeguard, teaching us to obey the magistrates and the laws, particularly such as regard the protection of the injured, whether they are actually on the statute book, or belong to that code which, although unwritten, yet cannot be broken without acknowledged disgrace."
+Thucydides, History of the Peloponnesian War, ca. 415 B.C.E.
+During the time period in which this text was written, who was allowed to participate in the Greek democratic process?
+Options:
+  A. All children born within the geographic boundaries of the state
+  B. All adult men who have served in the military
+  C. All adult men born within the geographic boundaries of the state
+  D. Only the wealthy and influential men of the state
+  E. All adult men and women who were citizens of the state by birth
+  F. All adult men who were citizens of the state by birth
+  G. All adult men, regardless of their birthplace
+  H. All adult men and women born within the geographic boundaries of the state
+  I. All adult men and women, regardless of their birthplace
+  J. Only those who were educated and could read and write
+Answer key: F
+
+### Item PRO-940  (subject area: law)
+Question:
+Which of the following will not terminate a contract by operation of law?
+Options:
+  A. Change in law that makes contract impossible
+  B. Bankruptcy of one party
+  C. Expiration of the contract term
+  D. Partial performance
+  E. Supervening illegality
+  F. Death or insanity of a party.
+  G. Fulfillment of contract
+  H. Destruction of the subject matter of contract.
+Answer key: D
+
+### Item PRO-11161  (subject area: philosophy)
+Question:
+ Select the best translation into predicate logic. Some firefighters rescue victims from danger. (Dx: x is danger; Fx: x is a firefighter; Vx: x is a victim; Rxyz: x rescues y from z)
+Options:
+  A. (∀x){Fx ⊃ (∃y)[Vy . (∃z)(Dz • Rxyz)]}
+  B. (∃x){Fx • (∀y)[Dy ⊃ (∃z)(Vz • Rxyz)]}
+  C. (∀x){Fx ⊃ (∃y)[Dy . (∃z)(Vz • Rxyz)]}
+  D. (∃x){Fx • (∀y)[Vy ⊃ (∀z)(Dz • Rxyz)]}
+  E. (∃x){Fx • (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  F. (∀x){Fx ⊃ (∀y)[Vy ⊃ (∃z)(Dz • Rxyz)]}
+  G. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rzxy)]}
+  H. (∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]}
+  I. (∃x){Fx • (∃y)[Dy • (∃z)(Vz • Rxyz)]}
+  J. (∃x){Fx • (∃y)(∃z)[(Vy • Dz) • Rxzy]}
+Answer key: H
+
+### Item PRO-1210  (subject area: law)
+Question:
+Some homeless people started residing on a strip of land located under a bridge. The land was owned by a nearby chemical manufacturer. The squatters did not ask permission, and the company did not feel it was an urgent problem. The squatters used a small lake on the property for bathing and drinking water. Within a few days, two squatters died from what was later revealed to be highly polluted water coming from the company's waste discharges. The company knew that it had a waste discharge problem. The estates of the two decedents sued the company. Will they likely prevail on their tort claim despite the company's defense that the decedents were trespassers?
+Options:
+  A. No, because owner owes no duty to trespassers except if it acts with willful or wanton disregard.
+  B. No, because the squatters voluntarily chose to use the polluted water, thereby assuming the risk.
+  C. Yes, because even though they trespassed, the owner had a duty to warn because it knew that they were in danger.
+  D. Yes, because the owner had a duty to ensure that its property was not causing harm to others, irrespective of their legal status.
+  E. No, because the company was unaware that the squatters were using the polluted water for bathing and drinking.
+  F. No, because the squatters should have tested the water before using it.
+  G. Yes, because the company knowingly created a hazardous condition and failed to rectify it.
+  H. No, because an owner of land never has to worry about protecting the safety of trespassers.
+  I. Yes, because the owner negligently allowed the pollution of the water.
+Answer key: C
+
+### Item PRO-6169  (subject area: health)
+Question:
+When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+Options:
+  A. anterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  B. posterior fragment to be displaced downwards by the action of the digastric muscle.
+  C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+  D. posterior fragment to be displaced laterally by the action of the medial pterygoid muscle.
+  E. anterior fragment to be displaced medially by the action of the medial pterygoid muscle.
+  F. posterior fragment to be displaced upwards by the action of the masseter muscle.
+  G. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  H. anterior fragment to be displaced upwards by the action of the masseter muscle.
+  I. anterior fragment to be displaced downwards by the action of the digastric muscle.
+  J. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+Answer key: I
+
+### Item PRO-9996  (subject area: physics)
+Question:
+A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+Options:
+  A. 2kT
+  B. (7/2) k T
+  C. 5kT
+  D. (1/4) k T
+  E. 3kT
+  F. kT
+  G. 4kT
+  H. (3/2) k T
+  I. (1/2) k T
+  J. (5/2) k T
+Answer key: E
+
+### Item PRO-5897  (subject area: other)
+Question:
+Which Pope immediately preceded John Paul II?
+Options:
+  A. Alexander VI
+  B. Hank II
+  C. John Paul III
+  D. Benedict XVI
+  E. Leo XIII
+  F. Pius XII
+  G. John XXIII
+  H. John Paul I
+  I. Paul VI
+  J. Innocent X
+Answer key: H
+
+### Item PRO-6407  (subject area: health)
+Question:
+Which level of personality description appears to show the most change with age?
+Options:
+  A. Values
+  B. Communication skills
+  C. Identity
+  D. Traits
+  E. Self-esteem
+  F. Interests
+  G. Social roles
+  H. Emotional responses
+  I. Coping strategies
+  J. Personal concerns
+Answer key: J
+
+### Item PRO-2639  (subject area: psychology)
+Question:
+An organizational psychologist would most likely recommend the use of vestibule training for which of the following jobs?
+Options:
+  A. receptionist
+  B. word processor
+  C. high school teacher
+  D. clinical psychologist.
+  E. software developer
+  F. salesperson.
+  G. newspaper journalist
+  H. airline pilot
+  I. bus driver
+  J. restaurant waiter
+Answer key: H
+
+### Item PRO-9052  (subject area: physics)
+Question:
+A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be
+Options:
+  A. deflected in the -y-direction
+  B. deflected in both the +x and +y directions
+  C. deflected in the -x-direction
+  D. deflected in the +x-direction
+  E. deflected in the -z-direction
+  F. deflected in the +y-direction
+  G. not deflected at all
+  H. deflected in both the -x and -y directions
+  I. deflected in a direction dependent on the initial velocity of the proton
+  J. deflected in the +z-direction
+Answer key: C
+
+### Item PRO-1797  (subject area: law)
+Question:
+A homeowner executed a deed by which he conveyed his home and surround property for a consideration of one dollar, receipt of which was acknowledged, "to my daughter for life, then to my aunt for life, but if my aunt moves to another state, to my sister for the life of my aunt, then to the heirs of my aunt if my aunt does not move to another state, and to the heirs of my sister if my aunt does move to another state. " This deed was promptly recorded. During the daughter's lifetime, the aunt's interest may best be described as a
+Options:
+  A. vested remainder subject to open.
+  B. contingent remainder.
+  C. fee simple subject to executory limitation.
+  D. reversionary interest.
+  E. life estate pur autre vie.
+  F. shifting executory interest.
+  G. fee simple determinable.
+  H. fee simple subject to condition subsequent.
+  I. vested remainder subject to partial divestiture.
+  J. vested remainder subject to complete divestiture.
+Answer key: J
+
+### Item PRO-6104  (subject area: health)
+Question:
+A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9°C (102.0°F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step?
+Options:
+  A. Begin corticosteroid treatment
+  B. Place a percutaneous endoscopic gastrostomy (PEG) tube
+  C. Administer influenza vaccine
+  D. Prescribe fludrocortisone
+  E. Discontinue levodopa and carbidopa
+  F. Arrange for home oxygen therapy
+  G. Initiate physical therapy
+  H. Obtain CT scan of the chest
+  I. Obtain a swallowing evaluation
+  J. Start patient on anticoagulant therapy
+Answer key: I
+
+### Item PRO-3542  (subject area: chemistry)
+Question:
+Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).
+Options:
+  A. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band
+  B. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9809 at W-band
+  C. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9509 at W-band
+  D. Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9609 at W-band
+  E. Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9609 at W-band
+  F. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9709 at W-band
+  G. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9709 at W-band
+  H. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9509 at W-band
+  I. Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9609 at W-band
+  J. Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9809 at W-band
+Answer key: A
+
+### Item PRO-10989  (subject area: philosophy)
+Question:
+Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+H ≡ (I · ~J)
+K ≡ ~H
+~(K ⊃ J) / I ≡ J
+Options:
+  A. Valid
+  B. Invalid. Counterexample when I, J, and K are true and H is false
+  C. Invalid. Counterexample when K is true and I, H, and J are false
+  D. Invalid. Counterexample when H, I, and J are true and K is false
+  E. Invalid. Counterexample when K and J are true and I and H are false
+  F. Invalid. Counterexample when H and J are true and I and K are false
+  G. Invalid. Counterexample when I and J are true and H and K are false
+  H. Invalid. Counterexample when I and H are true and J and K are false
+  I. Invalid. Counterexample when J is true and I, H, and K are false
+  J. Invalid. Counterexample when I, H, and K are true and J is false
+Answer key: A
+
+### Item PRO-4956  (subject area: history)
+Question:
+This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, "On the Suppression of Sati," 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The first passage can be said to undermine which commonly held assumption about Western imperialism?
+Options:
+  A. That European colonizers sometimes interfered with native religious practices
+  B. That European colonizers concerned themselves deeply with turning profits
+  C. That European colonizers were uniformly eager to force their cultural norms on native populations
+  D. That European colonizers often resorted to armed force to impose their will on imperial subjects
+Answer key: C
+
+### Item PRO-1298  (subject area: law)
+Question:
+A baseball fan purchased two tickets for a World Series baseball game. The fan contacted his best friend and invited him to go to the game. The friend, who was a fanatic baseball fan, eagerly agreed. The fan told the friend that the game started at 7:00 p. m. and that he would pick him up at about 5:00 p. m. so they could get there early to watch batting practice. They were driving to the game together when the fan sped up to cross an intersection while the traffic signal was changing from amber to red. As he reached the intersection, the fan was traveling at 50 m. p. h. although the posted speed limit was 25 m. p. h. Simultaneously, a car entered the intersection on red and collided with the fan's vehicle. The friend suffered a broken pelvis in the collision. This jurisdiction has adopted the following "modified" comparative negligence statute:"A negligent plaintiff is entitled to obtain a recovery provided plaintiff's negligence is not equal to or greater than that of the defendant's; otherwise no recovery is permitted. "Suppose the friend brings suit against the driver of the car that entered the intersection on the red light to recover damages for his injury. Ajury returned a special verdict with the following findings: (1) The fan was 55 percent negligent in speeding; (2) The driver was 45 percent negligent in driving through the red light; and (3) The friend suffered $100,000 in damages. As a result, the court should enter a judgment for the friend in the amount of
+Options:
+  A. $45,000. 00
+  B. $50,000.00
+  C. nothing, because the fan was more negligentthan the driver.
+  D. A split judgment where the fan pays $55,000.00 and the driver pays $45,000.00
+  E. $100,000.00 but paid by both the fan and the driver
+  F. $45,000.00 but only from the driver's insurance
+  G. $55,000. 00
+  H. $55,000.00 but only from the fan's insurance
+  I. $55,000.00 from the driver as the fan was more negligent
+  J. $100,000. 00
+Answer key: J
+
+### Item PRO-10847  (subject area: philosophy)
+Question:
+When faced with the complaint that utilitarianism is a doctrine worthy of swine, Mill responds that pleasures differ in:
+Options:
+  A. cost.
+  B. weight.
+  C. species.
+  D. purity.
+  E. morality.
+  F. frequency.
+  G. quality.
+  H. practicality.
+  I. intensity.
+  J. duration.
+Answer key: G
+
+### Item PRO-5185  (subject area: other)
+Question:
+On January 1, year 1, a company purchased equipment for $100 million. The equipment consists of four major components, of which two components comprise 80% of the total cost and each has a 20-year useful life. The remaining two components have costs of $10 million each; one of them has a useful life of four years, and the other has a useful life of five years. The company applies the cost model to the equipment and uses the straight-line method of depreciation. Under IFRS, what is the depreciation expense for the year ended December 31, year 1?
+Options:
+  A. $7,500,000
+  B. $5,000,000
+  C. $6,000,000
+  D. $8,000,000
+  E. $10,000,000
+  F. $9,500,000
+  G. $7,000,000
+  H. $4,000,000
+  I. $9,000,000
+  J. $8,500,000
+Answer key: J

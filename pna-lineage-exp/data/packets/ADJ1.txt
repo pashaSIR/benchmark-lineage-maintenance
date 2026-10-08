@@ -1,0 +1,528 @@
+BENCHMARK FAMILY (background for lineage-aware review):
+MMLU (2021) is 4-option multiple choice; questions were copied by students from online exams/textbooks. MMLU-Redux (2024) re-annotated 5,700 MMLU test items (100 per subject) for errors: labels ok / wrong groundtruth / no correct answer / multiple correct answers / bad question clarity / bad options clarity, with an upstream-source field. MMLU-Pro (2024) took MMLU items, filtered some, had GPT-4 generate extra distractors to reach up to 10 options, sometimes dropped or edited original options, and ran an expert review; its maintainers have since issued errata (some keys/options changed between the late-2024 and Feb-2026 snapshots). Known failure modes in this family: wrong keys inherited from MMLU, GPT-4-added distractors that are themselves correct (especially in 'which is NOT/incorrect' stems), meaning changes from edits, truncated stems.
+
+### Item PRO-1145  (subject area: law)
+Question:
+A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of? 
+Options:
+  A. Justifiable homicide.
+  B. Reckless endangerment.
+  C. Battery.
+  D. Attempted murder.
+  E. Felonious assault.
+  F. Assault with a deadly weapon.
+  G. Voluntary manslaughter.
+  H. Negligent homicide.
+  I. Involuntary manslaughter.
+  J. Murder.
+Answer key: J
+LINEAGE:
+- MMLU parent: professional_law#160 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A defendant wished to see his high school basketball team win the state championship. During an important game, the defendant pulled out a gun and shot at the leg of a key player on the opposing team. The defendant intended only to inflict a slight wound so that the opposing player would be unable to complete the game. When the defendant fired the shot, he unintentionally hit a player on his own high school team in the chest, killing him instantly. What is the most serious crime that the defendant can be convicted of?
+    A. Murder.
+    B. Voluntary manslaughter.
+    C. Involuntary manslaughter.
+    D. Battery.
+  Parent key: A (Murder.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent D, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent C, J=parent A
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): stem changed; options changed (late-2024 options: A. Assault with a deadly weapon.; B. Battery.; C. Involuntary manslaughter.; D. Voluntary manslaughter.; E. Murder.; F. Felonious assault.; G. Reckless endangerment.; H. Justifiable homicide.; I. Attempted murder.; J. Negligent homicide.); key changed from E ('Murder.') in late 2024 to J now
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  (no reviewer flagged this item)
+
+### Item PRO-11215  (subject area: philosophy)
+Question:
+Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.
+Options:
+  A. existentialist
+  B. ideological
+  C. apathetic
+  D. agnostic
+  E. secular
+  F. spiritual
+  G. religious
+  H. philosophical
+  I. pragmatic
+  J. nonreligious
+Answer key: G
+LINEAGE:
+- MMLU parent: philosophy#171 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.
+    A. secular
+    B. nonreligious
+    C. religious
+    D. pragmatic
+  Parent key: C (religious)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent A, F=NEW, G=parent C, H=NEW, I=parent D, J=parent B
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/us/companion.websites/9780190207038/stu_res/ch9/lev2/mcq/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  (no reviewer flagged this item)
+
+### Item PRO-2530  (subject area: psychology)
+Question:
+Which of the following is the best example of an attribute that is culturally-based rather than primarily psychologically-based?
+Options:
+  A. Having the desire to reproduce
+  B. Following a particular dress code
+  C. Arriving on time for work
+  D. Fearing death
+  E. Preference for certain types of foods
+  F. Responding to physical pain
+  G. Caring for one's children
+  H. Needing sleep
+  I. Seeking safety
+  J. Seeking food and water
+Answer key: C
+LINEAGE:
+- MMLU parent: high_school_psychology#285 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following is the best example of an attribute that is culturally-based rather than primarily psychologically-based?
+    A. Caring for one's children
+    B. Arriving on time for work
+    C. Having the desire to reproduce
+    D. Seeking food and water
+  Parent key: B (Arriving on time for work)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent B, D=NEW, E=NEW, F=NEW, G=parent A, H=NEW, I=NEW, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity probable, suggested key C; Added option B 'Following a particular dress code' (and E food preferences) is plainly culturally based, at least as good an example as arriving on time; no unique best answer. [evidence: Dress codes are cultural norms; no biological basis.]
+  - claim: type T3, severity probable, suggested key None; 'Following a particular dress code' (B) is at least as culturally based as punctuality (C), and food preferences (E) are largely cultural too. The original options look like biological drives, and B and E look like added distractors that create a second correct answer. [evidence: Cross-cultural norms literature: dress and punctuality both cultural]
+
+### Item PRO-1063  (subject area: law)
+Question:
+In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+Options:
+  A. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+  B. because the Girl Scouts of America did not know about their ownership until 2009.
+  C. because the tenant continued to occupy the apartment building after the landowner's death.
+  D. because the tenant discontinued paying rent following the landowner's death.
+  E. if the tenant was never formally notified about the landowner's will.
+  F. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+  G. because the statutory period for adverse possession had not yet been reached.
+  H. if the tenant claimed to have bought the apartment building from the landowner before her death.
+  I. because the tenant never paid taxes on the apartment building.
+  J. if the tenant made significant improvements to the apartment building.
+Answer key: A
+LINEAGE:
+- MMLU parent: professional_law#128 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: In 1985, a landowner, the undisputed owner of an apartment building, leased it to a tenant for a term of seven years. Rent was to be paid in installments due on the first day of each month. One year later, in 1986, the landowner died leaving no heirs. In her will, the landowner left her entire estate to the Girl Scouts of America. The apartment building was not specifically mentioned in the will. One month after the landowner died, the tenant, having learned of the landowner's death, decided to remain on the property, but stopped paying rent. The Girl Scouts of America organization was unaware of the landowner's gift to the organization until 2009, when attorneys for the organization conducted an inventory of testamentary gifts to the Girl Scouts of America, which revealed that they had a claim to ownership of the apartment building. The statutory period for adverse possession in this jurisdiction is 20 years. In an ejection action by the Girl Scouts of America against the tenant, the organization will prevail
+    A. because the tenant discontinued paying rent following the landowner's death.
+    B. if the tenant leased the apartment building to a teacher for three years while he (the tenant) was called into military service.
+    C. if the tenant believed that his lease with the landowner was still in effect after the latter died.
+    D. because the tenant never paid taxes on the apartment building.
+  Parent key: C (if the tenant believed that his lease with the landowner was still in effect after the latter died.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=NEW, D=parent A, E=NEW, F=parent B, G=NEW, H=NEW, I=parent D, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity probable, suggested key G; Tenant's possession cannot be adverse during the 7-year lease (to 1992); 1992-2009 is 17 years < 20, so added G 'statutory period not yet reached' is correct, competing with key A. [evidence: Tenant possession is permissive during term; no repudiation notice; statute runs from lease end 1992.]
+  - claim: type T3, severity ambiguous, suggested key A; Lease ran to 1992; tenant possession during term is permissive, so from 1992 to 2009 only 17 years ran. G (period not reached) is also defensible, competing with A. [evidence: Tenant cannot adversely possess during lease term absent clear repudiation.]
+
+### Item PRO-5502  (subject area: other)
+Question:
+Weak states face a number of security threats, which of the following threats is the odd one out?
+Options:
+  A. Warlordism and the assertion of the interests and influences of criminal gangs.
+  B. A sudden influx of refugees fleeing conflict from neighbouring states.
+  C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+  D. Competition for authoritative power or coercion from strongmen.
+Answer key: B
+LINEAGE:
+- MMLU parent: security_studies#25 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Weak states face a number of security threats, which of the following threats is the odd one out?
+    A. Warlordism and the assertion of the interests and influences of criminal gangs.
+    B. A sudden influx of refugees fleeing conflict from neighbouring states.
+    C. Coup d'état, military rebellion or mutiny; the violent intervention in politics by the state's own military forces, overthrowing and replacing the ruling elite.
+    D. Competition for authoritative power or coercion from strongmen.
+  Parent key: B (A sudden influx of refugees fleeing conflict from neighbouring states.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent B, C=parent C, D=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: yes
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  (no reviewer flagged this item)
+
+### Item PRO-11130  (subject area: philosophy)
+Question:
+ In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+Options:
+  A. it views coercion as a violation of human rights
+  B. it believes in the power of persuasion over coercion
+  C. the Confucian model believes in voluntary compliance based on mutual respect and understanding.
+  D. it affirms the autonomy of individuals apart from others.
+  E. The Confucian model actually accepts coercion.
+  F. the costs of eliminating a collective action problem are not irrelevant to its solution
+  G. coercion is seen as a last resort, only to be used in extreme circumstances
+  H. the Confucian model prioritizes collective action over individual action
+  I. it cannot lead to real social change, which involves changes of mind as well as action
+  J. it believes in the intrinsic goodness and perfectibility of human beings
+Answer key: D
+LINEAGE:
+- MMLU parent: moral_disputes#93 (MMLU test split, Hendrycks et al. 2021)
+  Parent question:  In contrast to Garrett Hardin's approach, the Confucian model rejects coercion because
+    A. the costs of eliminating a collective action problem are not irrelevant to its solution
+    B. it affirms the autonomy of individuals apart from others.
+    C. it cannot lead to real social change, which involves changes of mind as well as action
+    D. The Confucian model actually accepts coercion.
+  Parent key: B (it affirms the autonomy of individuals apart from others.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=parent D, F=parent A, G=NEW, H=NEW, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T1, severity probable, suggested key I; Hourdequin's Confucian model rests on a relational conception of persons and self-cultivation as the basis for social change; coercion cannot produce change of mind. Key D (autonomy apart from others) contradicts the relational view; I fits. [evidence: Hourdequin, 'Climate, Collective Action and Individual Ethical Obligations' (abstract/intro: relational persons, self-cultivation as basis of social change).]
+
+### Item PRO-2385  (subject area: psychology)
+Question:
+Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+Options:
+  A. Leave without informing his clients of his absence.
+  B. give his clients a phone number where he can be reached.
+  C. Provide his clients with online resources to manage their issues in his absence.
+  D. Continue his sessions via phone calls or video conferencing while on vacation.
+  E. Inform his clients only a day before his departure about his unavailability.
+  F. Cancel all appointments for the duration of his vacation without informing his clients.
+  G. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+  H. hire a colleague to take over his appointments while he is on vacation.
+  I. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+  J. Arrange for a colleague to provide only emergency sessions, while regular appointments are paused.
+Answer key: I
+LINEAGE:
+- MMLU parent: professional_psychology#273 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Dr. Harry Holliday, a clinical psychologist, is planning to take a three-week cruise. In terms of his clinical practice, Dr. Holliday’s best course of action would be to:
+    A. discuss his vacation plans with his current clients ahead of time so that they know he’ll be unavailable during that time.
+    B. give his clients a phone number where he can be reached.
+    C. give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.
+    D. hire a colleague to take over his appointments while he is on vacation.
+  Parent key: C (give his clients the phone number of a colleague who has agreed to accept phone calls in emergencies.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent B, C=NEW, D=NEW, E=NEW, F=NEW, G=parent A, H=parent D, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity ambiguous, suggested key I; Option J (colleague provides emergency sessions while regular appointments paused) is essentially the same coverage arrangement as key I; G is also good practice. Reasonable experts could accept J. [evidence: APA Ethics Code 10.09/3.12 on interruption of services: arrange emergency coverage.]
+
+### Item PRO-940  (subject area: law)
+Question:
+Which of the following will not terminate a contract by operation of law?
+Options:
+  A. Change in law that makes contract impossible
+  B. Bankruptcy of one party
+  C. Expiration of the contract term
+  D. Partial performance
+  E. Supervening illegality
+  F. Death or insanity of a party.
+  G. Fulfillment of contract
+  H. Destruction of the subject matter of contract.
+Answer key: D
+LINEAGE:
+- MMLU parent: professional_law#886 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which of the following will not terminate a contract by operation of law?
+    A. Death or insanity of a party.
+    B. Partial performance
+    C. Destruction of the subject matter of contract.
+    D. Supervening illegality
+  Parent key: B (Partial performance)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent B, E=parent D, F=parent A, G=NEW, H=parent C
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity probable, suggested key D; Added 'Fulfillment of contract' (discharge by performance) and 'Expiration of the contract term' (discharge by agreement/terms) are also not terminations by operation of law, giving multiple correct answers. [evidence: Contract-law texts: discharge by operation of law = death/incapacity, insolvency, merger, impossibility, illegality, destruction of subject matter.]
+
+### Item PRO-5930  (subject area: other)
+Question:
+Which one of the following North American associations is NOT correct?
+Options:
+  A. Southeast—African Americans
+  B. Southern prairie provinces—African Americans
+  C. New England—Latin Americans
+  D. Oklahoma and the Southwest—Native Americans
+  E. Quebec and northern Maine—French Americans and French Canadians
+  F. Florida—Native Americans
+Answer key: B
+LINEAGE:
+- MMLU parent: high_school_geography#115 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Which one of the following North American associations is NOT correct?
+    A. Southeast—African Americans
+    B. Oklahoma and the Southwest—Native Americans
+    C. Quebec and northern Maine—French Americans and French Canadians
+    D. Southern prairie provinces—African Americans
+  Parent key: D (Southern prairie provinces—African Americans)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent A, B=parent D, C=NEW, D=parent B, E=parent C, F=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'www.crackap.com - AP Human Geography Question 71'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity ambiguous, suggested key B; B is clearly wrong (prairies associated with Ukrainians/Germans etc.), but F (Florida-Native Americans) is also a doubtful association; Florida is conventionally associated with Latin Americans/Cubans. [evidence: Human geography ethnic regions of North America]
+
+### Item PRO-10669  (subject area: computer science)
+Question:
+Statement 1| The ReLU's gradient is zero for $x<0$, and the sigmoid gradient $\sigma(x)(1-\sigma(x))\le \frac{1}{4}$ for all $x$. Statement 2| The sigmoid has a continuous gradient and the ReLU has a discontinuous gradient.
+Options:
+  A. Statement 1 is true for x < 0, statement 2 is false for x ≠ 0
+  B. True, True
+  C. True, False
+  D. Statement 1 is only true for x > 0, statement 2 is always false
+  E. False for statement 1, statement 2 is true if x ≠ 0
+  F. Statement 1 is only false for x > 0, statement 2 is always true
+  G. False for statement 1, statement 2 is true if x = 0
+  H. False, True
+  I. False, False
+  J. True for statement 1, statement 2 depends on the function
+Answer key: B
+LINEAGE:
+- MMLU parent: machine_learning#104 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Statement 1| The ReLU's gradient is zero for $x<0$, and the sigmoid gradient $\sigma(x)(1-\sigma(x))\le \frac{1}{4}$ for all $x$. Statement 2| The sigmoid has a continuous gradient and the ReLU has a discontinuous gradient.
+    A. True, True
+    B. False, False
+    C. True, False
+    D. False, True
+  Parent key: A (True, True)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=parent A, C=parent C, D=NEW, E=NEW, F=NEW, G=NEW, H=parent D, I=parent B, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  (no reviewer flagged this item)
+
+### Item PRO-1324  (subject area: law)
+Question:
+One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+Options:
+  A. Solicitation, attempted sale of narcotics, and false pretenses.
+  B. False pretenses.
+  C. Solicitation and false pretenses.
+  D. Attempted sale of narcotics and false pretenses.
+  E. Attempted sale of narcotics.
+  F. Attempted fraud.
+  G. No crimes, as no actual narcotics were involved.
+  H. Theft by deception.
+  I. Solicitation and attempted sale of narcotics.
+  J. Solicitation, theft by deception, and false pretenses.
+Answer key: B
+LINEAGE:
+- MMLU parent: professional_law#427 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: One evening, a defendant was at a party and offered to sell an ounce of marijuana to a partygoer. The partygoer agreed to purchase the marijuana and gave the defendant $200. In return, the defendant handed the partygoer a bag containing what appeared to be marijuana. At the time of the transaction, the defendant knew that the bag did not contain marijuana but, instead, was oregano. The defendant is guilty for which, if any, of the following crimes?
+    A. Solicitation and attempted sale of narcotics.
+    B. Attempted sale of narcotics and false pretenses.
+    C. False pretenses.
+    D. Solicitation, attempted sale of narcotics, and false pretenses.
+  Parent key: C (False pretenses.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent D, B=parent C, C=NEW, D=parent B, E=NEW, F=NEW, G=NEW, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity ambiguous, suggested key B; False pretenses is correct, but 'theft by deception' (H) is the MPC/modern name for the same offense, giving a second defensible answer. [evidence: MPC 223.3 theft by deception consolidates false pretenses.]
+
+### Item PRO-6268  (subject area: health)
+Question:
+Fats normally contain triacylglycerols at concentrations of:
+
+Options:
+  A. > 95%
+  B. 95-100%
+  C. < 50%
+  D. 75-95%
+  E. 50-60%
+  F. 60-75%
+  G. 50- 75%
+  H. 25-50%
+  I. 10-25%
+  J. < 10%
+Answer key: A
+LINEAGE:
+- MMLU parent: nutrition#124 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: Fats normally contain triacylglycerols at concentrations of:
+
+    A. 75-95%
+    B. 50- 75%
+    C. > 95%
+    D. < 50%
+  Parent key: C (> 95%)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=parent C, B=NEW, C=parent D, D=parent A, E=NEW, F=NEW, G=parent B, H=NEW, I=NEW, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity confirmed, suggested key A; Added option B '95-100%' covers the same range as the key '>95%', so both are correct. [evidence: >95% and 95-100% denote the same interval for a percentage.]
+  - claim: type T7, severity probable, suggested key A; Options A (>95%) and B (95-100%) are effectively the same range; both correct. [evidence: Fats/oils are ~95-99% triacylglycerols.]
+
+### Item PRO-9996  (subject area: physics)
+Question:
+A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+Options:
+  A. 2kT
+  B. (7/2) k T
+  C. 5kT
+  D. (1/4) k T
+  E. 3kT
+  F. kT
+  G. 4kT
+  H. (3/2) k T
+  I. (1/2) k T
+  J. (5/2) k T
+Answer key: E
+LINEAGE:
+- MMLU parent: college_physics#34 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is
+    A. (1/2) k T
+    B. kT
+    C. (3/2) k T
+    D. 3kT
+  Parent key: D (3kT)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=NEW, E=parent D, F=parent B, G=NEW, H=parent C, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = '2001 GRE Physics Exam (GR0177 #5)'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  (no reviewer flagged this item)
+
+### Item PRO-1241  (subject area: law)
+Question:
+A man owned a piece of land with a run-down log cabin on it. He lost interest in it, letting tax bills pile up and failing to maintain it. In 1990, a homeless couple occupied the crumbling cabin. They restored it, fenced the perimeter, and maintained the grounds. They started paying the taxes, despite knowing there was an absentee owner. In 2000, the owner appeared and demanded that they pay rent. They agreed but stopped the payments two years later after consulting an attorney. The required statutory period in the state is 20 years. In 2011 the owner filed an ejectment action, asserting his ownership rights. Leaving aside any other theories or equities, can the couple prevail on a theory of adverse possession?
+Options:
+  A. No, because the statutory period had not been met when the owner filed for ejectment.
+  B. Yes, because they maintained the grounds of the property.
+  C. Yes, because they had exclusive possession of the property.
+  D. Yes, because they were on the land for over 20 years.
+  E. Yes, because they owned the property due to paying the taxes on it.
+  F. No, because they missed some of the tax payments during that 20-year period.
+  G. No, because they knew there was an absentee owner.
+  H. Yes, because they made improvements to the property.
+  I. No, because the hostile possession was interrupted for two years when they paid rent.
+  J. No, because they did not have a legal claim to the property.
+Answer key: I
+LINEAGE:
+- MMLU parent: professional_law#708 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: A man owned a piece of land with a run-down log cabin on it. He lost interest in it, letting tax bills pile up and failing to maintain it. In 1990, a homeless couple occupied the crumbling cabin. They restored it, fenced the perimeter, and maintained the grounds. They started paying the taxes, despite knowing there was an absentee owner. In 2000, the owner appeared and demanded that they pay rent. They agreed but stopped the payments two years later after consulting an attorney. The required statutory period in the state is 20 years. In 2011 the owner filed an ejectment action, asserting his ownership rights. Leaving aside any other theories or equities, can the couple prevail on a theory of adverse possession?
+    A. Yes, because they were on the land for over 20 years.
+    B. No, because they missed some of the tax payments during that 20-year period.
+    C. No, because the hostile possession was interrupted for two years when they paid rent.
+    D. Yes, because they owned the property due to paying the taxes on it.
+  Parent key: C (No, because the hostile possession was interrupted for two years when they paid rent.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent A, E=parent D, F=parent B, G=NEW, H=NEW, I=parent C, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity ambiguous, suggested key I; Paying rent (2000-2002) broke hostility; clock restarted 2002, so only 9 years by 2011. Option A ('statutory period had not been met') is also true and an expert might accept it, though I gives the operative reason. [evidence: Adverse possession: acknowledgment of owner's title interrupts hostility]
+  - claim: type T2, severity ambiguous, suggested key I; Paying rent from 2000 to 2002 broke hostility, so the clock restarted in 2002 and only 9 years ran by 2011. A ('statutory period had not been met') is therefore also a true answer. I gives the reason, but an expert could accept A. [evidence: 1990-2000 = 10 years; 2002-2011 = 9 years; both under 20]
+
+### Item PRO-6154  (subject area: health)
+Question:
+The term "senescence" refers to
+Options:
+  A. The loss of physical abilities
+  B. The process of cellular division
+  C. The development of disease
+  D. Biological aging
+  E. The process of becoming older
+  F. The acquisition of knowledge and wisdom
+  G. The loss of mental abilities
+  H. The process of physical growth
+  I. An increased vulnerability
+  J. The increase in physical strength
+Answer key: I
+LINEAGE:
+- MMLU parent: human_aging#182 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: The term "senescence" refers to
+    A. An increased vulnerability
+    B. The process of becoming older
+    C. The loss of mental abilities
+    D. Biological aging
+  Parent key: A (An increased vulnerability)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=NEW, D=parent D, E=parent B, F=NEW, G=parent C, H=NEW, I=parent A, J=NEW
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux: parent was NOT in the MMLU-Redux annotated subset (no human re-annotation available).
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T2, severity probable, suggested key None; 'Senescence' is standardly defined as biological aging or the process of growing old; the key 'increased vulnerability' is one textbook's framing. D and E are equally or more defensible, and both were already in the parent. [evidence: Merriam-Webster: senescence = the state of being old; the process of becoming old. Biology texts: biological aging/deterioration.]
+  - claim: type T2, severity ambiguous, suggested key D; Senescence is standardly defined as biological aging (D); key I (increased vulnerability) reflects one textbook framing. Experts would accept D, also arguably E. [evidence: Dictionary/gerontology definitions: senescence = biological aging, deterioration raising mortality risk.]
+  - claim: type T3, severity probable, suggested key D; The standard definition of senescence is biological aging, the gradual deterioration of function (D). The key I, 'increased vulnerability', follows one textbook's wording. D is equally or more correct and is likely an added option. [evidence: Wikipedia 'Senescence': gradual deterioration of functional characteristics]
+
+### Item PRO-6169  (subject area: health)
+Question:
+When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+Options:
+  A. anterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  B. posterior fragment to be displaced downwards by the action of the digastric muscle.
+  C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+  D. posterior fragment to be displaced laterally by the action of the medial pterygoid muscle.
+  E. anterior fragment to be displaced medially by the action of the medial pterygoid muscle.
+  F. posterior fragment to be displaced upwards by the action of the masseter muscle.
+  G. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+  H. anterior fragment to be displaced upwards by the action of the masseter muscle.
+  I. anterior fragment to be displaced downwards by the action of the digastric muscle.
+  J. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+Answer key: I
+LINEAGE:
+- MMLU parent: anatomy#73 (MMLU test split, Hendrycks et al. 2021)
+  Parent question: When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the
+    A. anterior fragment to be displaced downwards by the action of the digastric muscle.
+    B. posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.
+    C. anterior fragment to be displaced backwards by action of the temporalis muscle.
+    D. posterior fragment to be displaced medially by action of the medial pterygoid muscle.
+  Parent key: A (anterior fragment to be displaced downwards by the action of the digastric muscle.)
+- Stem: identical to parent (after whitespace/punctuation normalisation).
+- Option provenance (MMLU-Pro option -> origin; exact text match after normalising case/punctuation): A=NEW, B=NEW, C=parent C, D=NEW, E=NEW, F=NEW, G=parent B, H=NEW, I=parent A, J=parent D
+- Parent options with no exact copy in MMLU-Pro (dropped or edited): none
+- Retained parent options keep their relative order: NO (reordered)
+- MMLU-Pro key is the same text as the parent key.
+- MMLU-Redux annotation of the parent: label = 'ok'; upstream source recorded = 'https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/'
+- MMLU-Pro version history (late-2024 snapshot vs Feb-2026 snapshot under review): no change.
+REVIEWER CLAIMS (pooled from several anonymous reviewers, deduplicated, unordered; verify each, do not count votes):
+  - claim: type T3, severity probable, suggested key I; Added option F (posterior fragment pulled upward by masseter) is the textbook companion of the key: in horizontally unfavourable body fractures the elevators lift the posterior fragment while digastric depresses the anterior. So two options are correct. [evidence: Oral surgery texts: posterior fragment elevated by masseter/temporalis/medial pterygoid; anterior fragment depressed by digastric/geniohyoid.]
+  - claim: type T2, severity probable, suggested key I; In unfavourable mandibular body fractures the posterior fragment is pulled upward (masseter, temporalis) and medially (medial pterygoid) while the anterior fragment is pulled down by digastric; F, I and J are all correct descriptions. [evidence: Oral & maxillofacial surgery texts: vertically/horizontally unfavourable fracture displacement.]
+  - claim: type T2, severity probable, suggested key None; In unfavourable body fractures the posterior fragment is pulled superomedially by masseter, temporalis, medial pterygoid, and the anterior fragment downward by digastric. F, J and key I are all correct statements; no basis to prefer I. [evidence: StatPearls Mandible Fractures: masseter/temporalis/medial pterygoid distract proximal segment superomedially; digastric/mylohyoid displace inferiorly.]

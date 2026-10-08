@@ -1,0 +1,11 @@
+[T2] plain: items=5342, 3-model consensus against key=371 (6.9%), of which on a NEW (GPT-4-added) option=222 (4.2%)
+[T2] negated: items=976, 3-model consensus against key=123 (12.6%), of which on a NEW (GPT-4-added) option=88 (9.0%)
+[RANK] {'a': 'deepseek-chat-v2_5_5shots', 'b': 'gemini-1.5-flash-002_5shots', 'diff_pts': 1.74, 'se_iid': 0.419, 'se_cluster_src': 1.14, 'ratio': 2.72, 'z_iid': 4.16, 'z_cluster': 1.53}
+[RANK] {'a': 'claude-3-5-haiku-20241022_5shots', 'b': 'gemini-1.5-flash-002_5shots', 'diff_pts': -1.97, 'se_iid': 0.442, 'se_cluster_src': 0.972, 'ratio': 2.2, 'z_iid': -4.47, 'z_cluster': -2.03}
+[RANK] {'a': 'claude-3-5-sonnet-20241022_5shots', 'b': 'gpt-4o-2024-08-06_5shots', 'diff_pts': 2.94, 'se_iid': 0.354, 'se_cluster_src': 0.533, 'ratio': 1.51, 'z_iid': 8.31, 'z_cluster': 5.52}
+[RANK] {'a': 'deepseek-chat-v2_5_5shots', 'b': 'claude-3-5-haiku-20241022_5shots', 'diff_pts': 3.72, 'se_iid': 0.442, 'se_cluster_src': 1.508, 'ratio': 3.41, 'z_iid': 8.4, 'z_cluster': 2.46}
+[RANK] {'a': 'gemini-1.5-pro-002_5shots', 'b': 'deepseek-chat-v2_5_5shots', 'diff_pts': 4.41, 'se_iid': 0.447, 'se_cluster_src': 2.216, 'ratio': 4.96, 'z_iid': 9.86, 'z_cluster': 1.99}
+[RANK] {'a': 'gpt-4o-2024-08-06_5shots', 'b': 'gemini-1.5-pro-002_5shots', 'diff_pts': 4.43, 'se_iid': 0.41, 'se_cluster_src': 1.505, 'ratio': 3.67, 'z_iid': 10.82, 'z_cluster': 2.95}
+[RANK] {'a': 'gemini-1.5-pro-002_5shots', 'b': 'gemini-1.5-flash-002_5shots', 'diff_pts': 6.15, 'se_iid': 0.427, 'se_cluster_src': 1.581, 'ratio': 3.7, 'z_iid': 14.4, 'z_cluster': 3.89}
+[RANK] {'a': 'claude-3-5-sonnet-20241022_5shots', 'b': 'gemini-1.5-pro-002_5shots', 'diff_pts': 7.37, 'se_iid': 0.406, 'se_cluster_src': 1.495, 'ratio': 3.68, 'z_iid': 18.16, 'z_cluster': 4.93}
+[RANK] items=12002, clusters(src)=91; pairs where |z| crosses 1.96 when clustering: 1 of 21
