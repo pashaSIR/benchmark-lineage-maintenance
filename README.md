@@ -1,5 +1,7 @@
 # Lineage-linked benchmark maintenance (Run G materials)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23231363.svg)](https://doi.org/10.5281/zenodo.23231363)
+
 Materials for the research note "Benchmark Audits Stop at the Dataset Boundary. Corrections Should Not." (Pasha, October 2026). All reviewer and adjudicator outputs are from LLM agents; no label has been checked by a human expert.
 
 ## Contents
@@ -27,4 +29,4 @@ Clone the three repositories into `$PNA_DL` (chain-of-thought-hub as `cot`), the
 
 ## License and citation
 
-Code and analysis: MIT (`LICENSE`). Benchmark excerpts keep their original licenses (`THIRD_PARTY_NOTICES.md`). To cite, use `CITATION.cff` or the Zenodo DOI of the release you used.
+Code and analysis: MIT (`LICENSE`). Benchmark excerpts keep their original licenses (`THIRD_PARTY_NOTICES.md`). To cite, use `CITATION.cff` or the archived release: doi:[10.5281/zenodo.23231363](https://doi.org/10.5281/zenodo.23231363) (v1.0.1).

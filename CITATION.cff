@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use these materials, please cite the archived release."
 title: "Lineage-linked benchmark maintenance: Run G materials and lineage_requeue tool"
-version: 1.0.0
+version: 1.0.1
+doi: 10.5281/zenodo.23231363
 date-released: 2026-10-08
 license: MIT
 repository-code: "https://github.com/pashaSIR/benchmark-lineage-maintenance"
