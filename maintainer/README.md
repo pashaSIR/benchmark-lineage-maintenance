@@ -1,7 +1,7 @@
 # Maintainer submission kit
 
 - `cases.md`: the ranked cases, with all eleven fields for each.
-- Submissions: the four objective MMLU-Pro cases (936, 6268, 6599, 3542) go to the MMLU-Pro maintainers in one Hugging Face discussion, with the 78-item re-review list; the two MMLU-Redux annotation cases (GitHub CSV rows 19 and 99) go to the MMLU-Redux maintainers separately. Links to both are recorded in `case_ledger.csv` once filed.
+- Submissions: the four objective MMLU-Pro cases (936, 6268, 6599, 3542) go to the MMLU-Pro maintainers in one Hugging Face discussion, with the 78-item re-review list; the two MMLU-Redux annotation cases (GitHub CSV rows 19 and 99) go to the MMLU-Redux maintainers separately. Both were filed on 2026-10-08: [MMLU-Pro discussion #55](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/discussions/55) and [MMLU-Redux issue #8](https://github.com/aryopg/mmlu-redux/issues/8). The texts as filed are in `submissions/`.
 - `redux_flagged_mmlu_pro_items.csv`: the 78-item **re-review queue**. Redux flags 78 parent keys, and 74 survive unchanged in the pinned MMLU-Pro snapshot. These are not confirmed errors.
 - `case_ledger.csv`: the machine-readable ledger, with IDs, revisions, evidence, submission links, outcomes and timestamps. Update it as things happen.
 - `tests/check_corrections.py`: one regression check per correction. Run it against any MMLU-Pro export. FAIL means the defect is still present; the guards (1932/1933) FAIL if someone applies Redux's wrong correction. Run against the Feb-2026 snapshot it gives 4 FAIL and 2 PASS.
