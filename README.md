@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23231363.svg)](https://doi.org/10.5281/zenodo.23231363)
 
-Materials for the research note "Benchmark Audits Stop at the Dataset Boundary. Corrections Should Not." (Pasha, October 2026). All reviewer and adjudicator outputs are from LLM agents; no label has been checked by a human expert.
+Materials for the research note ["Benchmark Audits Stop at the Dataset Boundary. Corrections Should Not."](https://provingoffice.com/benchmark-maintenance/) (Pasha, 8 October 2026). All reviewer and adjudicator outputs are from LLM agents; no label has been checked by a human expert.
 
 ## Contents
 
